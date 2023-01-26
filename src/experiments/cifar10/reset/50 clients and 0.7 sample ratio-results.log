@@ -1,0 +1,3159 @@
+11-04 10:28 INFO     cuda
+11-04 10:28 INFO     ####################################################################################################
+11-04 10:28 INFO     Partitioning data
+11-04 10:28 INFO     Data statistics: {0: {0: 35, 1: 414, 2: 65, 3: 228, 4: 33, 5: 1, 6: 23, 7: 503}, 1: {0: 139, 1: 3, 2: 35, 3: 85, 4: 78, 5: 261, 6: 148, 7: 24, 8: 449}, 2: {0: 4, 1: 2, 2: 129, 4: 4, 5: 14, 6: 25, 7: 136, 8: 183, 9: 129}, 3: {0: 293, 1: 2, 3: 166, 4: 62, 5: 3, 6: 187, 7: 1, 8: 166, 9: 68}, 4: {0: 78, 1: 227, 2: 152, 3: 39, 4: 551}, 5: {0: 238, 1: 27, 2: 71, 3: 40, 4: 2, 5: 193, 6: 306, 7: 110, 8: 283}, 6: {0: 9, 1: 84, 2: 154, 3: 2, 4: 66, 5: 108, 6: 302, 7: 254, 8: 121}, 7: {0: 145, 1: 147, 2: 54, 3: 153, 4: 31, 5: 11, 6: 215, 7: 2, 9: 167}, 8: {0: 1, 1: 274, 2: 8, 3: 58, 4: 112, 5: 227, 6: 159, 7: 228}, 9: {0: 246, 1: 115, 2: 201, 3: 2, 4: 98, 5: 139, 6: 13, 7: 7, 8: 64, 9: 133}, 10: {0: 126, 1: 238, 2: 89, 3: 7, 4: 95, 5: 170, 6: 228, 7: 59}, 11: {0: 14, 2: 18, 3: 15, 5: 67, 6: 5, 7: 87, 8: 3}, 12: {0: 7, 1: 43, 3: 74, 4: 1, 5: 11, 6: 165, 7: 21, 8: 2, 9: 99}, 13: {0: 5, 1: 71, 2: 4, 3: 251, 4: 36, 5: 383, 6: 74, 7: 10, 8: 8, 9: 86}, 14: {0: 227, 1: 254, 2: 14, 3: 1, 4: 1, 5: 167, 6: 334, 7: 52}, 15: {0: 383, 1: 62, 2: 59, 3: 34, 4: 150, 6: 2, 7: 4, 8: 87, 9: 16}, 16: {0: 112, 1: 201, 2: 138, 3: 36, 5: 200, 6: 285, 7: 52}, 17: {0: 8, 2: 23, 3: 5, 4: 368, 5: 80, 6: 1, 7: 55, 9: 19}, 18: {0: 72, 2: 3, 3: 2, 4: 136, 5: 263, 6: 213, 7: 138, 9: 61}, 19: {0: 33, 1: 15, 2: 33, 3: 37, 4: 536, 5: 68, 6: 88, 7: 467}, 20: {0: 123, 1: 101, 2: 40, 3: 1, 4: 15, 5: 42, 6: 269, 7: 6, 8: 48, 9: 385}, 21: {0: 243, 1: 15, 2: 16, 3: 16, 4: 117, 5: 90, 6: 1, 7: 9, 8: 12, 9: 801}, 22: {0: 131, 1: 9, 2: 8, 3: 138, 4: 213, 5: 17, 6: 93, 7: 78, 8: 100, 9: 17}, 23: {0: 1, 1: 173, 2: 93, 3: 36, 4: 14, 5: 37, 6: 43, 7: 534, 8: 688}, 24: {0: 65, 1: 25, 2: 228, 3: 215, 4: 6, 5: 51, 6: 24, 7: 60, 8: 286, 9: 188}, 25: {0: 45, 1: 487, 2: 92, 3: 19, 4: 23, 6: 2, 7: 77, 9: 32}, 26: {1: 89, 2: 92, 3: 16, 5: 1, 6: 54, 7: 3, 8: 75, 9: 1055}, 27: {0: 307, 1: 89, 2: 108, 3: 39, 5: 2, 6: 336, 7: 35, 8: 21, 9: 7}, 28: {0: 60, 1: 41, 2: 1, 3: 50, 4: 13, 5: 1, 6: 1, 7: 3, 8: 404, 9: 951}, 29: {0: 32, 1: 24, 2: 12, 3: 11, 4: 1, 5: 19, 6: 103, 7: 55, 8: 209, 9: 49}, 30: {0: 46, 1: 35, 2: 73, 3: 130, 4: 480, 5: 110, 6: 7, 7: 28, 8: 37, 9: 90}, 31: {0: 56, 1: 43, 2: 46, 3: 31, 4: 151, 5: 26, 6: 31, 7: 132, 8: 61, 9: 29}, 32: {0: 5, 1: 52, 2: 311, 3: 239, 5: 18, 6: 46, 7: 1, 8: 755}, 33: {0: 223, 1: 41, 2: 42, 3: 105, 4: 64, 5: 91, 6: 26, 7: 284, 8: 206}, 34: {0: 322, 2: 519, 3: 314}, 35: {0: 45, 1: 60, 2: 450, 3: 235, 4: 12, 5: 575}, 36: {1: 99, 2: 72, 3: 9, 4: 116, 5: 25, 6: 62, 7: 146, 8: 1, 9: 69}, 37: {0: 16, 1: 139, 2: 332, 3: 223, 4: 144, 5: 112, 6: 17, 7: 88}, 38: {0: 7, 1: 3, 2: 26, 4: 2, 5: 197, 6: 476, 7: 9, 8: 26, 9: 2}, 39: {0: 19, 1: 32, 2: 317, 3: 5, 4: 32, 5: 57, 6: 8, 7: 420, 8: 73, 9: 12}, 40: {0: 2, 1: 98, 2: 1, 3: 98, 4: 36, 5: 20, 6: 275, 7: 12, 9: 517}, 41: {0: 55, 1: 12, 2: 104, 3: 8, 4: 773, 5: 58}, 42: {0: 143, 1: 68, 2: 29, 3: 29, 4: 114, 5: 3, 6: 28, 7: 69, 8: 220}, 43: {0: 21, 1: 716, 2: 31, 3: 28, 4: 150, 5: 375}, 44: {0: 375, 1: 19, 2: 281, 3: 1, 4: 41, 5: 202, 6: 8, 8: 333}, 45: {0: 4, 1: 40, 2: 54, 3: 312, 4: 109, 5: 359, 6: 44, 7: 80}, 46: {0: 5, 1: 164, 2: 1, 3: 109, 5: 23, 6: 184, 7: 249, 8: 76}, 47: {0: 203, 1: 53, 2: 177, 3: 589}, 48: {0: 1, 1: 3, 2: 169, 3: 751, 4: 7, 5: 100}, 49: {0: 270, 1: 91, 2: 25, 3: 8, 4: 7, 5: 23, 6: 89, 7: 412, 8: 3, 9: 18}}
+11-04 10:28 INFO     Initializing nets
+11-04 10:28 INFO     Resource constraints for edge devices: [93, 40, 77, 78, 57, 82, 68, 90, 35, 45, 52, 42, 79, 53, 97, 36, 58, 90, 49, 53, 67, 39, 93, 54, 64, 69, 99, 64, 65, 76, 31, 41, 44, 87, 84, 95, 49, 35, 89, 48, 30, 39, 67, 52, 62, 56, 32, 78, 38, 53]
+11-04 10:28 INFO     Network Macs: [62.594624, 38.706048, 42.840384, 73.036288, 39.287232, 76.113664, 59.431232, 85.026752, 32.402432, 36.347328, 49.952576, 33.1488, 50.858432, 42.376832, 62.343744, 30.484544, 55.54048, 68.71616, 45.606272, 48.285504, 62.623232, 32.706752, 77.236544, 53.890944, 51.034496, 66.227264, 71.879232, 56.295936, 63.818752, 75.510272, 30.257664, 37.928896, 33.598208, 62.813312, 57.740352, 50.275584, 45.277184, 33.134464, 71.821952, 39.893184, 28.713536, 32.912064, 46.031488, 51.2032, 60.976512, 48.78528, 28.160768, 55.99424, 36.662592, 51.97408]
+11-04 10:28 INFO     Knowledge Network Macs: 28.160768
+11-04 10:28 INFO     in comm round:0####################################################################################################
+11-04 10:28 INFO     Training network 1. n_training: 1222
+11-04 10:30 INFO     Training Accuracy: 0.11292962356792144
+11-04 10:30 INFO     net 1 final test acc 0.099960
+11-04 10:30 INFO     net 1 knowledge network test acc 0.099960
+11-04 10:30 INFO     Training network 3. n_training: 948
+11-04 10:30 INFO     Training Accuracy: 0.2921940928270042
+11-04 10:31 INFO     net 3 final test acc 0.099960
+11-04 10:31 INFO     net 3 knowledge network test acc 0.099960
+11-04 10:31 INFO     Training network 4. n_training: 1047
+11-04 10:31 INFO     Training Accuracy: 0.07163323782234957
+11-04 10:31 INFO     net 4 final test acc 0.099960
+11-04 10:31 INFO     net 4 knowledge network test acc 0.099960
+11-04 10:32 INFO     Training network 5. n_training: 1270
+11-04 10:33 INFO     Training Accuracy: 0.17716535433070865
+11-04 10:33 INFO     net 5 final test acc 0.099960
+11-04 10:33 INFO     net 5 knowledge network test acc 0.099960
+11-04 10:33 INFO     Training network 6. n_training: 1100
+11-04 10:34 INFO     Training Accuracy: 0.008181818181818182
+11-04 10:34 INFO     net 6 final test acc 0.099960
+11-04 10:34 INFO     net 6 knowledge network test acc 0.099960
+11-04 10:34 INFO     Training network 7. n_training: 925
+11-04 10:34 INFO     Training Accuracy: 0.15027027027027026
+11-04 10:34 INFO     net 7 final test acc 0.099960
+11-04 10:35 INFO     net 7 knowledge network test acc 0.099960
+11-04 10:35 INFO     Training network 8. n_training: 1067
+11-04 10:35 INFO     Training Accuracy: 0.0009372071227741331
+11-04 10:35 INFO     net 8 final test acc 0.099960
+11-04 10:35 INFO     net 8 knowledge network test acc 0.099960
+11-04 10:35 INFO     Training network 9. n_training: 1018
+11-04 10:36 INFO     Training Accuracy: 0.2269155206286837
+11-04 10:36 INFO     net 9 final test acc 0.099960
+11-04 10:36 INFO     net 9 knowledge network test acc 0.099960
+11-04 10:36 INFO     Training network 10. n_training: 1012
+11-04 10:37 INFO     Training Accuracy: 0.11561264822134387
+11-04 10:37 INFO     net 10 final test acc 0.099960
+11-04 10:37 INFO     net 10 knowledge network test acc 0.099960
+11-04 10:37 INFO     Training network 12. n_training: 423
+11-04 10:37 INFO     Training Accuracy: 0.01182033096926714
+11-04 10:37 INFO     net 12 final test acc 0.099960
+11-04 10:37 INFO     net 12 knowledge network test acc 0.099960
+11-04 10:38 INFO     Training network 13. n_training: 928
+11-04 10:38 INFO     Training Accuracy: 0.005387931034482759
+11-04 10:38 INFO     net 13 final test acc 0.099960
+11-04 10:38 INFO     net 13 knowledge network test acc 0.099960
+11-04 10:38 INFO     Training network 14. n_training: 1050
+11-04 10:39 INFO     Training Accuracy: 0.20952380952380953
+11-04 10:39 INFO     net 14 final test acc 0.099960
+11-04 10:39 INFO     net 14 knowledge network test acc 0.099960
+11-04 10:39 INFO     Training network 15. n_training: 797
+11-04 10:40 INFO     Training Accuracy: 0.465495608531995
+11-04 10:40 INFO     net 15 final test acc 0.099960
+11-04 10:40 INFO     net 15 knowledge network test acc 0.099960
+11-04 10:40 INFO     Training network 16. n_training: 1024
+11-04 10:41 INFO     Training Accuracy: 0.109375
+11-04 10:41 INFO     net 16 final test acc 0.099960
+11-04 10:41 INFO     net 16 knowledge network test acc 0.099960
+11-04 10:41 INFO     Training network 17. n_training: 559
+11-04 10:41 INFO     Training Accuracy: 0.012522361359570662
+11-04 10:41 INFO     net 17 final test acc 0.099960
+11-04 10:41 INFO     net 17 knowledge network test acc 0.099960
+11-04 10:41 INFO     Training network 18. n_training: 888
+11-04 10:42 INFO     Training Accuracy: 0.07545045045045046
+11-04 10:42 INFO     net 18 final test acc 0.099960
+11-04 10:42 INFO     net 18 knowledge network test acc 0.099960
+11-04 10:42 INFO     Training network 19. n_training: 1277
+11-04 10:43 INFO     Training Accuracy: 0.02192638997650744
+11-04 10:43 INFO     net 19 final test acc 0.099960
+11-04 10:43 INFO     net 19 knowledge network test acc 0.099960
+11-04 10:43 INFO     Training network 20. n_training: 1030
+11-04 10:44 INFO     Training Accuracy: 0.11941747572815534
+11-04 10:44 INFO     net 20 final test acc 0.099960
+11-04 10:44 INFO     net 20 knowledge network test acc 0.099960
+11-04 10:44 INFO     Training network 22. n_training: 804
+11-04 10:45 INFO     Training Accuracy: 0.15547263681592038
+11-04 10:45 INFO     net 22 final test acc 0.099960
+11-04 10:45 INFO     net 22 knowledge network test acc 0.099960
+11-04 10:45 INFO     Training network 23. n_training: 1619
+11-04 10:46 INFO     Training Accuracy: 0.0006176652254478073
+11-04 10:46 INFO     net 23 final test acc 0.099960
+11-04 10:46 INFO     net 23 knowledge network test acc 0.099960
+11-04 10:46 INFO     Training network 24. n_training: 1148
+11-04 10:47 INFO     Training Accuracy: 0.05313588850174216
+11-04 10:47 INFO     net 24 final test acc 0.099960
+11-04 10:47 INFO     net 24 knowledge network test acc 0.099960
+11-04 10:47 INFO     Training network 25. n_training: 777
+11-04 10:48 INFO     Training Accuracy: 0.05662805662805663
+11-04 10:48 INFO     net 25 final test acc 0.099960
+11-04 10:48 INFO     net 25 knowledge network test acc 0.099960
+11-04 10:48 INFO     Training network 26. n_training: 1385
+11-04 10:49 INFO     Training Accuracy: 0.0
+11-04 10:49 INFO     net 26 final test acc 0.099960
+11-04 10:49 INFO     net 26 knowledge network test acc 0.099960
+11-04 10:49 INFO     Training network 27. n_training: 944
+11-04 10:50 INFO     Training Accuracy: 0.3125
+11-04 10:50 INFO     net 27 final test acc 0.099960
+11-04 10:50 INFO     net 27 knowledge network test acc 0.099960
+11-04 10:50 INFO     Training network 28. n_training: 1525
+11-04 10:51 INFO     Training Accuracy: 0.036721311475409836
+11-04 10:51 INFO     net 28 final test acc 0.099960
+11-04 10:51 INFO     net 28 knowledge network test acc 0.099960
+11-04 10:52 INFO     Training network 29. n_training: 515
+11-04 10:52 INFO     Training Accuracy: 0.062135922330097085
+11-04 10:52 INFO     net 29 final test acc 0.099960
+11-04 10:52 INFO     net 29 knowledge network test acc 0.099960
+11-04 10:52 INFO     Training network 30. n_training: 1036
+11-04 10:53 INFO     Training Accuracy: 0.041505791505791506
+11-04 10:53 INFO     net 30 final test acc 0.099960
+11-04 10:53 INFO     net 30 knowledge network test acc 0.099960
+11-04 10:53 INFO     Training network 31. n_training: 606
+11-04 10:53 INFO     Training Accuracy: 0.0858085808580858
+11-04 10:53 INFO     net 31 final test acc 0.099960
+11-04 10:53 INFO     net 31 knowledge network test acc 0.099960
+11-04 10:53 INFO     Training network 36. n_training: 599
+11-04 10:54 INFO     Training Accuracy: 0.0
+11-04 10:54 INFO     net 36 final test acc 0.099960
+11-04 10:54 INFO     net 36 knowledge network test acc 0.099960
+11-04 10:54 INFO     Training network 41. n_training: 1010
+11-04 10:55 INFO     Training Accuracy: 0.053465346534653464
+11-04 10:55 INFO     net 41 final test acc 0.099960
+11-04 10:55 INFO     net 41 knowledge network test acc 0.099960
+11-04 10:55 INFO     Training network 42. n_training: 703
+11-04 10:55 INFO     Training Accuracy: 0.18492176386913228
+11-04 10:55 INFO     net 42 final test acc 0.099960
+11-04 10:55 INFO     net 42 knowledge network test acc 0.099960
+11-04 10:55 INFO     Training network 44. n_training: 1260
+11-04 10:56 INFO     Training Accuracy: 0.2841269841269841
+11-04 10:57 INFO     net 44 final test acc 0.099960
+11-04 10:57 INFO     net 44 knowledge network test acc 0.099960
+11-04 10:57 INFO     Training network 45. n_training: 1002
+11-04 10:57 INFO     Training Accuracy: 0.003992015968063872
+11-04 10:57 INFO     net 45 final test acc 0.099960
+11-04 10:57 INFO     net 45 knowledge network test acc 0.099960
+11-04 10:57 INFO     Training network 47. n_training: 1022
+11-04 10:58 INFO     Training Accuracy: 0.18688845401174167
+11-04 10:58 INFO     net 47 final test acc 0.099960
+11-04 10:58 INFO     net 47 knowledge network test acc 0.099960
+11-04 10:58 INFO     Training network 48. n_training: 1031
+11-04 10:59 INFO     Training Accuracy: 0.0009699321047526673
+11-04 10:59 INFO     net 48 final test acc 0.099960
+11-04 10:59 INFO     net 48 knowledge network test acc 0.099960
+11-04 10:59 INFO     avg test acc after local update 0.099960
+11-04 10:59 INFO     avg knowledge test acc after local update 0.099960
+11-04 10:59 INFO     communication round 0 global model test acc 0.100060
+11-04 10:59 INFO     in comm round:1####################################################################################################
+11-04 10:59 INFO     Training network 3. n_training: 948
+11-04 11:00 INFO     Training Accuracy: 0.2974683544303797
+11-04 11:00 INFO     net 3 final test acc 0.099960
+11-04 11:00 INFO     net 3 knowledge network test acc 0.099960
+11-04 11:00 INFO     Training network 4. n_training: 1047
+11-04 11:01 INFO     Training Accuracy: 0.07163323782234957
+11-04 11:01 INFO     net 4 final test acc 0.099960
+11-04 11:01 INFO     net 4 knowledge network test acc 0.099960
+11-04 11:01 INFO     Training network 5. n_training: 1270
+11-04 11:02 INFO     Training Accuracy: 0.17795275590551182
+11-04 11:02 INFO     net 5 final test acc 0.099960
+11-04 11:02 INFO     net 5 knowledge network test acc 0.099960
+11-04 11:02 INFO     Training network 6. n_training: 1100
+11-04 11:03 INFO     Training Accuracy: 0.008181818181818182
+11-04 11:03 INFO     net 6 final test acc 0.099960
+11-04 11:03 INFO     net 6 knowledge network test acc 0.099960
+11-04 11:03 INFO     Training network 7. n_training: 925
+11-04 11:04 INFO     Training Accuracy: 0.1545945945945946
+11-04 11:04 INFO     net 7 final test acc 0.099960
+11-04 11:04 INFO     net 7 knowledge network test acc 0.099960
+11-04 11:04 INFO     Training network 8. n_training: 1067
+11-04 11:05 INFO     Training Accuracy: 0.0009372071227741331
+11-04 11:05 INFO     net 8 final test acc 0.099960
+11-04 11:05 INFO     net 8 knowledge network test acc 0.099960
+11-04 11:05 INFO     Training network 9. n_training: 1018
+11-04 11:06 INFO     Training Accuracy: 0.22789783889980353
+11-04 11:06 INFO     net 9 final test acc 0.099960
+11-04 11:06 INFO     net 9 knowledge network test acc 0.099960
+11-04 11:06 INFO     Training network 10. n_training: 1012
+11-04 11:07 INFO     Training Accuracy: 0.11758893280632411
+11-04 11:07 INFO     net 10 final test acc 0.099960
+11-04 11:07 INFO     net 10 knowledge network test acc 0.099960
+11-04 11:07 INFO     Training network 13. n_training: 928
+11-04 11:07 INFO     Training Accuracy: 0.005387931034482759
+11-04 11:08 INFO     net 13 final test acc 0.099960
+11-04 11:08 INFO     net 13 knowledge network test acc 0.099960
+11-04 11:08 INFO     Training network 14. n_training: 1050
+11-04 11:08 INFO     Training Accuracy: 0.21142857142857144
+11-04 11:08 INFO     net 14 final test acc 0.099960
+11-04 11:09 INFO     net 14 knowledge network test acc 0.099960
+11-04 11:09 INFO     Training network 15. n_training: 797
+11-04 11:09 INFO     Training Accuracy: 0.4629861982434128
+11-04 11:09 INFO     net 15 final test acc 0.099960
+11-04 11:09 INFO     net 15 knowledge network test acc 0.099960
+11-04 11:09 INFO     Training network 17. n_training: 559
+11-04 11:10 INFO     Training Accuracy: 0.012522361359570662
+11-04 11:10 INFO     net 17 final test acc 0.099960
+11-04 11:10 INFO     net 17 knowledge network test acc 0.099960
+11-04 11:10 INFO     Training network 18. n_training: 888
+11-04 11:10 INFO     Training Accuracy: 0.07882882882882883
+11-04 11:10 INFO     net 18 final test acc 0.099960
+11-04 11:11 INFO     net 18 knowledge network test acc 0.099960
+11-04 11:11 INFO     Training network 19. n_training: 1277
+11-04 11:12 INFO     Training Accuracy: 0.025058731401722788
+11-04 11:12 INFO     net 19 final test acc 0.099960
+11-04 11:12 INFO     net 19 knowledge network test acc 0.099960
+11-04 11:12 INFO     Training network 21. n_training: 1320
+11-04 11:13 INFO     Training Accuracy: 0.1787878787878788
+11-04 11:13 INFO     net 21 final test acc 0.099960
+11-04 11:13 INFO     net 21 knowledge network test acc 0.099960
+11-04 11:13 INFO     Training network 22. n_training: 804
+11-04 11:13 INFO     Training Accuracy: 0.15298507462686567
+11-04 11:13 INFO     net 22 final test acc 0.099960
+11-04 11:14 INFO     net 22 knowledge network test acc 0.099960
+11-04 11:14 INFO     Training network 23. n_training: 1619
+11-04 11:15 INFO     Training Accuracy: 0.0006176652254478073
+11-04 11:15 INFO     net 23 final test acc 0.099960
+11-04 11:15 INFO     net 23 knowledge network test acc 0.099960
+11-04 11:15 INFO     Training network 24. n_training: 1148
+11-04 11:16 INFO     Training Accuracy: 0.05400696864111498
+11-04 11:16 INFO     net 24 final test acc 0.099960
+11-04 11:16 INFO     net 24 knowledge network test acc 0.099960
+11-04 11:16 INFO     Training network 25. n_training: 777
+11-04 11:17 INFO     Training Accuracy: 0.05791505791505792
+11-04 11:17 INFO     net 25 final test acc 0.099960
+11-04 11:17 INFO     net 25 knowledge network test acc 0.099960
+11-04 11:17 INFO     Training network 28. n_training: 1525
+11-04 11:18 INFO     Training Accuracy: 0.03540983606557377
+11-04 11:18 INFO     net 28 final test acc 0.099960
+11-04 11:18 INFO     net 28 knowledge network test acc 0.099960
+11-04 11:18 INFO     Training network 29. n_training: 515
+11-04 11:19 INFO     Training Accuracy: 0.06019417475728155
+11-04 11:19 INFO     net 29 final test acc 0.099960
+11-04 11:19 INFO     net 29 knowledge network test acc 0.099960
+11-04 11:19 INFO     Training network 30. n_training: 1036
+11-04 11:20 INFO     Training Accuracy: 0.04343629343629344
+11-04 11:20 INFO     net 30 final test acc 0.099960
+11-04 11:20 INFO     net 30 knowledge network test acc 0.099960
+11-04 11:20 INFO     Training network 32. n_training: 1427
+11-04 11:21 INFO     Training Accuracy: 0.00350385423966363
+11-04 11:21 INFO     net 32 final test acc 0.099960
+11-04 11:21 INFO     net 32 knowledge network test acc 0.099960
+11-04 11:21 INFO     Training network 33. n_training: 1082
+11-04 11:22 INFO     Training Accuracy: 0.1987060998151571
+11-04 11:22 INFO     net 33 final test acc 0.099960
+11-04 11:22 INFO     net 33 knowledge network test acc 0.099960
+11-04 11:22 INFO     Training network 34. n_training: 1155
+11-04 11:23 INFO     Training Accuracy: 0.2779220779220779
+11-04 11:23 INFO     net 34 final test acc 0.099960
+11-04 11:23 INFO     net 34 knowledge network test acc 0.099960
+11-04 11:23 INFO     Training network 36. n_training: 599
+11-04 11:24 INFO     Training Accuracy: 0.0
+11-04 11:24 INFO     net 36 final test acc 0.099960
+11-04 11:24 INFO     net 36 knowledge network test acc 0.099960
+11-04 11:24 INFO     Training network 38. n_training: 748
+11-04 11:24 INFO     Training Accuracy: 0.009358288770053475
+11-04 11:24 INFO     net 38 final test acc 0.099960
+11-04 11:24 INFO     net 38 knowledge network test acc 0.099960
+11-04 11:24 INFO     Training network 39. n_training: 975
+11-04 11:25 INFO     Training Accuracy: 0.019487179487179488
+11-04 11:25 INFO     net 39 final test acc 0.099960
+11-04 11:25 INFO     net 39 knowledge network test acc 0.099960
+11-04 11:25 INFO     Training network 40. n_training: 1059
+11-04 11:26 INFO     Training Accuracy: 0.0018885741265344666
+11-04 11:26 INFO     net 40 final test acc 0.099960
+11-04 11:26 INFO     net 40 knowledge network test acc 0.099960
+11-04 11:26 INFO     Training network 41. n_training: 1010
+11-04 11:27 INFO     Training Accuracy: 0.053465346534653464
+11-04 11:27 INFO     net 41 final test acc 0.099960
+11-04 11:27 INFO     net 41 knowledge network test acc 0.099960
+11-04 11:27 INFO     Training network 42. n_training: 703
+11-04 11:28 INFO     Training Accuracy: 0.18776671408250356
+11-04 11:28 INFO     net 42 final test acc 0.099960
+11-04 11:28 INFO     net 42 knowledge network test acc 0.099960
+11-04 11:28 INFO     Training network 43. n_training: 1321
+11-04 11:29 INFO     Training Accuracy: 0.014383043149129448
+11-04 11:29 INFO     net 43 final test acc 0.099960
+11-04 11:29 INFO     net 43 knowledge network test acc 0.099960
+11-04 11:29 INFO     Training network 45. n_training: 1002
+11-04 11:30 INFO     Training Accuracy: 0.003992015968063872
+11-04 11:30 INFO     net 45 final test acc 0.099960
+11-04 11:30 INFO     net 45 knowledge network test acc 0.099960
+11-04 11:30 INFO     Training network 46. n_training: 811
+11-04 11:30 INFO     Training Accuracy: 0.006165228113440197
+11-04 11:30 INFO     net 46 final test acc 0.099960
+11-04 11:30 INFO     net 46 knowledge network test acc 0.099960
+11-04 11:30 INFO     Training network 48. n_training: 1031
+11-04 11:31 INFO     Training Accuracy: 0.0009699321047526673
+11-04 11:31 INFO     net 48 final test acc 0.099960
+11-04 11:31 INFO     net 48 knowledge network test acc 0.099960
+11-04 11:31 INFO     avg test acc after local update 0.099960
+11-04 11:31 INFO     avg knowledge test acc after local update 0.099960
+11-04 11:31 INFO     communication round 1 global model test acc 0.100060
+11-04 11:31 INFO     in comm round:2####################################################################################################
+11-04 11:31 INFO     Training network 0. n_training: 1302
+11-04 11:33 INFO     Training Accuracy: 0.026881720430107527
+11-04 11:33 INFO     net 0 final test acc 0.099960
+11-04 11:33 INFO     net 0 knowledge network test acc 0.099960
+11-04 11:33 INFO     Training network 2. n_training: 626
+11-04 11:33 INFO     Training Accuracy: 0.006389776357827476
+11-04 11:33 INFO     net 2 final test acc 0.099960
+11-04 11:33 INFO     net 2 knowledge network test acc 0.099960
+11-04 11:33 INFO     Training network 4. n_training: 1047
+11-04 11:34 INFO     Training Accuracy: 0.0725883476599809
+11-04 11:34 INFO     net 4 final test acc 0.099960
+11-04 11:34 INFO     net 4 knowledge network test acc 0.099960
+11-04 11:34 INFO     Training network 5. n_training: 1270
+11-04 11:35 INFO     Training Accuracy: 0.18188976377952756
+11-04 11:35 INFO     net 5 final test acc 0.099960
+11-04 11:35 INFO     net 5 knowledge network test acc 0.099960
+11-04 11:35 INFO     Training network 6. n_training: 1100
+11-04 11:36 INFO     Training Accuracy: 0.008181818181818182
+11-04 11:36 INFO     net 6 final test acc 0.099960
+11-04 11:37 INFO     net 6 knowledge network test acc 0.099960
+11-04 11:37 INFO     Training network 9. n_training: 1018
+11-04 11:37 INFO     Training Accuracy: 0.2220039292730845
+11-04 11:37 INFO     net 9 final test acc 0.099960
+11-04 11:37 INFO     net 9 knowledge network test acc 0.099960
+11-04 11:37 INFO     Training network 10. n_training: 1012
+11-04 11:38 INFO     Training Accuracy: 0.12055335968379446
+11-04 11:38 INFO     net 10 final test acc 0.099960
+11-04 11:38 INFO     net 10 knowledge network test acc 0.099960
+11-04 11:38 INFO     Training network 11. n_training: 209
+11-04 11:38 INFO     Training Accuracy: 0.06220095693779904
+11-04 11:39 INFO     net 11 final test acc 0.099960
+11-04 11:39 INFO     net 11 knowledge network test acc 0.099960
+11-04 11:39 INFO     Training network 12. n_training: 423
+11-04 11:39 INFO     Training Accuracy: 0.016548463356973995
+11-04 11:39 INFO     net 12 final test acc 0.099960
+11-04 11:39 INFO     net 12 knowledge network test acc 0.099960
+11-04 11:39 INFO     Training network 13. n_training: 928
+11-04 11:40 INFO     Training Accuracy: 0.004310344827586207
+11-04 11:40 INFO     net 13 final test acc 0.099960
+11-04 11:40 INFO     net 13 knowledge network test acc 0.099960
+11-04 11:40 INFO     Training network 14. n_training: 1050
+11-04 11:41 INFO     Training Accuracy: 0.21333333333333335
+11-04 11:41 INFO     net 14 final test acc 0.099960
+11-04 11:41 INFO     net 14 knowledge network test acc 0.099960
+11-04 11:41 INFO     Training network 17. n_training: 559
+11-04 11:41 INFO     Training Accuracy: 0.012522361359570662
+11-04 11:41 INFO     net 17 final test acc 0.099960
+11-04 11:41 INFO     net 17 knowledge network test acc 0.099960
+11-04 11:41 INFO     Training network 18. n_training: 888
+11-04 11:42 INFO     Training Accuracy: 0.07545045045045046
+11-04 11:42 INFO     net 18 final test acc 0.099960
+11-04 11:42 INFO     net 18 knowledge network test acc 0.099960
+11-04 11:42 INFO     Training network 19. n_training: 1277
+11-04 11:43 INFO     Training Accuracy: 0.02427564604541895
+11-04 11:43 INFO     net 19 final test acc 0.099960
+11-04 11:43 INFO     net 19 knowledge network test acc 0.099960
+11-04 11:43 INFO     Training network 20. n_training: 1030
+11-04 11:44 INFO     Training Accuracy: 0.11941747572815534
+11-04 11:44 INFO     net 20 final test acc 0.099960
+11-04 11:44 INFO     net 20 knowledge network test acc 0.099960
+11-04 11:44 INFO     Training network 21. n_training: 1320
+11-04 11:45 INFO     Training Accuracy: 0.17954545454545454
+11-04 11:45 INFO     net 21 final test acc 0.099960
+11-04 11:45 INFO     net 21 knowledge network test acc 0.099960
+11-04 11:45 INFO     Training network 22. n_training: 804
+11-04 11:46 INFO     Training Accuracy: 0.15547263681592038
+11-04 11:46 INFO     net 22 final test acc 0.099960
+11-04 11:46 INFO     net 22 knowledge network test acc 0.099960
+11-04 11:46 INFO     Training network 23. n_training: 1619
+11-04 11:48 INFO     Training Accuracy: 0.0006176652254478073
+11-04 11:48 INFO     net 23 final test acc 0.099960
+11-04 11:48 INFO     net 23 knowledge network test acc 0.099960
+11-04 11:48 INFO     Training network 24. n_training: 1148
+11-04 11:49 INFO     Training Accuracy: 0.05139372822299652
+11-04 11:49 INFO     net 24 final test acc 0.099960
+11-04 11:49 INFO     net 24 knowledge network test acc 0.099960
+11-04 11:49 INFO     Training network 25. n_training: 777
+11-04 11:49 INFO     Training Accuracy: 0.05662805662805663
+11-04 11:49 INFO     net 25 final test acc 0.099960
+11-04 11:49 INFO     net 25 knowledge network test acc 0.099960
+11-04 11:49 INFO     Training network 26. n_training: 1385
+11-04 11:51 INFO     Training Accuracy: 0.0
+11-04 11:51 INFO     net 26 final test acc 0.099960
+11-04 11:51 INFO     net 26 knowledge network test acc 0.099960
+11-04 11:51 INFO     Training network 27. n_training: 944
+11-04 11:51 INFO     Training Accuracy: 0.3103813559322034
+11-04 11:51 INFO     net 27 final test acc 0.099960
+11-04 11:51 INFO     net 27 knowledge network test acc 0.099960
+11-04 11:52 INFO     Training network 29. n_training: 515
+11-04 11:52 INFO     Training Accuracy: 0.062135922330097085
+11-04 11:52 INFO     net 29 final test acc 0.099960
+11-04 11:52 INFO     net 29 knowledge network test acc 0.099960
+11-04 11:52 INFO     Training network 30. n_training: 1036
+11-04 11:53 INFO     Training Accuracy: 0.04343629343629344
+11-04 11:53 INFO     net 30 final test acc 0.099960
+11-04 11:53 INFO     net 30 knowledge network test acc 0.099960
+11-04 11:53 INFO     Training network 32. n_training: 1427
+11-04 11:54 INFO     Training Accuracy: 0.00350385423966363
+11-04 11:54 INFO     net 32 final test acc 0.099960
+11-04 11:54 INFO     net 32 knowledge network test acc 0.099960
+11-04 11:54 INFO     Training network 33. n_training: 1082
+11-04 11:55 INFO     Training Accuracy: 0.1987060998151571
+11-04 11:55 INFO     net 33 final test acc 0.099960
+11-04 11:55 INFO     net 33 knowledge network test acc 0.099960
+11-04 11:55 INFO     Training network 34. n_training: 1155
+11-04 11:56 INFO     Training Accuracy: 0.27705627705627706
+11-04 11:56 INFO     net 34 final test acc 0.099960
+11-04 11:56 INFO     net 34 knowledge network test acc 0.099960
+11-04 11:56 INFO     Training network 35. n_training: 1377
+11-04 11:57 INFO     Training Accuracy: 0.032679738562091505
+11-04 11:57 INFO     net 35 final test acc 0.099960
+11-04 11:57 INFO     net 35 knowledge network test acc 0.099960
+11-04 11:57 INFO     Training network 36. n_training: 599
+11-04 11:58 INFO     Training Accuracy: 0.0
+11-04 11:58 INFO     net 36 final test acc 0.099960
+11-04 11:58 INFO     net 36 knowledge network test acc 0.099960
+11-04 11:58 INFO     Training network 39. n_training: 975
+11-04 11:59 INFO     Training Accuracy: 0.019487179487179488
+11-04 11:59 INFO     net 39 final test acc 0.099960
+11-04 11:59 INFO     net 39 knowledge network test acc 0.099960
+11-04 11:59 INFO     Training network 41. n_training: 1010
+11-04 11:59 INFO     Training Accuracy: 0.053465346534653464
+11-04 12:00 INFO     net 41 final test acc 0.099960
+11-04 12:00 INFO     net 41 knowledge network test acc 0.099960
+11-04 12:00 INFO     Training network 42. n_training: 703
+11-04 12:00 INFO     Training Accuracy: 0.17923186344238975
+11-04 12:00 INFO     net 42 final test acc 0.099960
+11-04 12:00 INFO     net 42 knowledge network test acc 0.099960
+11-04 12:00 INFO     Training network 43. n_training: 1321
+11-04 12:01 INFO     Training Accuracy: 0.01514004542013626
+11-04 12:01 INFO     net 43 final test acc 0.099960
+11-04 12:01 INFO     net 43 knowledge network test acc 0.099960
+11-04 12:01 INFO     Training network 47. n_training: 1022
+11-04 12:02 INFO     Training Accuracy: 0.18590998043052837
+11-04 12:02 INFO     net 47 final test acc 0.099960
+11-04 12:02 INFO     net 47 knowledge network test acc 0.099960
+11-04 12:02 INFO     Training network 49. n_training: 946
+11-04 12:03 INFO     Training Accuracy: 0.27061310782241016
+11-04 12:03 INFO     net 49 final test acc 0.099960
+11-04 12:03 INFO     net 49 knowledge network test acc 0.099960
+11-04 12:03 INFO     avg test acc after local update 0.099960
+11-04 12:03 INFO     avg knowledge test acc after local update 0.099960
+11-04 12:03 INFO     communication round 2 global model test acc 0.100060
+11-04 12:03 INFO     in comm round:3####################################################################################################
+11-04 12:03 INFO     Training network 1. n_training: 1222
+11-04 12:04 INFO     Training Accuracy: 0.11292962356792144
+11-04 12:04 INFO     net 1 final test acc 0.099960
+11-04 12:04 INFO     net 1 knowledge network test acc 0.099960
+11-04 12:04 INFO     Training network 4. n_training: 1047
+11-04 12:05 INFO     Training Accuracy: 0.07449856733524356
+11-04 12:05 INFO     net 4 final test acc 0.099960
+11-04 12:05 INFO     net 4 knowledge network test acc 0.099960
+11-04 12:05 INFO     Training network 7. n_training: 925
+11-04 12:06 INFO     Training Accuracy: 0.15567567567567567
+11-04 12:06 INFO     net 7 final test acc 0.099960
+11-04 12:06 INFO     net 7 knowledge network test acc 0.099960
+11-04 12:06 INFO     Training network 8. n_training: 1067
+11-04 12:07 INFO     Training Accuracy: 0.0009372071227741331
+11-04 12:07 INFO     net 8 final test acc 0.099960
+11-04 12:07 INFO     net 8 knowledge network test acc 0.099960
+11-04 12:07 INFO     Training network 11. n_training: 209
+11-04 12:07 INFO     Training Accuracy: 0.05741626794258373
+11-04 12:07 INFO     net 11 final test acc 0.099960
+11-04 12:07 INFO     net 11 knowledge network test acc 0.099960
+11-04 12:07 INFO     Training network 12. n_training: 423
+11-04 12:07 INFO     Training Accuracy: 0.014184397163120567
+11-04 12:07 INFO     net 12 final test acc 0.099960
+11-04 12:08 INFO     net 12 knowledge network test acc 0.099960
+11-04 12:08 INFO     Training network 14. n_training: 1050
+11-04 12:08 INFO     Training Accuracy: 0.21333333333333335
+11-04 12:08 INFO     net 14 final test acc 0.099960
+11-04 12:08 INFO     net 14 knowledge network test acc 0.099960
+11-04 12:09 INFO     Training network 15. n_training: 797
+11-04 12:09 INFO     Training Accuracy: 0.47051442910915936
+11-04 12:09 INFO     net 15 final test acc 0.099960
+11-04 12:09 INFO     net 15 knowledge network test acc 0.099960
+11-04 12:09 INFO     Training network 17. n_training: 559
+11-04 12:10 INFO     Training Accuracy: 0.012522361359570662
+11-04 12:10 INFO     net 17 final test acc 0.099960
+11-04 12:10 INFO     net 17 knowledge network test acc 0.099960
+11-04 12:10 INFO     Training network 19. n_training: 1277
+11-04 12:11 INFO     Training Accuracy: 0.025841816758026624
+11-04 12:11 INFO     net 19 final test acc 0.099960
+11-04 12:11 INFO     net 19 knowledge network test acc 0.099960
+11-04 12:11 INFO     Training network 20. n_training: 1030
+11-04 12:12 INFO     Training Accuracy: 0.11747572815533981
+11-04 12:12 INFO     net 20 final test acc 0.099960
+11-04 12:12 INFO     net 20 knowledge network test acc 0.099960
+11-04 12:12 INFO     Training network 23. n_training: 1619
+11-04 12:13 INFO     Training Accuracy: 0.0006176652254478073
+11-04 12:13 INFO     net 23 final test acc 0.099960
+11-04 12:13 INFO     net 23 knowledge network test acc 0.099960
+11-04 12:13 INFO     Training network 25. n_training: 777
+11-04 12:14 INFO     Training Accuracy: 0.05791505791505792
+11-04 12:14 INFO     net 25 final test acc 0.099960
+11-04 12:14 INFO     net 25 knowledge network test acc 0.099960
+11-04 12:14 INFO     Training network 26. n_training: 1385
+11-04 12:15 INFO     Training Accuracy: 0.0
+11-04 12:15 INFO     net 26 final test acc 0.099960
+11-04 12:15 INFO     net 26 knowledge network test acc 0.099960
+11-04 12:15 INFO     Training network 27. n_training: 944
+11-04 12:16 INFO     Training Accuracy: 0.3093220338983051
+11-04 12:16 INFO     net 27 final test acc 0.099960
+11-04 12:16 INFO     net 27 knowledge network test acc 0.099960
+11-04 12:16 INFO     Training network 28. n_training: 1525
+11-04 12:17 INFO     Training Accuracy: 0.03934426229508197
+11-04 12:17 INFO     net 28 final test acc 0.099960
+11-04 12:17 INFO     net 28 knowledge network test acc 0.099960
+11-04 12:17 INFO     Training network 29. n_training: 515
+11-04 12:18 INFO     Training Accuracy: 0.062135922330097085
+11-04 12:18 INFO     net 29 final test acc 0.099960
+11-04 12:18 INFO     net 29 knowledge network test acc 0.099960
+11-04 12:18 INFO     Training network 30. n_training: 1036
+11-04 12:19 INFO     Training Accuracy: 0.04343629343629344
+11-04 12:19 INFO     net 30 final test acc 0.099960
+11-04 12:19 INFO     net 30 knowledge network test acc 0.099960
+11-04 12:19 INFO     Training network 31. n_training: 606
+11-04 12:19 INFO     Training Accuracy: 0.0924092409240924
+11-04 12:19 INFO     net 31 final test acc 0.099960
+11-04 12:19 INFO     net 31 knowledge network test acc 0.099960
+11-04 12:19 INFO     Training network 32. n_training: 1427
+11-04 12:20 INFO     Training Accuracy: 0.00350385423966363
+11-04 12:21 INFO     net 32 final test acc 0.099960
+11-04 12:21 INFO     net 32 knowledge network test acc 0.099960
+11-04 12:21 INFO     Training network 33. n_training: 1082
+11-04 12:21 INFO     Training Accuracy: 0.19316081330868762
+11-04 12:22 INFO     net 33 final test acc 0.099960
+11-04 12:22 INFO     net 33 knowledge network test acc 0.099960
+11-04 12:22 INFO     Training network 34. n_training: 1155
+11-04 12:23 INFO     Training Accuracy: 0.2779220779220779
+11-04 12:23 INFO     net 34 final test acc 0.099960
+11-04 12:23 INFO     net 34 knowledge network test acc 0.099960
+11-04 12:23 INFO     Training network 35. n_training: 1377
+11-04 12:24 INFO     Training Accuracy: 0.03122730573710966
+11-04 12:24 INFO     net 35 final test acc 0.099960
+11-04 12:24 INFO     net 35 knowledge network test acc 0.099960
+11-04 12:24 INFO     Training network 36. n_training: 599
+11-04 12:24 INFO     Training Accuracy: 0.0
+11-04 12:24 INFO     net 36 final test acc 0.099960
+11-04 12:24 INFO     net 36 knowledge network test acc 0.099960
+11-04 12:24 INFO     Training network 37. n_training: 1071
+11-04 12:25 INFO     Training Accuracy: 0.014005602240896359
+11-04 12:25 INFO     net 37 final test acc 0.099960
+11-04 12:25 INFO     net 37 knowledge network test acc 0.099960
+11-04 12:25 INFO     Training network 38. n_training: 748
+11-04 12:26 INFO     Training Accuracy: 0.009358288770053475
+11-04 12:26 INFO     net 38 final test acc 0.099960
+11-04 12:26 INFO     net 38 knowledge network test acc 0.099960
+11-04 12:26 INFO     Training network 40. n_training: 1059
+11-04 12:27 INFO     Training Accuracy: 0.0018885741265344666
+11-04 12:27 INFO     net 40 final test acc 0.099960
+11-04 12:27 INFO     net 40 knowledge network test acc 0.099960
+11-04 12:27 INFO     Training network 41. n_training: 1010
+11-04 12:28 INFO     Training Accuracy: 0.05247524752475247
+11-04 12:28 INFO     net 41 final test acc 0.099960
+11-04 12:28 INFO     net 41 knowledge network test acc 0.099960
+11-04 12:28 INFO     Training network 42. n_training: 703
+11-04 12:28 INFO     Training Accuracy: 0.1906116642958748
+11-04 12:28 INFO     net 42 final test acc 0.099960
+11-04 12:28 INFO     net 42 knowledge network test acc 0.099960
+11-04 12:28 INFO     Training network 43. n_training: 1321
+11-04 12:29 INFO     Training Accuracy: 0.01514004542013626
+11-04 12:29 INFO     net 43 final test acc 0.099960
+11-04 12:30 INFO     net 43 knowledge network test acc 0.099960
+11-04 12:30 INFO     Training network 45. n_training: 1002
+11-04 12:30 INFO     Training Accuracy: 0.003992015968063872
+11-04 12:30 INFO     net 45 final test acc 0.099960
+11-04 12:30 INFO     net 45 knowledge network test acc 0.099960
+11-04 12:30 INFO     Training network 46. n_training: 811
+11-04 12:31 INFO     Training Accuracy: 0.004932182490752158
+11-04 12:31 INFO     net 46 final test acc 0.099960
+11-04 12:31 INFO     net 46 knowledge network test acc 0.099960
+11-04 12:31 INFO     Training network 47. n_training: 1022
+11-04 12:32 INFO     Training Accuracy: 0.1898238747553816
+11-04 12:32 INFO     net 47 final test acc 0.099960
+11-04 12:32 INFO     net 47 knowledge network test acc 0.099960
+11-04 12:32 INFO     Training network 48. n_training: 1031
+11-04 12:33 INFO     Training Accuracy: 0.0009699321047526673
+11-04 12:33 INFO     net 48 final test acc 0.099960
+11-04 12:33 INFO     net 48 knowledge network test acc 0.099960
+11-04 12:33 INFO     Training network 49. n_training: 946
+11-04 12:34 INFO     Training Accuracy: 0.273784355179704
+11-04 12:34 INFO     net 49 final test acc 0.099960
+11-04 12:34 INFO     net 49 knowledge network test acc 0.099960
+11-04 12:34 INFO     avg test acc after local update 0.099960
+11-04 12:34 INFO     avg knowledge test acc after local update 0.099960
+11-04 12:34 INFO     communication round 3 global model test acc 0.100060
+11-04 12:34 INFO     in comm round:4####################################################################################################
+11-04 12:34 INFO     Training network 0. n_training: 1302
+11-04 12:35 INFO     Training Accuracy: 0.02534562211981567
+11-04 12:35 INFO     net 0 final test acc 0.099960
+11-04 12:35 INFO     net 0 knowledge network test acc 0.099960
+11-04 12:35 INFO     Training network 1. n_training: 1222
+11-04 12:36 INFO     Training Accuracy: 0.11292962356792144
+11-04 12:36 INFO     net 1 final test acc 0.099960
+11-04 12:36 INFO     net 1 knowledge network test acc 0.099960
+11-04 12:36 INFO     Training network 2. n_training: 626
+11-04 12:36 INFO     Training Accuracy: 0.006389776357827476
+11-04 12:37 INFO     net 2 final test acc 0.099960
+11-04 12:37 INFO     net 2 knowledge network test acc 0.099960
+11-04 12:37 INFO     Training network 3. n_training: 948
+11-04 12:37 INFO     Training Accuracy: 0.2911392405063291
+11-04 12:37 INFO     net 3 final test acc 0.099960
+11-04 12:37 INFO     net 3 knowledge network test acc 0.099960
+11-04 12:37 INFO     Training network 4. n_training: 1047
+11-04 12:38 INFO     Training Accuracy: 0.0725883476599809
+11-04 12:38 INFO     net 4 final test acc 0.099960
+11-04 12:38 INFO     net 4 knowledge network test acc 0.099960
+11-04 12:38 INFO     Training network 5. n_training: 1270
+11-04 12:40 INFO     Training Accuracy: 0.1795275590551181
+11-04 12:40 INFO     net 5 final test acc 0.099960
+11-04 12:40 INFO     net 5 knowledge network test acc 0.099960
+11-04 12:40 INFO     Training network 6. n_training: 1100
+11-04 12:41 INFO     Training Accuracy: 0.008181818181818182
+11-04 12:41 INFO     net 6 final test acc 0.099960
+11-04 12:41 INFO     net 6 knowledge network test acc 0.099960
+11-04 12:41 INFO     Training network 7. n_training: 925
+11-04 12:42 INFO     Training Accuracy: 0.15135135135135136
+11-04 12:42 INFO     net 7 final test acc 0.099960
+11-04 12:42 INFO     net 7 knowledge network test acc 0.099960
+11-04 12:42 INFO     Training network 8. n_training: 1067
+11-04 12:42 INFO     Training Accuracy: 0.0009372071227741331
+11-04 12:42 INFO     net 8 final test acc 0.099960
+11-04 12:42 INFO     net 8 knowledge network test acc 0.099960
+11-04 12:43 INFO     Training network 9. n_training: 1018
+11-04 12:43 INFO     Training Accuracy: 0.224950884086444
+11-04 12:43 INFO     net 9 final test acc 0.099960
+11-04 12:43 INFO     net 9 knowledge network test acc 0.099960
+11-04 12:43 INFO     Training network 11. n_training: 209
+11-04 12:44 INFO     Training Accuracy: 0.06220095693779904
+11-04 12:44 INFO     net 11 final test acc 0.099960
+11-04 12:44 INFO     net 11 knowledge network test acc 0.099960
+11-04 12:44 INFO     Training network 14. n_training: 1050
+11-04 12:45 INFO     Training Accuracy: 0.21333333333333335
+11-04 12:45 INFO     net 14 final test acc 0.099960
+11-04 12:45 INFO     net 14 knowledge network test acc 0.099960
+11-04 12:45 INFO     Training network 15. n_training: 797
+11-04 12:45 INFO     Training Accuracy: 0.4617314930991217
+11-04 12:45 INFO     net 15 final test acc 0.099960
+11-04 12:45 INFO     net 15 knowledge network test acc 0.099960
+11-04 12:45 INFO     Training network 16. n_training: 1024
+11-04 12:46 INFO     Training Accuracy: 0.109375
+11-04 12:46 INFO     net 16 final test acc 0.099960
+11-04 12:46 INFO     net 16 knowledge network test acc 0.099960
+11-04 12:46 INFO     Training network 17. n_training: 559
+11-04 12:47 INFO     Training Accuracy: 0.014311270125223614
+11-04 12:47 INFO     net 17 final test acc 0.099960
+11-04 12:47 INFO     net 17 knowledge network test acc 0.099960
+11-04 12:47 INFO     Training network 18. n_training: 888
+11-04 12:47 INFO     Training Accuracy: 0.07432432432432433
+11-04 12:48 INFO     net 18 final test acc 0.099960
+11-04 12:48 INFO     net 18 knowledge network test acc 0.099960
+11-04 12:48 INFO     Training network 20. n_training: 1030
+11-04 12:48 INFO     Training Accuracy: 0.11941747572815534
+11-04 12:49 INFO     net 20 final test acc 0.099960
+11-04 12:49 INFO     net 20 knowledge network test acc 0.099960
+11-04 12:49 INFO     Training network 23. n_training: 1619
+11-04 12:50 INFO     Training Accuracy: 0.0006176652254478073
+11-04 12:50 INFO     net 23 final test acc 0.099960
+11-04 12:50 INFO     net 23 knowledge network test acc 0.099960
+11-04 12:50 INFO     Training network 25. n_training: 777
+11-04 12:51 INFO     Training Accuracy: 0.05662805662805663
+11-04 12:51 INFO     net 25 final test acc 0.099960
+11-04 12:51 INFO     net 25 knowledge network test acc 0.099960
+11-04 12:51 INFO     Training network 29. n_training: 515
+11-04 12:51 INFO     Training Accuracy: 0.062135922330097085
+11-04 12:51 INFO     net 29 final test acc 0.099960
+11-04 12:51 INFO     net 29 knowledge network test acc 0.099960
+11-04 12:51 INFO     Training network 30. n_training: 1036
+11-04 12:52 INFO     Training Accuracy: 0.0444015444015444
+11-04 12:52 INFO     net 30 final test acc 0.099960
+11-04 12:52 INFO     net 30 knowledge network test acc 0.099960
+11-04 12:52 INFO     Training network 31. n_training: 606
+11-04 12:53 INFO     Training Accuracy: 0.08745874587458746
+11-04 12:53 INFO     net 31 final test acc 0.099960
+11-04 12:53 INFO     net 31 knowledge network test acc 0.099960
+11-04 12:53 INFO     Training network 32. n_training: 1427
+11-04 12:54 INFO     Training Accuracy: 0.00350385423966363
+11-04 12:54 INFO     net 32 final test acc 0.099960
+11-04 12:54 INFO     net 32 knowledge network test acc 0.099960
+11-04 12:54 INFO     Training network 33. n_training: 1082
+11-04 12:55 INFO     Training Accuracy: 0.19593345656192238
+11-04 12:55 INFO     net 33 final test acc 0.099960
+11-04 12:55 INFO     net 33 knowledge network test acc 0.099960
+11-04 12:55 INFO     Training network 34. n_training: 1155
+11-04 12:56 INFO     Training Accuracy: 0.2779220779220779
+11-04 12:56 INFO     net 34 final test acc 0.099960
+11-04 12:56 INFO     net 34 knowledge network test acc 0.099960
+11-04 12:56 INFO     Training network 36. n_training: 599
+11-04 12:57 INFO     Training Accuracy: 0.0
+11-04 12:57 INFO     net 36 final test acc 0.099960
+11-04 12:57 INFO     net 36 knowledge network test acc 0.099960
+11-04 12:57 INFO     Training network 37. n_training: 1071
+11-04 12:58 INFO     Training Accuracy: 0.014005602240896359
+11-04 12:58 INFO     net 37 final test acc 0.099960
+11-04 12:58 INFO     net 37 knowledge network test acc 0.099960
+11-04 12:58 INFO     Training network 38. n_training: 748
+11-04 12:58 INFO     Training Accuracy: 0.0066844919786096255
+11-04 12:58 INFO     net 38 final test acc 0.099960
+11-04 12:58 INFO     net 38 knowledge network test acc 0.099960
+11-04 12:58 INFO     Training network 39. n_training: 975
+11-04 12:59 INFO     Training Accuracy: 0.019487179487179488
+11-04 12:59 INFO     net 39 final test acc 0.099960
+11-04 12:59 INFO     net 39 knowledge network test acc 0.099960
+11-04 12:59 INFO     Training network 41. n_training: 1010
+11-04 13:00 INFO     Training Accuracy: 0.04950495049504951
+11-04 13:00 INFO     net 41 final test acc 0.099960
+11-04 13:00 INFO     net 41 knowledge network test acc 0.099960
+11-04 13:00 INFO     Training network 43. n_training: 1321
+11-04 13:01 INFO     Training Accuracy: 0.014383043149129448
+11-04 13:01 INFO     net 43 final test acc 0.099960
+11-04 13:01 INFO     net 43 knowledge network test acc 0.099960
+11-04 13:01 INFO     Training network 44. n_training: 1260
+11-04 13:02 INFO     Training Accuracy: 0.2857142857142857
+11-04 13:02 INFO     net 44 final test acc 0.099960
+11-04 13:02 INFO     net 44 knowledge network test acc 0.099960
+11-04 13:02 INFO     Training network 46. n_training: 811
+11-04 13:03 INFO     Training Accuracy: 0.006165228113440197
+11-04 13:03 INFO     net 46 final test acc 0.099960
+11-04 13:03 INFO     net 46 knowledge network test acc 0.099960
+11-04 13:03 INFO     Training network 47. n_training: 1022
+11-04 13:04 INFO     Training Accuracy: 0.1888454011741683
+11-04 13:04 INFO     net 47 final test acc 0.099960
+11-04 13:04 INFO     net 47 knowledge network test acc 0.099960
+11-04 13:04 INFO     Training network 48. n_training: 1031
+11-04 13:05 INFO     Training Accuracy: 0.0009699321047526673
+11-04 13:05 INFO     net 48 final test acc 0.099960
+11-04 13:05 INFO     net 48 knowledge network test acc 0.099960
+11-04 13:05 INFO     avg test acc after local update 0.099960
+11-04 13:05 INFO     avg knowledge test acc after local update 0.099960
+11-04 13:05 INFO     communication round 4 global model test acc 0.100060
+11-04 13:05 INFO     in comm round:5####################################################################################################
+11-04 13:05 INFO     Training network 0. n_training: 1302
+11-04 13:06 INFO     Training Accuracy: 0.026113671274961597
+11-04 13:06 INFO     net 0 final test acc 0.099960
+11-04 13:06 INFO     net 0 knowledge network test acc 0.099960
+11-04 13:06 INFO     Training network 2. n_training: 626
+11-04 13:07 INFO     Training Accuracy: 0.006389776357827476
+11-04 13:07 INFO     net 2 final test acc 0.099960
+11-04 13:07 INFO     net 2 knowledge network test acc 0.099960
+11-04 13:07 INFO     Training network 3. n_training: 948
+11-04 13:08 INFO     Training Accuracy: 0.290084388185654
+11-04 13:08 INFO     net 3 final test acc 0.099960
+11-04 13:08 INFO     net 3 knowledge network test acc 0.099960
+11-04 13:08 INFO     Training network 5. n_training: 1270
+11-04 13:09 INFO     Training Accuracy: 0.1795275590551181
+11-04 13:09 INFO     net 5 final test acc 0.099960
+11-04 13:09 INFO     net 5 knowledge network test acc 0.099960
+11-04 13:09 INFO     Training network 7. n_training: 925
+11-04 13:10 INFO     Training Accuracy: 0.1491891891891892
+11-04 13:10 INFO     net 7 final test acc 0.099960
+11-04 13:10 INFO     net 7 knowledge network test acc 0.099960
+11-04 13:10 INFO     Training network 9. n_training: 1018
+11-04 13:10 INFO     Training Accuracy: 0.22789783889980353
+11-04 13:11 INFO     net 9 final test acc 0.099960
+11-04 13:11 INFO     net 9 knowledge network test acc 0.099960
+11-04 13:11 INFO     Training network 10. n_training: 1012
+11-04 13:11 INFO     Training Accuracy: 0.12154150197628459
+11-04 13:11 INFO     net 10 final test acc 0.099960
+11-04 13:11 INFO     net 10 knowledge network test acc 0.099960
+11-04 13:11 INFO     Training network 12. n_training: 423
+11-04 13:12 INFO     Training Accuracy: 0.014184397163120567
+11-04 13:12 INFO     net 12 final test acc 0.099960
+11-04 13:12 INFO     net 12 knowledge network test acc 0.099960
+11-04 13:12 INFO     Training network 13. n_training: 928
+11-04 13:13 INFO     Training Accuracy: 0.005387931034482759
+11-04 13:13 INFO     net 13 final test acc 0.099960
+11-04 13:13 INFO     net 13 knowledge network test acc 0.099960
+11-04 13:13 INFO     Training network 14. n_training: 1050
+11-04 13:14 INFO     Training Accuracy: 0.21142857142857144
+11-04 13:14 INFO     net 14 final test acc 0.099960
+11-04 13:14 INFO     net 14 knowledge network test acc 0.099960
+11-04 13:14 INFO     Training network 15. n_training: 797
+11-04 13:14 INFO     Training Accuracy: 0.465495608531995
+11-04 13:14 INFO     net 15 final test acc 0.099960
+11-04 13:14 INFO     net 15 knowledge network test acc 0.099960
+11-04 13:14 INFO     Training network 16. n_training: 1024
+11-04 13:15 INFO     Training Accuracy: 0.109375
+11-04 13:15 INFO     net 16 final test acc 0.099960
+11-04 13:15 INFO     net 16 knowledge network test acc 0.099960
+11-04 13:15 INFO     Training network 17. n_training: 559
+11-04 13:16 INFO     Training Accuracy: 0.012522361359570662
+11-04 13:16 INFO     net 17 final test acc 0.099960
+11-04 13:16 INFO     net 17 knowledge network test acc 0.099960
+11-04 13:16 INFO     Training network 18. n_training: 888
+11-04 13:16 INFO     Training Accuracy: 0.07545045045045046
+11-04 13:17 INFO     net 18 final test acc 0.099960
+11-04 13:17 INFO     net 18 knowledge network test acc 0.099960
+11-04 13:17 INFO     Training network 19. n_training: 1277
+11-04 13:18 INFO     Training Accuracy: 0.025841816758026624
+11-04 13:18 INFO     net 19 final test acc 0.099960
+11-04 13:18 INFO     net 19 knowledge network test acc 0.099960
+11-04 13:18 INFO     Training network 20. n_training: 1030
+11-04 13:19 INFO     Training Accuracy: 0.11747572815533981
+11-04 13:19 INFO     net 20 final test acc 0.099960
+11-04 13:19 INFO     net 20 knowledge network test acc 0.099960
+11-04 13:19 INFO     Training network 22. n_training: 804
+11-04 13:19 INFO     Training Accuracy: 0.15298507462686567
+11-04 13:19 INFO     net 22 final test acc 0.099960
+11-04 13:19 INFO     net 22 knowledge network test acc 0.099960
+11-04 13:19 INFO     Training network 23. n_training: 1619
+11-04 13:21 INFO     Training Accuracy: 0.0006176652254478073
+11-04 13:21 INFO     net 23 final test acc 0.099960
+11-04 13:21 INFO     net 23 knowledge network test acc 0.099960
+11-04 13:21 INFO     Training network 24. n_training: 1148
+11-04 13:22 INFO     Training Accuracy: 0.054878048780487805
+11-04 13:22 INFO     net 24 final test acc 0.099960
+11-04 13:22 INFO     net 24 knowledge network test acc 0.099960
+11-04 13:22 INFO     Training network 25. n_training: 777
+11-04 13:23 INFO     Training Accuracy: 0.05662805662805663
+11-04 13:23 INFO     net 25 final test acc 0.099960
+11-04 13:23 INFO     net 25 knowledge network test acc 0.099960
+11-04 13:23 INFO     Training network 26. n_training: 1385
+11-04 13:24 INFO     Training Accuracy: 0.0
+11-04 13:24 INFO     net 26 final test acc 0.099960
+11-04 13:24 INFO     net 26 knowledge network test acc 0.099960
+11-04 13:24 INFO     Training network 28. n_training: 1525
+11-04 13:25 INFO     Training Accuracy: 0.0380327868852459
+11-04 13:25 INFO     net 28 final test acc 0.099960
+11-04 13:25 INFO     net 28 knowledge network test acc 0.099960
+11-04 13:25 INFO     Training network 31. n_training: 606
+11-04 13:26 INFO     Training Accuracy: 0.0858085808580858
+11-04 13:26 INFO     net 31 final test acc 0.099960
+11-04 13:26 INFO     net 31 knowledge network test acc 0.099960
+11-04 13:26 INFO     Training network 33. n_training: 1082
+11-04 13:27 INFO     Training Accuracy: 0.19685767097966728
+11-04 13:27 INFO     net 33 final test acc 0.099960
+11-04 13:27 INFO     net 33 knowledge network test acc 0.099960
+11-04 13:27 INFO     Training network 34. n_training: 1155
+11-04 13:28 INFO     Training Accuracy: 0.2779220779220779
+11-04 13:28 INFO     net 34 final test acc 0.099960
+11-04 13:28 INFO     net 34 knowledge network test acc 0.099960
+11-04 13:28 INFO     Training network 35. n_training: 1377
+11-04 13:29 INFO     Training Accuracy: 0.032679738562091505
+11-04 13:29 INFO     net 35 final test acc 0.099960
+11-04 13:29 INFO     net 35 knowledge network test acc 0.099960
+11-04 13:29 INFO     Training network 36. n_training: 599
+11-04 13:30 INFO     Training Accuracy: 0.0
+11-04 13:30 INFO     net 36 final test acc 0.099960
+11-04 13:30 INFO     net 36 knowledge network test acc 0.099960
+11-04 13:30 INFO     Training network 37. n_training: 1071
+11-04 13:30 INFO     Training Accuracy: 0.014005602240896359
+11-04 13:30 INFO     net 37 final test acc 0.099960
+11-04 13:30 INFO     net 37 knowledge network test acc 0.099960
+11-04 13:31 INFO     Training network 38. n_training: 748
+11-04 13:31 INFO     Training Accuracy: 0.008021390374331552
+11-04 13:31 INFO     net 38 final test acc 0.099960
+11-04 13:31 INFO     net 38 knowledge network test acc 0.099960
+11-04 13:31 INFO     Training network 39. n_training: 975
+11-04 13:32 INFO     Training Accuracy: 0.019487179487179488
+11-04 13:32 INFO     net 39 final test acc 0.099960
+11-04 13:32 INFO     net 39 knowledge network test acc 0.099960
+11-04 13:32 INFO     Training network 40. n_training: 1059
+11-04 13:33 INFO     Training Accuracy: 0.0018885741265344666
+11-04 13:33 INFO     net 40 final test acc 0.099960
+11-04 13:33 INFO     net 40 knowledge network test acc 0.099960
+11-04 13:33 INFO     Training network 41. n_training: 1010
+11-04 13:34 INFO     Training Accuracy: 0.05247524752475247
+11-04 13:34 INFO     net 41 final test acc 0.099960
+11-04 13:34 INFO     net 41 knowledge network test acc 0.099960
+11-04 13:34 INFO     Training network 47. n_training: 1022
+11-04 13:35 INFO     Training Accuracy: 0.18590998043052837
+11-04 13:35 INFO     net 47 final test acc 0.099960
+11-04 13:35 INFO     net 47 knowledge network test acc 0.099960
+11-04 13:35 INFO     Training network 48. n_training: 1031
+11-04 13:35 INFO     Training Accuracy: 0.0009699321047526673
+11-04 13:36 INFO     net 48 final test acc 0.099960
+11-04 13:36 INFO     net 48 knowledge network test acc 0.099960
+11-04 13:36 INFO     Training network 49. n_training: 946
+11-04 13:36 INFO     Training Accuracy: 0.2727272727272727
+11-04 13:36 INFO     net 49 final test acc 0.099960
+11-04 13:36 INFO     net 49 knowledge network test acc 0.099960
+11-04 13:36 INFO     avg test acc after local update 0.099960
+11-04 13:36 INFO     avg knowledge test acc after local update 0.099960
+11-04 13:36 INFO     communication round 5 global model test acc 0.100060
+11-04 13:36 INFO     in comm round:6####################################################################################################
+11-04 13:36 INFO     Training network 0. n_training: 1302
+11-04 13:38 INFO     Training Accuracy: 0.026881720430107527
+11-04 13:38 INFO     net 0 final test acc 0.099960
+11-04 13:38 INFO     net 0 knowledge network test acc 0.099960
+11-04 13:38 INFO     Training network 2. n_training: 626
+11-04 13:38 INFO     Training Accuracy: 0.004792332268370607
+11-04 13:38 INFO     net 2 final test acc 0.099960
+11-04 13:38 INFO     net 2 knowledge network test acc 0.099960
+11-04 13:38 INFO     Training network 4. n_training: 1047
+11-04 13:39 INFO     Training Accuracy: 0.07354345749761222
+11-04 13:39 INFO     net 4 final test acc 0.099960
+11-04 13:39 INFO     net 4 knowledge network test acc 0.099960
+11-04 13:39 INFO     Training network 6. n_training: 1100
+11-04 13:40 INFO     Training Accuracy: 0.008181818181818182
+11-04 13:40 INFO     net 6 final test acc 0.099960
+11-04 13:40 INFO     net 6 knowledge network test acc 0.099960
+11-04 13:40 INFO     Training network 7. n_training: 925
+11-04 13:41 INFO     Training Accuracy: 0.1545945945945946
+11-04 13:41 INFO     net 7 final test acc 0.099960
+11-04 13:41 INFO     net 7 knowledge network test acc 0.099960
+11-04 13:41 INFO     Training network 10. n_training: 1012
+11-04 13:42 INFO     Training Accuracy: 0.11857707509881422
+11-04 13:42 INFO     net 10 final test acc 0.099960
+11-04 13:42 INFO     net 10 knowledge network test acc 0.099960
+11-04 13:42 INFO     Training network 11. n_training: 209
+11-04 13:42 INFO     Training Accuracy: 0.06220095693779904
+11-04 13:42 INFO     net 11 final test acc 0.099960
+11-04 13:42 INFO     net 11 knowledge network test acc 0.099960
+11-04 13:42 INFO     Training network 13. n_training: 928
+11-04 13:43 INFO     Training Accuracy: 0.004310344827586207
+11-04 13:43 INFO     net 13 final test acc 0.099960
+11-04 13:43 INFO     net 13 knowledge network test acc 0.099960
+11-04 13:43 INFO     Training network 14. n_training: 1050
+11-04 13:44 INFO     Training Accuracy: 0.21333333333333335
+11-04 13:44 INFO     net 14 final test acc 0.099960
+11-04 13:44 INFO     net 14 knowledge network test acc 0.099960
+11-04 13:44 INFO     Training network 15. n_training: 797
+11-04 13:45 INFO     Training Accuracy: 0.46675031367628605
+11-04 13:45 INFO     net 15 final test acc 0.099960
+11-04 13:45 INFO     net 15 knowledge network test acc 0.099960
+11-04 13:45 INFO     Training network 16. n_training: 1024
+11-04 13:46 INFO     Training Accuracy: 0.109375
+11-04 13:46 INFO     net 16 final test acc 0.099960
+11-04 13:46 INFO     net 16 knowledge network test acc 0.099960
+11-04 13:46 INFO     Training network 17. n_training: 559
+11-04 13:46 INFO     Training Accuracy: 0.014311270125223614
+11-04 13:46 INFO     net 17 final test acc 0.099960
+11-04 13:46 INFO     net 17 knowledge network test acc 0.099960
+11-04 13:46 INFO     Training network 18. n_training: 888
+11-04 13:47 INFO     Training Accuracy: 0.07882882882882883
+11-04 13:47 INFO     net 18 final test acc 0.099960
+11-04 13:47 INFO     net 18 knowledge network test acc 0.099960
+11-04 13:47 INFO     Training network 20. n_training: 1030
+11-04 13:48 INFO     Training Accuracy: 0.11941747572815534
+11-04 13:48 INFO     net 20 final test acc 0.099960
+11-04 13:48 INFO     net 20 knowledge network test acc 0.099960
+11-04 13:48 INFO     Training network 22. n_training: 804
+11-04 13:49 INFO     Training Accuracy: 0.15422885572139303
+11-04 13:49 INFO     net 22 final test acc 0.099960
+11-04 13:49 INFO     net 22 knowledge network test acc 0.099960
+11-04 13:49 INFO     Training network 24. n_training: 1148
+11-04 13:50 INFO     Training Accuracy: 0.05400696864111498
+11-04 13:50 INFO     net 24 final test acc 0.099960
+11-04 13:50 INFO     net 24 knowledge network test acc 0.099960
+11-04 13:50 INFO     Training network 25. n_training: 777
+11-04 13:50 INFO     Training Accuracy: 0.05791505791505792
+11-04 13:50 INFO     net 25 final test acc 0.099960
+11-04 13:50 INFO     net 25 knowledge network test acc 0.099960
+11-04 13:50 INFO     Training network 27. n_training: 944
+11-04 13:51 INFO     Training Accuracy: 0.3082627118644068
+11-04 13:51 INFO     net 27 final test acc 0.099960
+11-04 13:51 INFO     net 27 knowledge network test acc 0.099960
+11-04 13:51 INFO     Training network 28. n_training: 1525
+11-04 13:53 INFO     Training Accuracy: 0.0380327868852459
+11-04 13:53 INFO     net 28 final test acc 0.099960
+11-04 13:53 INFO     net 28 knowledge network test acc 0.099960
+11-04 13:53 INFO     Training network 29. n_training: 515
+11-04 13:53 INFO     Training Accuracy: 0.062135922330097085
+11-04 13:53 INFO     net 29 final test acc 0.099960
+11-04 13:53 INFO     net 29 knowledge network test acc 0.099960
+11-04 13:53 INFO     Training network 30. n_training: 1036
+11-04 13:54 INFO     Training Accuracy: 0.0444015444015444
+11-04 13:54 INFO     net 30 final test acc 0.099960
+11-04 13:54 INFO     net 30 knowledge network test acc 0.099960
+11-04 13:54 INFO     Training network 31. n_training: 606
+11-04 13:54 INFO     Training Accuracy: 0.09075907590759076
+11-04 13:55 INFO     net 31 final test acc 0.099960
+11-04 13:55 INFO     net 31 knowledge network test acc 0.099960
+11-04 13:55 INFO     Training network 34. n_training: 1155
+11-04 13:56 INFO     Training Accuracy: 0.2787878787878788
+11-04 13:56 INFO     net 34 final test acc 0.099960
+11-04 13:56 INFO     net 34 knowledge network test acc 0.099960
+11-04 13:56 INFO     Training network 35. n_training: 1377
+11-04 13:57 INFO     Training Accuracy: 0.03195352214960058
+11-04 13:57 INFO     net 35 final test acc 0.099960
+11-04 13:57 INFO     net 35 knowledge network test acc 0.099960
+11-04 13:57 INFO     Training network 37. n_training: 1071
+11-04 13:58 INFO     Training Accuracy: 0.014939309056956116
+11-04 13:58 INFO     net 37 final test acc 0.099960
+11-04 13:58 INFO     net 37 knowledge network test acc 0.099960
+11-04 13:58 INFO     Training network 38. n_training: 748
+11-04 13:58 INFO     Training Accuracy: 0.008021390374331552
+11-04 13:58 INFO     net 38 final test acc 0.099960
+11-04 13:58 INFO     net 38 knowledge network test acc 0.099960
+11-04 13:58 INFO     Training network 39. n_training: 975
+11-04 13:59 INFO     Training Accuracy: 0.018461538461538463
+11-04 13:59 INFO     net 39 final test acc 0.099960
+11-04 13:59 INFO     net 39 knowledge network test acc 0.099960
+11-04 13:59 INFO     Training network 40. n_training: 1059
+11-04 14:00 INFO     Training Accuracy: 0.0009442870632672333
+11-04 14:00 INFO     net 40 final test acc 0.099960
+11-04 14:00 INFO     net 40 knowledge network test acc 0.099960
+11-04 14:00 INFO     Training network 41. n_training: 1010
+11-04 14:01 INFO     Training Accuracy: 0.05247524752475247
+11-04 14:01 INFO     net 41 final test acc 0.099960
+11-04 14:01 INFO     net 41 knowledge network test acc 0.099960
+11-04 14:01 INFO     Training network 42. n_training: 703
+11-04 14:02 INFO     Training Accuracy: 0.18492176386913228
+11-04 14:02 INFO     net 42 final test acc 0.099960
+11-04 14:02 INFO     net 42 knowledge network test acc 0.099960
+11-04 14:02 INFO     Training network 44. n_training: 1260
+11-04 14:03 INFO     Training Accuracy: 0.2873015873015873
+11-04 14:03 INFO     net 44 final test acc 0.099960
+11-04 14:03 INFO     net 44 knowledge network test acc 0.099960
+11-04 14:03 INFO     Training network 45. n_training: 1002
+11-04 14:04 INFO     Training Accuracy: 0.003992015968063872
+11-04 14:04 INFO     net 45 final test acc 0.099960
+11-04 14:04 INFO     net 45 knowledge network test acc 0.099960
+11-04 14:04 INFO     Training network 46. n_training: 811
+11-04 14:04 INFO     Training Accuracy: 0.006165228113440197
+11-04 14:04 INFO     net 46 final test acc 0.099960
+11-04 14:04 INFO     net 46 knowledge network test acc 0.099960
+11-04 14:04 INFO     Training network 47. n_training: 1022
+11-04 14:05 INFO     Training Accuracy: 0.18786692759295498
+11-04 14:05 INFO     net 47 final test acc 0.099960
+11-04 14:05 INFO     net 47 knowledge network test acc 0.099960
+11-04 14:05 INFO     Training network 49. n_training: 946
+11-04 14:06 INFO     Training Accuracy: 0.26744186046511625
+11-04 14:06 INFO     net 49 final test acc 0.099960
+11-04 14:06 INFO     net 49 knowledge network test acc 0.099960
+11-04 14:06 INFO     avg test acc after local update 0.099960
+11-04 14:06 INFO     avg knowledge test acc after local update 0.099960
+11-04 14:06 INFO     communication round 6 global model test acc 0.100060
+11-04 14:06 INFO     in comm round:7####################################################################################################
+11-04 14:06 INFO     Training network 0. n_training: 1302
+11-04 14:07 INFO     Training Accuracy: 0.026881720430107527
+11-04 14:07 INFO     net 0 final test acc 0.099960
+11-04 14:07 INFO     net 0 knowledge network test acc 0.099960
+11-04 14:07 INFO     Training network 2. n_training: 626
+11-04 14:08 INFO     Training Accuracy: 0.006389776357827476
+11-04 14:08 INFO     net 2 final test acc 0.099960
+11-04 14:08 INFO     net 2 knowledge network test acc 0.099960
+11-04 14:08 INFO     Training network 3. n_training: 948
+11-04 14:09 INFO     Training Accuracy: 0.2911392405063291
+11-04 14:09 INFO     net 3 final test acc 0.099960
+11-04 14:09 INFO     net 3 knowledge network test acc 0.099960
+11-04 14:09 INFO     Training network 4. n_training: 1047
+11-04 14:10 INFO     Training Accuracy: 0.07354345749761222
+11-04 14:10 INFO     net 4 final test acc 0.099960
+11-04 14:10 INFO     net 4 knowledge network test acc 0.099960
+11-04 14:10 INFO     Training network 5. n_training: 1270
+11-04 14:11 INFO     Training Accuracy: 0.17874015748031497
+11-04 14:11 INFO     net 5 final test acc 0.099960
+11-04 14:11 INFO     net 5 knowledge network test acc 0.099960
+11-04 14:11 INFO     Training network 6. n_training: 1100
+11-04 14:12 INFO     Training Accuracy: 0.008181818181818182
+11-04 14:12 INFO     net 6 final test acc 0.099960
+11-04 14:12 INFO     net 6 knowledge network test acc 0.099960
+11-04 14:12 INFO     Training network 7. n_training: 925
+11-04 14:13 INFO     Training Accuracy: 0.1535135135135135
+11-04 14:13 INFO     net 7 final test acc 0.099960
+11-04 14:13 INFO     net 7 knowledge network test acc 0.099960
+11-04 14:13 INFO     Training network 8. n_training: 1067
+11-04 14:14 INFO     Training Accuracy: 0.0009372071227741331
+11-04 14:14 INFO     net 8 final test acc 0.099960
+11-04 14:14 INFO     net 8 knowledge network test acc 0.099960
+11-04 14:14 INFO     Training network 9. n_training: 1018
+11-04 14:15 INFO     Training Accuracy: 0.2220039292730845
+11-04 14:15 INFO     net 9 final test acc 0.099960
+11-04 14:15 INFO     net 9 knowledge network test acc 0.099960
+11-04 14:15 INFO     Training network 10. n_training: 1012
+11-04 14:15 INFO     Training Accuracy: 0.11462450592885376
+11-04 14:15 INFO     net 10 final test acc 0.099960
+11-04 14:16 INFO     net 10 knowledge network test acc 0.099960
+11-04 14:16 INFO     Training network 12. n_training: 423
+11-04 14:16 INFO     Training Accuracy: 0.016548463356973995
+11-04 14:16 INFO     net 12 final test acc 0.099960
+11-04 14:16 INFO     net 12 knowledge network test acc 0.099960
+11-04 14:16 INFO     Training network 14. n_training: 1050
+11-04 14:17 INFO     Training Accuracy: 0.21142857142857144
+11-04 14:17 INFO     net 14 final test acc 0.099960
+11-04 14:17 INFO     net 14 knowledge network test acc 0.099960
+11-04 14:17 INFO     Training network 15. n_training: 797
+11-04 14:18 INFO     Training Accuracy: 0.465495608531995
+11-04 14:18 INFO     net 15 final test acc 0.099960
+11-04 14:18 INFO     net 15 knowledge network test acc 0.099960
+11-04 14:18 INFO     Training network 16. n_training: 1024
+11-04 14:18 INFO     Training Accuracy: 0.109375
+11-04 14:19 INFO     net 16 final test acc 0.099960
+11-04 14:19 INFO     net 16 knowledge network test acc 0.099960
+11-04 14:19 INFO     Training network 19. n_training: 1277
+11-04 14:20 INFO     Training Accuracy: 0.02427564604541895
+11-04 14:20 INFO     net 19 final test acc 0.099960
+11-04 14:20 INFO     net 19 knowledge network test acc 0.099960
+11-04 14:20 INFO     Training network 20. n_training: 1030
+11-04 14:21 INFO     Training Accuracy: 0.11844660194174757
+11-04 14:21 INFO     net 20 final test acc 0.099960
+11-04 14:21 INFO     net 20 knowledge network test acc 0.099960
+11-04 14:21 INFO     Training network 21. n_training: 1320
+11-04 14:22 INFO     Training Accuracy: 0.1765151515151515
+11-04 14:22 INFO     net 21 final test acc 0.099960
+11-04 14:22 INFO     net 21 knowledge network test acc 0.099960
+11-04 14:22 INFO     Training network 22. n_training: 804
+11-04 14:23 INFO     Training Accuracy: 0.15547263681592038
+11-04 14:23 INFO     net 22 final test acc 0.099960
+11-04 14:23 INFO     net 22 knowledge network test acc 0.099960
+11-04 14:23 INFO     Training network 24. n_training: 1148
+11-04 14:24 INFO     Training Accuracy: 0.05226480836236934
+11-04 14:24 INFO     net 24 final test acc 0.099960
+11-04 14:24 INFO     net 24 knowledge network test acc 0.099960
+11-04 14:24 INFO     Training network 25. n_training: 777
+11-04 14:24 INFO     Training Accuracy: 0.05791505791505792
+11-04 14:24 INFO     net 25 final test acc 0.099960
+11-04 14:24 INFO     net 25 knowledge network test acc 0.099960
+11-04 14:24 INFO     Training network 28. n_training: 1525
+11-04 14:26 INFO     Training Accuracy: 0.037377049180327866
+11-04 14:26 INFO     net 28 final test acc 0.099960
+11-04 14:26 INFO     net 28 knowledge network test acc 0.099960
+11-04 14:26 INFO     Training network 31. n_training: 606
+11-04 14:26 INFO     Training Accuracy: 0.09075907590759076
+11-04 14:26 INFO     net 31 final test acc 0.099960
+11-04 14:26 INFO     net 31 knowledge network test acc 0.099960
+11-04 14:26 INFO     Training network 32. n_training: 1427
+11-04 14:27 INFO     Training Accuracy: 0.00350385423966363
+11-04 14:27 INFO     net 32 final test acc 0.099960
+11-04 14:28 INFO     net 32 knowledge network test acc 0.099960
+11-04 14:28 INFO     Training network 33. n_training: 1082
+11-04 14:28 INFO     Training Accuracy: 0.1977818853974122
+11-04 14:29 INFO     net 33 final test acc 0.099960
+11-04 14:29 INFO     net 33 knowledge network test acc 0.099960
+11-04 14:29 INFO     Training network 34. n_training: 1155
+11-04 14:30 INFO     Training Accuracy: 0.2779220779220779
+11-04 14:30 INFO     net 34 final test acc 0.099960
+11-04 14:30 INFO     net 34 knowledge network test acc 0.099960
+11-04 14:30 INFO     Training network 36. n_training: 599
+11-04 14:30 INFO     Training Accuracy: 0.0
+11-04 14:30 INFO     net 36 final test acc 0.099960
+11-04 14:30 INFO     net 36 knowledge network test acc 0.099960
+11-04 14:30 INFO     Training network 37. n_training: 1071
+11-04 14:31 INFO     Training Accuracy: 0.013071895424836602
+11-04 14:31 INFO     net 37 final test acc 0.099960
+11-04 14:31 INFO     net 37 knowledge network test acc 0.099960
+11-04 14:31 INFO     Training network 38. n_training: 748
+11-04 14:32 INFO     Training Accuracy: 0.008021390374331552
+11-04 14:32 INFO     net 38 final test acc 0.099960
+11-04 14:32 INFO     net 38 knowledge network test acc 0.099960
+11-04 14:32 INFO     Training network 40. n_training: 1059
+11-04 14:33 INFO     Training Accuracy: 0.0018885741265344666
+11-04 14:33 INFO     net 40 final test acc 0.099960
+11-04 14:33 INFO     net 40 knowledge network test acc 0.099960
+11-04 14:33 INFO     Training network 43. n_training: 1321
+11-04 14:34 INFO     Training Accuracy: 0.01514004542013626
+11-04 14:34 INFO     net 43 final test acc 0.099960
+11-04 14:34 INFO     net 43 knowledge network test acc 0.099960
+11-04 14:34 INFO     Training network 44. n_training: 1260
+11-04 14:35 INFO     Training Accuracy: 0.2896825396825397
+11-04 14:35 INFO     net 44 final test acc 0.099960
+11-04 14:35 INFO     net 44 knowledge network test acc 0.099960
+11-04 14:35 INFO     Training network 45. n_training: 1002
+11-04 14:36 INFO     Training Accuracy: 0.003992015968063872
+11-04 14:36 INFO     net 45 final test acc 0.099960
+11-04 14:36 INFO     net 45 knowledge network test acc 0.099960
+11-04 14:36 INFO     Training network 46. n_training: 811
+11-04 14:37 INFO     Training Accuracy: 0.004932182490752158
+11-04 14:37 INFO     net 46 final test acc 0.099960
+11-04 14:37 INFO     net 46 knowledge network test acc 0.099960
+11-04 14:37 INFO     Training network 48. n_training: 1031
+11-04 14:38 INFO     Training Accuracy: 0.0009699321047526673
+11-04 14:38 INFO     net 48 final test acc 0.099960
+11-04 14:38 INFO     net 48 knowledge network test acc 0.099960
+11-04 14:38 INFO     Training network 49. n_training: 946
+11-04 14:38 INFO     Training Accuracy: 0.26744186046511625
+11-04 14:38 INFO     net 49 final test acc 0.099960
+11-04 14:38 INFO     net 49 knowledge network test acc 0.099960
+11-04 14:38 INFO     avg test acc after local update 0.099960
+11-04 14:38 INFO     avg knowledge test acc after local update 0.099960
+11-04 14:38 INFO     communication round 7 global model test acc 0.100060
+11-04 14:38 INFO     in comm round:8####################################################################################################
+11-04 14:39 INFO     Training network 0. n_training: 1302
+11-04 14:40 INFO     Training Accuracy: 0.026113671274961597
+11-04 14:40 INFO     net 0 final test acc 0.099960
+11-04 14:40 INFO     net 0 knowledge network test acc 0.099960
+11-04 14:40 INFO     Training network 2. n_training: 626
+11-04 14:40 INFO     Training Accuracy: 0.004792332268370607
+11-04 14:40 INFO     net 2 final test acc 0.099960
+11-04 14:40 INFO     net 2 knowledge network test acc 0.099960
+11-04 14:40 INFO     Training network 3. n_training: 948
+11-04 14:41 INFO     Training Accuracy: 0.29535864978902954
+11-04 14:41 INFO     net 3 final test acc 0.099960
+11-04 14:41 INFO     net 3 knowledge network test acc 0.099960
+11-04 14:41 INFO     Training network 4. n_training: 1047
+11-04 14:42 INFO     Training Accuracy: 0.07067812798471824
+11-04 14:42 INFO     net 4 final test acc 0.099960
+11-04 14:42 INFO     net 4 knowledge network test acc 0.099960
+11-04 14:42 INFO     Training network 5. n_training: 1270
+11-04 14:43 INFO     Training Accuracy: 0.18031496062992125
+11-04 14:43 INFO     net 5 final test acc 0.099960
+11-04 14:43 INFO     net 5 knowledge network test acc 0.099960
+11-04 14:43 INFO     Training network 6. n_training: 1100
+11-04 14:44 INFO     Training Accuracy: 0.008181818181818182
+11-04 14:44 INFO     net 6 final test acc 0.099960
+11-04 14:45 INFO     net 6 knowledge network test acc 0.099960
+11-04 14:45 INFO     Training network 7. n_training: 925
+11-04 14:45 INFO     Training Accuracy: 0.1545945945945946
+11-04 14:45 INFO     net 7 final test acc 0.099960
+11-04 14:45 INFO     net 7 knowledge network test acc 0.099960
+11-04 14:45 INFO     Training network 8. n_training: 1067
+11-04 14:46 INFO     Training Accuracy: 0.0009372071227741331
+11-04 14:46 INFO     net 8 final test acc 0.099960
+11-04 14:46 INFO     net 8 knowledge network test acc 0.099960
+11-04 14:46 INFO     Training network 10. n_training: 1012
+11-04 14:47 INFO     Training Accuracy: 0.11956521739130435
+11-04 14:47 INFO     net 10 final test acc 0.099960
+11-04 14:47 INFO     net 10 knowledge network test acc 0.099960
+11-04 14:47 INFO     Training network 11. n_training: 209
+11-04 14:47 INFO     Training Accuracy: 0.06698564593301436
+11-04 14:47 INFO     net 11 final test acc 0.099960
+11-04 14:47 INFO     net 11 knowledge network test acc 0.099960
+11-04 14:47 INFO     Training network 13. n_training: 928
+11-04 14:48 INFO     Training Accuracy: 0.004310344827586207
+11-04 14:48 INFO     net 13 final test acc 0.099960
+11-04 14:48 INFO     net 13 knowledge network test acc 0.099960
+11-04 14:48 INFO     Training network 15. n_training: 797
+11-04 14:49 INFO     Training Accuracy: 0.4617314930991217
+11-04 14:49 INFO     net 15 final test acc 0.099960
+11-04 14:49 INFO     net 15 knowledge network test acc 0.099960
+11-04 14:49 INFO     Training network 16. n_training: 1024
+11-04 14:50 INFO     Training Accuracy: 0.109375
+11-04 14:50 INFO     net 16 final test acc 0.099960
+11-04 14:50 INFO     net 16 knowledge network test acc 0.099960
+11-04 14:50 INFO     Training network 18. n_training: 888
+11-04 14:51 INFO     Training Accuracy: 0.07882882882882883
+11-04 14:51 INFO     net 18 final test acc 0.099960
+11-04 14:51 INFO     net 18 knowledge network test acc 0.099960
+11-04 14:51 INFO     Training network 19. n_training: 1277
+11-04 14:52 INFO     Training Accuracy: 0.025058731401722788
+11-04 14:52 INFO     net 19 final test acc 0.099960
+11-04 14:52 INFO     net 19 knowledge network test acc 0.099960
+11-04 14:52 INFO     Training network 20. n_training: 1030
+11-04 14:53 INFO     Training Accuracy: 0.11941747572815534
+11-04 14:53 INFO     net 20 final test acc 0.099960
+11-04 14:53 INFO     net 20 knowledge network test acc 0.099960
+11-04 14:53 INFO     Training network 21. n_training: 1320
+11-04 14:54 INFO     Training Accuracy: 0.1765151515151515
+11-04 14:54 INFO     net 21 final test acc 0.099960
+11-04 14:54 INFO     net 21 knowledge network test acc 0.099960
+11-04 14:54 INFO     Training network 22. n_training: 804
+11-04 14:54 INFO     Training Accuracy: 0.15547263681592038
+11-04 14:55 INFO     net 22 final test acc 0.099960
+11-04 14:55 INFO     net 22 knowledge network test acc 0.099960
+11-04 14:55 INFO     Training network 23. n_training: 1619
+11-04 14:56 INFO     Training Accuracy: 0.0006176652254478073
+11-04 14:56 INFO     net 23 final test acc 0.099960
+11-04 14:56 INFO     net 23 knowledge network test acc 0.099960
+11-04 14:56 INFO     Training network 24. n_training: 1148
+11-04 14:57 INFO     Training Accuracy: 0.050522648083623695
+11-04 14:57 INFO     net 24 final test acc 0.099960
+11-04 14:57 INFO     net 24 knowledge network test acc 0.099960
+11-04 14:57 INFO     Training network 25. n_training: 777
+11-04 14:58 INFO     Training Accuracy: 0.05662805662805663
+11-04 14:58 INFO     net 25 final test acc 0.099960
+11-04 14:58 INFO     net 25 knowledge network test acc 0.099960
+11-04 14:58 INFO     Training network 26. n_training: 1385
+11-04 14:59 INFO     Training Accuracy: 0.0
+11-04 14:59 INFO     net 26 final test acc 0.099960
+11-04 14:59 INFO     net 26 knowledge network test acc 0.099960
+11-04 14:59 INFO     Training network 28. n_training: 1525
+11-04 15:00 INFO     Training Accuracy: 0.037377049180327866
+11-04 15:00 INFO     net 28 final test acc 0.099960
+11-04 15:00 INFO     net 28 knowledge network test acc 0.099960
+11-04 15:00 INFO     Training network 31. n_training: 606
+11-04 15:01 INFO     Training Accuracy: 0.0891089108910891
+11-04 15:01 INFO     net 31 final test acc 0.099960
+11-04 15:01 INFO     net 31 knowledge network test acc 0.099960
+11-04 15:01 INFO     Training network 32. n_training: 1427
+11-04 15:02 INFO     Training Accuracy: 0.00350385423966363
+11-04 15:02 INFO     net 32 final test acc 0.099960
+11-04 15:02 INFO     net 32 knowledge network test acc 0.099960
+11-04 15:02 INFO     Training network 34. n_training: 1155
+11-04 15:03 INFO     Training Accuracy: 0.2787878787878788
+11-04 15:03 INFO     net 34 final test acc 0.099960
+11-04 15:03 INFO     net 34 knowledge network test acc 0.099960
+11-04 15:03 INFO     Training network 35. n_training: 1377
+11-04 15:04 INFO     Training Accuracy: 0.032679738562091505
+11-04 15:04 INFO     net 35 final test acc 0.099960
+11-04 15:04 INFO     net 35 knowledge network test acc 0.099960
+11-04 15:05 INFO     Training network 36. n_training: 599
+11-04 15:05 INFO     Training Accuracy: 0.0
+11-04 15:05 INFO     net 36 final test acc 0.099960
+11-04 15:05 INFO     net 36 knowledge network test acc 0.099960
+11-04 15:05 INFO     Training network 37. n_training: 1071
+11-04 15:06 INFO     Training Accuracy: 0.014005602240896359
+11-04 15:06 INFO     net 37 final test acc 0.099960
+11-04 15:06 INFO     net 37 knowledge network test acc 0.099960
+11-04 15:06 INFO     Training network 39. n_training: 975
+11-04 15:07 INFO     Training Accuracy: 0.019487179487179488
+11-04 15:07 INFO     net 39 final test acc 0.099960
+11-04 15:07 INFO     net 39 knowledge network test acc 0.099960
+11-04 15:07 INFO     Training network 43. n_training: 1321
+11-04 15:08 INFO     Training Accuracy: 0.015897047691143074
+11-04 15:08 INFO     net 43 final test acc 0.099960
+11-04 15:08 INFO     net 43 knowledge network test acc 0.099960
+11-04 15:08 INFO     Training network 44. n_training: 1260
+11-04 15:09 INFO     Training Accuracy: 0.2865079365079365
+11-04 15:09 INFO     net 44 final test acc 0.099960
+11-04 15:09 INFO     net 44 knowledge network test acc 0.099960
+11-04 15:09 INFO     Training network 45. n_training: 1002
+11-04 15:10 INFO     Training Accuracy: 0.003992015968063872
+11-04 15:10 INFO     net 45 final test acc 0.099960
+11-04 15:10 INFO     net 45 knowledge network test acc 0.099960
+11-04 15:10 INFO     Training network 47. n_training: 1022
+11-04 15:11 INFO     Training Accuracy: 0.18590998043052837
+11-04 15:11 INFO     net 47 final test acc 0.099960
+11-04 15:11 INFO     net 47 knowledge network test acc 0.099960
+11-04 15:11 INFO     Training network 49. n_training: 946
+11-04 15:12 INFO     Training Accuracy: 0.26744186046511625
+11-04 15:12 INFO     net 49 final test acc 0.099960
+11-04 15:12 INFO     net 49 knowledge network test acc 0.099960
+11-04 15:12 INFO     avg test acc after local update 0.099960
+11-04 15:12 INFO     avg knowledge test acc after local update 0.099960
+11-04 15:12 INFO     communication round 8 global model test acc 0.100060
+11-04 15:12 INFO     in comm round:9####################################################################################################
+11-04 15:12 INFO     Training network 0. n_training: 1302
+11-04 15:13 INFO     Training Accuracy: 0.026881720430107527
+11-04 15:13 INFO     net 0 final test acc 0.099960
+11-04 15:13 INFO     net 0 knowledge network test acc 0.099960
+11-04 15:13 INFO     Training network 1. n_training: 1222
+11-04 15:14 INFO     Training Accuracy: 0.11374795417348608
+11-04 15:14 INFO     net 1 final test acc 0.099960
+11-04 15:14 INFO     net 1 knowledge network test acc 0.099960
+11-04 15:14 INFO     Training network 2. n_training: 626
+11-04 15:15 INFO     Training Accuracy: 0.006389776357827476
+11-04 15:15 INFO     net 2 final test acc 0.099960
+11-04 15:15 INFO     net 2 knowledge network test acc 0.099960
+11-04 15:15 INFO     Training network 3. n_training: 948
+11-04 15:16 INFO     Training Accuracy: 0.29430379746835444
+11-04 15:16 INFO     net 3 final test acc 0.099960
+11-04 15:16 INFO     net 3 knowledge network test acc 0.099960
+11-04 15:16 INFO     Training network 4. n_training: 1047
+11-04 15:17 INFO     Training Accuracy: 0.07449856733524356
+11-04 15:17 INFO     net 4 final test acc 0.099960
+11-04 15:17 INFO     net 4 knowledge network test acc 0.099960
+11-04 15:17 INFO     Training network 5. n_training: 1270
+11-04 15:18 INFO     Training Accuracy: 0.17795275590551182
+11-04 15:18 INFO     net 5 final test acc 0.099960
+11-04 15:18 INFO     net 5 knowledge network test acc 0.099960
+11-04 15:18 INFO     Training network 6. n_training: 1100
+11-04 15:19 INFO     Training Accuracy: 0.008181818181818182
+11-04 15:19 INFO     net 6 final test acc 0.099960
+11-04 15:19 INFO     net 6 knowledge network test acc 0.099960
+11-04 15:19 INFO     Training network 7. n_training: 925
+11-04 15:20 INFO     Training Accuracy: 0.1535135135135135
+11-04 15:20 INFO     net 7 final test acc 0.099960
+11-04 15:20 INFO     net 7 knowledge network test acc 0.099960
+11-04 15:20 INFO     Training network 8. n_training: 1067
+11-04 15:21 INFO     Training Accuracy: 0.0009372071227741331
+11-04 15:21 INFO     net 8 final test acc 0.099960
+11-04 15:21 INFO     net 8 knowledge network test acc 0.099960
+11-04 15:21 INFO     Training network 14. n_training: 1050
+11-04 15:22 INFO     Training Accuracy: 0.20666666666666667
+11-04 15:22 INFO     net 14 final test acc 0.099960
+11-04 15:22 INFO     net 14 knowledge network test acc 0.099960
+11-04 15:22 INFO     Training network 15. n_training: 797
+11-04 15:22 INFO     Training Accuracy: 0.4629861982434128
+11-04 15:22 INFO     net 15 final test acc 0.099960
+11-04 15:22 INFO     net 15 knowledge network test acc 0.099960
+11-04 15:22 INFO     Training network 19. n_training: 1277
+11-04 15:24 INFO     Training Accuracy: 0.02427564604541895
+11-04 15:24 INFO     net 19 final test acc 0.099960
+11-04 15:24 INFO     net 19 knowledge network test acc 0.099960
+11-04 15:24 INFO     Training network 20. n_training: 1030
+11-04 15:25 INFO     Training Accuracy: 0.11941747572815534
+11-04 15:25 INFO     net 20 final test acc 0.099960
+11-04 15:25 INFO     net 20 knowledge network test acc 0.099960
+11-04 15:25 INFO     Training network 21. n_training: 1320
+11-04 15:26 INFO     Training Accuracy: 0.17727272727272728
+11-04 15:26 INFO     net 21 final test acc 0.099960
+11-04 15:26 INFO     net 21 knowledge network test acc 0.099960
+11-04 15:26 INFO     Training network 22. n_training: 804
+11-04 15:26 INFO     Training Accuracy: 0.14925373134328357
+11-04 15:26 INFO     net 22 final test acc 0.099960
+11-04 15:27 INFO     net 22 knowledge network test acc 0.099960
+11-04 15:27 INFO     Training network 24. n_training: 1148
+11-04 15:27 INFO     Training Accuracy: 0.054878048780487805
+11-04 15:27 INFO     net 24 final test acc 0.099960
+11-04 15:28 INFO     net 24 knowledge network test acc 0.099960
+11-04 15:28 INFO     Training network 27. n_training: 944
+11-04 15:28 INFO     Training Accuracy: 0.3050847457627119
+11-04 15:28 INFO     net 27 final test acc 0.099960
+11-04 15:28 INFO     net 27 knowledge network test acc 0.099960
+11-04 15:28 INFO     Training network 28. n_training: 1525
+11-04 15:30 INFO     Training Accuracy: 0.0380327868852459
+11-04 15:30 INFO     net 28 final test acc 0.099960
+11-04 15:30 INFO     net 28 knowledge network test acc 0.099960
+11-04 15:30 INFO     Training network 30. n_training: 1036
+11-04 15:31 INFO     Training Accuracy: 0.0444015444015444
+11-04 15:31 INFO     net 30 final test acc 0.099960
+11-04 15:31 INFO     net 30 knowledge network test acc 0.099960
+11-04 15:31 INFO     Training network 32. n_training: 1427
+11-04 15:32 INFO     Training Accuracy: 0.00350385423966363
+11-04 15:32 INFO     net 32 final test acc 0.099960
+11-04 15:32 INFO     net 32 knowledge network test acc 0.099960
+11-04 15:32 INFO     Training network 33. n_training: 1082
+11-04 15:33 INFO     Training Accuracy: 0.19408502772643252
+11-04 15:33 INFO     net 33 final test acc 0.099960
+11-04 15:33 INFO     net 33 knowledge network test acc 0.099960
+11-04 15:33 INFO     Training network 35. n_training: 1377
+11-04 15:34 INFO     Training Accuracy: 0.03122730573710966
+11-04 15:34 INFO     net 35 final test acc 0.099960
+11-04 15:34 INFO     net 35 knowledge network test acc 0.099960
+11-04 15:34 INFO     Training network 36. n_training: 599
+11-04 15:35 INFO     Training Accuracy: 0.0
+11-04 15:35 INFO     net 36 final test acc 0.099960
+11-04 15:35 INFO     net 36 knowledge network test acc 0.099960
+11-04 15:35 INFO     Training network 37. n_training: 1071
+11-04 15:35 INFO     Training Accuracy: 0.013071895424836602
+11-04 15:35 INFO     net 37 final test acc 0.099960
+11-04 15:35 INFO     net 37 knowledge network test acc 0.099960
+11-04 15:36 INFO     Training network 38. n_training: 748
+11-04 15:36 INFO     Training Accuracy: 0.009358288770053475
+11-04 15:36 INFO     net 38 final test acc 0.099960
+11-04 15:36 INFO     net 38 knowledge network test acc 0.099960
+11-04 15:36 INFO     Training network 40. n_training: 1059
+11-04 15:37 INFO     Training Accuracy: 0.0018885741265344666
+11-04 15:37 INFO     net 40 final test acc 0.099960
+11-04 15:37 INFO     net 40 knowledge network test acc 0.099960
+11-04 15:37 INFO     Training network 41. n_training: 1010
+11-04 15:38 INFO     Training Accuracy: 0.05148514851485148
+11-04 15:38 INFO     net 41 final test acc 0.099960
+11-04 15:38 INFO     net 41 knowledge network test acc 0.099960
+11-04 15:38 INFO     Training network 42. n_training: 703
+11-04 15:39 INFO     Training Accuracy: 0.18492176386913228
+11-04 15:39 INFO     net 42 final test acc 0.099960
+11-04 15:39 INFO     net 42 knowledge network test acc 0.099960
+11-04 15:39 INFO     Training network 43. n_training: 1321
+11-04 15:40 INFO     Training Accuracy: 0.015897047691143074
+11-04 15:40 INFO     net 43 final test acc 0.099960
+11-04 15:40 INFO     net 43 knowledge network test acc 0.099960
+11-04 15:40 INFO     Training network 44. n_training: 1260
+11-04 15:41 INFO     Training Accuracy: 0.2841269841269841
+11-04 15:41 INFO     net 44 final test acc 0.099960
+11-04 15:41 INFO     net 44 knowledge network test acc 0.099960
+11-04 15:41 INFO     Training network 45. n_training: 1002
+11-04 15:42 INFO     Training Accuracy: 0.003992015968063872
+11-04 15:42 INFO     net 45 final test acc 0.099960
+11-04 15:42 INFO     net 45 knowledge network test acc 0.099960
+11-04 15:42 INFO     Training network 46. n_training: 811
+11-04 15:42 INFO     Training Accuracy: 0.006165228113440197
+11-04 15:43 INFO     net 46 final test acc 0.099960
+11-04 15:43 INFO     net 46 knowledge network test acc 0.099960
+11-04 15:43 INFO     Training network 47. n_training: 1022
+11-04 15:43 INFO     Training Accuracy: 0.18590998043052837
+11-04 15:43 INFO     net 47 final test acc 0.099960
+11-04 15:43 INFO     net 47 knowledge network test acc 0.099960
+11-04 15:43 INFO     Training network 48. n_training: 1031
+11-04 15:44 INFO     Training Accuracy: 0.0009699321047526673
+11-04 15:44 INFO     net 48 final test acc 0.099960
+11-04 15:44 INFO     net 48 knowledge network test acc 0.099960
+11-04 15:44 INFO     Training network 49. n_training: 946
+11-04 15:45 INFO     Training Accuracy: 0.273784355179704
+11-04 15:45 INFO     net 49 final test acc 0.099960
+11-04 15:45 INFO     net 49 knowledge network test acc 0.099960
+11-04 15:45 INFO     avg test acc after local update 0.099960
+11-04 15:45 INFO     avg knowledge test acc after local update 0.099960
+11-04 15:45 INFO     communication round 9 global model test acc 0.100060
+11-04 15:45 INFO     in comm round:10####################################################################################################
+11-04 15:45 INFO     Training network 0. n_training: 1302
+11-04 15:46 INFO     Training Accuracy: 0.02534562211981567
+11-04 15:46 INFO     net 0 final test acc 0.099960
+11-04 15:46 INFO     net 0 knowledge network test acc 0.099960
+11-04 15:46 INFO     Training network 1. n_training: 1222
+11-04 15:47 INFO     Training Accuracy: 0.11211129296235679
+11-04 15:47 INFO     net 1 final test acc 0.099960
+11-04 15:47 INFO     net 1 knowledge network test acc 0.099960
+11-04 15:48 INFO     Training network 3. n_training: 948
+11-04 15:48 INFO     Training Accuracy: 0.2890295358649789
+11-04 15:48 INFO     net 3 final test acc 0.099960
+11-04 15:48 INFO     net 3 knowledge network test acc 0.099960
+11-04 15:48 INFO     Training network 4. n_training: 1047
+11-04 15:49 INFO     Training Accuracy: 0.07354345749761222
+11-04 15:49 INFO     net 4 final test acc 0.099960
+11-04 15:49 INFO     net 4 knowledge network test acc 0.099960
+11-04 15:49 INFO     Training network 6. n_training: 1100
+11-04 15:50 INFO     Training Accuracy: 0.008181818181818182
+11-04 15:50 INFO     net 6 final test acc 0.099960
+11-04 15:50 INFO     net 6 knowledge network test acc 0.099960
+11-04 15:50 INFO     Training network 7. n_training: 925
+11-04 15:51 INFO     Training Accuracy: 0.1535135135135135
+11-04 15:51 INFO     net 7 final test acc 0.099960
+11-04 15:51 INFO     net 7 knowledge network test acc 0.099960
+11-04 15:51 INFO     Training network 8. n_training: 1067
+11-04 15:52 INFO     Training Accuracy: 0.0009372071227741331
+11-04 15:52 INFO     net 8 final test acc 0.099960
+11-04 15:52 INFO     net 8 knowledge network test acc 0.099960
+11-04 15:52 INFO     Training network 9. n_training: 1018
+11-04 15:53 INFO     Training Accuracy: 0.22986247544204322
+11-04 15:53 INFO     net 9 final test acc 0.099960
+11-04 15:53 INFO     net 9 knowledge network test acc 0.099960
+11-04 15:53 INFO     Training network 11. n_training: 209
+11-04 15:53 INFO     Training Accuracy: 0.06698564593301436
+11-04 15:53 INFO     net 11 final test acc 0.099960
+11-04 15:53 INFO     net 11 knowledge network test acc 0.099960
+11-04 15:53 INFO     Training network 12. n_training: 423
+11-04 15:54 INFO     Training Accuracy: 0.016548463356973995
+11-04 15:54 INFO     net 12 final test acc 0.099960
+11-04 15:54 INFO     net 12 knowledge network test acc 0.099960
+11-04 15:54 INFO     Training network 13. n_training: 928
+11-04 15:54 INFO     Training Accuracy: 0.005387931034482759
+11-04 15:54 INFO     net 13 final test acc 0.099960
+11-04 15:55 INFO     net 13 knowledge network test acc 0.099960
+11-04 15:55 INFO     Training network 14. n_training: 1050
+11-04 15:55 INFO     Training Accuracy: 0.21333333333333335
+11-04 15:55 INFO     net 14 final test acc 0.099960
+11-04 15:55 INFO     net 14 knowledge network test acc 0.099960
+11-04 15:56 INFO     Training network 15. n_training: 797
+11-04 15:56 INFO     Training Accuracy: 0.465495608531995
+11-04 15:56 INFO     net 15 final test acc 0.099960
+11-04 15:56 INFO     net 15 knowledge network test acc 0.099960
+11-04 15:56 INFO     Training network 17. n_training: 559
+11-04 15:57 INFO     Training Accuracy: 0.007155635062611807
+11-04 15:57 INFO     net 17 final test acc 0.099960
+11-04 15:57 INFO     net 17 knowledge network test acc 0.099960
+11-04 15:57 INFO     Training network 18. n_training: 888
+11-04 15:57 INFO     Training Accuracy: 0.07995495495495496
+11-04 15:58 INFO     net 18 final test acc 0.099960
+11-04 15:58 INFO     net 18 knowledge network test acc 0.099960
+11-04 15:58 INFO     Training network 20. n_training: 1030
+11-04 15:58 INFO     Training Accuracy: 0.11941747572815534
+11-04 15:58 INFO     net 20 final test acc 0.099960
+11-04 15:59 INFO     net 20 knowledge network test acc 0.099960
+11-04 15:59 INFO     Training network 22. n_training: 804
+11-04 15:59 INFO     Training Accuracy: 0.15796019900497513
+11-04 15:59 INFO     net 22 final test acc 0.099960
+11-04 15:59 INFO     net 22 knowledge network test acc 0.099960
+11-04 15:59 INFO     Training network 25. n_training: 777
+11-04 16:00 INFO     Training Accuracy: 0.05791505791505792
+11-04 16:00 INFO     net 25 final test acc 0.099960
+11-04 16:00 INFO     net 25 knowledge network test acc 0.099960
+11-04 16:00 INFO     Training network 28. n_training: 1525
+11-04 16:01 INFO     Training Accuracy: 0.037377049180327866
+11-04 16:01 INFO     net 28 final test acc 0.099960
+11-04 16:01 INFO     net 28 knowledge network test acc 0.099960
+11-04 16:01 INFO     Training network 29. n_training: 515
+11-04 16:02 INFO     Training Accuracy: 0.062135922330097085
+11-04 16:02 INFO     net 29 final test acc 0.099960
+11-04 16:02 INFO     net 29 knowledge network test acc 0.099960
+11-04 16:02 INFO     Training network 30. n_training: 1036
+11-04 16:03 INFO     Training Accuracy: 0.04343629343629344
+11-04 16:03 INFO     net 30 final test acc 0.099960
+11-04 16:03 INFO     net 30 knowledge network test acc 0.099960
+11-04 16:03 INFO     Training network 31. n_training: 606
+11-04 16:03 INFO     Training Accuracy: 0.08250825082508251
+11-04 16:03 INFO     net 31 final test acc 0.099960
+11-04 16:03 INFO     net 31 knowledge network test acc 0.099960
+11-04 16:03 INFO     Training network 32. n_training: 1427
+11-04 16:05 INFO     Training Accuracy: 0.00350385423966363
+11-04 16:05 INFO     net 32 final test acc 0.099960
+11-04 16:05 INFO     net 32 knowledge network test acc 0.099960
+11-04 16:05 INFO     Training network 33. n_training: 1082
+11-04 16:06 INFO     Training Accuracy: 0.19593345656192238
+11-04 16:06 INFO     net 33 final test acc 0.099960
+11-04 16:06 INFO     net 33 knowledge network test acc 0.099960
+11-04 16:06 INFO     Training network 35. n_training: 1377
+11-04 16:07 INFO     Training Accuracy: 0.03195352214960058
+11-04 16:07 INFO     net 35 final test acc 0.099960
+11-04 16:07 INFO     net 35 knowledge network test acc 0.099960
+11-04 16:07 INFO     Training network 36. n_training: 599
+11-04 16:07 INFO     Training Accuracy: 0.0
+11-04 16:07 INFO     net 36 final test acc 0.099960
+11-04 16:07 INFO     net 36 knowledge network test acc 0.099960
+11-04 16:07 INFO     Training network 37. n_training: 1071
+11-04 16:08 INFO     Training Accuracy: 0.014005602240896359
+11-04 16:08 INFO     net 37 final test acc 0.099960
+11-04 16:08 INFO     net 37 knowledge network test acc 0.099960
+11-04 16:08 INFO     Training network 38. n_training: 748
+11-04 16:09 INFO     Training Accuracy: 0.008021390374331552
+11-04 16:09 INFO     net 38 final test acc 0.099960
+11-04 16:09 INFO     net 38 knowledge network test acc 0.099960
+11-04 16:09 INFO     Training network 39. n_training: 975
+11-04 16:10 INFO     Training Accuracy: 0.019487179487179488
+11-04 16:10 INFO     net 39 final test acc 0.099960
+11-04 16:10 INFO     net 39 knowledge network test acc 0.099960
+11-04 16:10 INFO     Training network 42. n_training: 703
+11-04 16:10 INFO     Training Accuracy: 0.1906116642958748
+11-04 16:11 INFO     net 42 final test acc 0.099960
+11-04 16:11 INFO     net 42 knowledge network test acc 0.099960
+11-04 16:11 INFO     Training network 43. n_training: 1321
+11-04 16:12 INFO     Training Accuracy: 0.01514004542013626
+11-04 16:12 INFO     net 43 final test acc 0.099960
+11-04 16:12 INFO     net 43 knowledge network test acc 0.099960
+11-04 16:12 INFO     Training network 44. n_training: 1260
+11-04 16:13 INFO     Training Accuracy: 0.2849206349206349
+11-04 16:13 INFO     net 44 final test acc 0.099960
+11-04 16:13 INFO     net 44 knowledge network test acc 0.099960
+11-04 16:13 INFO     Training network 45. n_training: 1002
+11-04 16:14 INFO     Training Accuracy: 0.003992015968063872
+11-04 16:14 INFO     net 45 final test acc 0.099960
+11-04 16:14 INFO     net 45 knowledge network test acc 0.099960
+11-04 16:14 INFO     Training network 46. n_training: 811
+11-04 16:14 INFO     Training Accuracy: 0.004932182490752158
+11-04 16:14 INFO     net 46 final test acc 0.099960
+11-04 16:14 INFO     net 46 knowledge network test acc 0.099960
+11-04 16:15 INFO     Training network 49. n_training: 946
+11-04 16:15 INFO     Training Accuracy: 0.2748414376321353
+11-04 16:15 INFO     net 49 final test acc 0.099960
+11-04 16:15 INFO     net 49 knowledge network test acc 0.099960
+11-04 16:15 INFO     avg test acc after local update 0.099960
+11-04 16:15 INFO     avg knowledge test acc after local update 0.099960
+11-04 16:15 INFO     communication round 10 global model test acc 0.100060
+11-04 16:15 INFO     in comm round:11####################################################################################################
+11-04 16:15 INFO     Training network 0. n_training: 1302
+11-04 16:16 INFO     Training Accuracy: 0.026881720430107527
+11-04 16:17 INFO     net 0 final test acc 0.099960
+11-04 16:17 INFO     net 0 knowledge network test acc 0.099960
+11-04 16:17 INFO     Training network 1. n_training: 1222
+11-04 16:18 INFO     Training Accuracy: 0.11374795417348608
+11-04 16:18 INFO     net 1 final test acc 0.099960
+11-04 16:18 INFO     net 1 knowledge network test acc 0.099960
+11-04 16:18 INFO     Training network 2. n_training: 626
+11-04 16:18 INFO     Training Accuracy: 0.006389776357827476
+11-04 16:18 INFO     net 2 final test acc 0.099960
+11-04 16:18 INFO     net 2 knowledge network test acc 0.099960
+11-04 16:18 INFO     Training network 4. n_training: 1047
+11-04 16:19 INFO     Training Accuracy: 0.07449856733524356
+11-04 16:19 INFO     net 4 final test acc 0.099960
+11-04 16:19 INFO     net 4 knowledge network test acc 0.099960
+11-04 16:19 INFO     Training network 5. n_training: 1270
+11-04 16:20 INFO     Training Accuracy: 0.17795275590551182
+11-04 16:20 INFO     net 5 final test acc 0.099960
+11-04 16:20 INFO     net 5 knowledge network test acc 0.099960
+11-04 16:20 INFO     Training network 6. n_training: 1100
+11-04 16:21 INFO     Training Accuracy: 0.008181818181818182
+11-04 16:21 INFO     net 6 final test acc 0.099960
+11-04 16:21 INFO     net 6 knowledge network test acc 0.099960
+11-04 16:22 INFO     Training network 8. n_training: 1067
+11-04 16:22 INFO     Training Accuracy: 0.0009372071227741331
+11-04 16:22 INFO     net 8 final test acc 0.099960
+11-04 16:22 INFO     net 8 knowledge network test acc 0.099960
+11-04 16:22 INFO     Training network 9. n_training: 1018
+11-04 16:23 INFO     Training Accuracy: 0.2288801571709234
+11-04 16:23 INFO     net 9 final test acc 0.099960
+11-04 16:23 INFO     net 9 knowledge network test acc 0.099960
+11-04 16:23 INFO     Training network 10. n_training: 1012
+11-04 16:24 INFO     Training Accuracy: 0.116600790513834
+11-04 16:24 INFO     net 10 final test acc 0.099960
+11-04 16:24 INFO     net 10 knowledge network test acc 0.099960
+11-04 16:24 INFO     Training network 11. n_training: 209
+11-04 16:24 INFO     Training Accuracy: 0.06698564593301436
+11-04 16:24 INFO     net 11 final test acc 0.099960
+11-04 16:24 INFO     net 11 knowledge network test acc 0.099960
+11-04 16:24 INFO     Training network 12. n_training: 423
+11-04 16:25 INFO     Training Accuracy: 0.016548463356973995
+11-04 16:25 INFO     net 12 final test acc 0.099960
+11-04 16:25 INFO     net 12 knowledge network test acc 0.099960
+11-04 16:25 INFO     Training network 15. n_training: 797
+11-04 16:25 INFO     Training Accuracy: 0.4642409033877039
+11-04 16:26 INFO     net 15 final test acc 0.099960
+11-04 16:26 INFO     net 15 knowledge network test acc 0.099960
+11-04 16:26 INFO     Training network 16. n_training: 1024
+11-04 16:26 INFO     Training Accuracy: 0.109375
+11-04 16:26 INFO     net 16 final test acc 0.099960
+11-04 16:26 INFO     net 16 knowledge network test acc 0.099960
+11-04 16:27 INFO     Training network 18. n_training: 888
+11-04 16:27 INFO     Training Accuracy: 0.07882882882882883
+11-04 16:27 INFO     net 18 final test acc 0.099960
+11-04 16:27 INFO     net 18 knowledge network test acc 0.099960
+11-04 16:27 INFO     Training network 19. n_training: 1277
+11-04 16:28 INFO     Training Accuracy: 0.02427564604541895
+11-04 16:28 INFO     net 19 final test acc 0.099960
+11-04 16:28 INFO     net 19 knowledge network test acc 0.099960
+11-04 16:28 INFO     Training network 22. n_training: 804
+11-04 16:29 INFO     Training Accuracy: 0.15298507462686567
+11-04 16:29 INFO     net 22 final test acc 0.099960
+11-04 16:29 INFO     net 22 knowledge network test acc 0.099960
+11-04 16:29 INFO     Training network 23. n_training: 1619
+11-04 16:31 INFO     Training Accuracy: 0.0006176652254478073
+11-04 16:31 INFO     net 23 final test acc 0.099960
+11-04 16:31 INFO     net 23 knowledge network test acc 0.099960
+11-04 16:31 INFO     Training network 24. n_training: 1148
+11-04 16:32 INFO     Training Accuracy: 0.054878048780487805
+11-04 16:32 INFO     net 24 final test acc 0.099960
+11-04 16:32 INFO     net 24 knowledge network test acc 0.099960
+11-04 16:32 INFO     Training network 25. n_training: 777
+11-04 16:32 INFO     Training Accuracy: 0.05662805662805663
+11-04 16:32 INFO     net 25 final test acc 0.099960
+11-04 16:33 INFO     net 25 knowledge network test acc 0.099960
+11-04 16:33 INFO     Training network 28. n_training: 1525
+11-04 16:34 INFO     Training Accuracy: 0.03475409836065574
+11-04 16:34 INFO     net 28 final test acc 0.099960
+11-04 16:34 INFO     net 28 knowledge network test acc 0.099960
+11-04 16:34 INFO     Training network 29. n_training: 515
+11-04 16:34 INFO     Training Accuracy: 0.062135922330097085
+11-04 16:34 INFO     net 29 final test acc 0.099960
+11-04 16:34 INFO     net 29 knowledge network test acc 0.099960
+11-04 16:34 INFO     Training network 30. n_training: 1036
+11-04 16:35 INFO     Training Accuracy: 0.0444015444015444
+11-04 16:35 INFO     net 30 final test acc 0.099960
+11-04 16:35 INFO     net 30 knowledge network test acc 0.099960
+11-04 16:35 INFO     Training network 31. n_training: 606
+11-04 16:36 INFO     Training Accuracy: 0.09075907590759076
+11-04 16:36 INFO     net 31 final test acc 0.099960
+11-04 16:36 INFO     net 31 knowledge network test acc 0.099960
+11-04 16:36 INFO     Training network 32. n_training: 1427
+11-04 16:37 INFO     Training Accuracy: 0.00350385423966363
+11-04 16:37 INFO     net 32 final test acc 0.099960
+11-04 16:37 INFO     net 32 knowledge network test acc 0.099960
+11-04 16:37 INFO     Training network 34. n_training: 1155
+11-04 16:38 INFO     Training Accuracy: 0.2787878787878788
+11-04 16:38 INFO     net 34 final test acc 0.099960
+11-04 16:38 INFO     net 34 knowledge network test acc 0.099960
+11-04 16:38 INFO     Training network 35. n_training: 1377
+11-04 16:39 INFO     Training Accuracy: 0.03195352214960058
+11-04 16:39 INFO     net 35 final test acc 0.099960
+11-04 16:39 INFO     net 35 knowledge network test acc 0.099960
+11-04 16:39 INFO     Training network 36. n_training: 599
+11-04 16:40 INFO     Training Accuracy: 0.0
+11-04 16:40 INFO     net 36 final test acc 0.099960
+11-04 16:40 INFO     net 36 knowledge network test acc 0.099960
+11-04 16:40 INFO     Training network 38. n_training: 748
+11-04 16:41 INFO     Training Accuracy: 0.009358288770053475
+11-04 16:41 INFO     net 38 final test acc 0.099960
+11-04 16:41 INFO     net 38 knowledge network test acc 0.099960
+11-04 16:41 INFO     Training network 39. n_training: 975
+11-04 16:41 INFO     Training Accuracy: 0.018461538461538463
+11-04 16:42 INFO     net 39 final test acc 0.099960
+11-04 16:42 INFO     net 39 knowledge network test acc 0.099960
+11-04 16:42 INFO     Training network 43. n_training: 1321
+11-04 16:43 INFO     Training Accuracy: 0.013626040878122634
+11-04 16:43 INFO     net 43 final test acc 0.099960
+11-04 16:43 INFO     net 43 knowledge network test acc 0.099960
+11-04 16:43 INFO     Training network 44. n_training: 1260
+11-04 16:44 INFO     Training Accuracy: 0.2904761904761905
+11-04 16:44 INFO     net 44 final test acc 0.099960
+11-04 16:44 INFO     net 44 knowledge network test acc 0.099960
+11-04 16:44 INFO     Training network 45. n_training: 1002
+11-04 16:45 INFO     Training Accuracy: 0.0029940119760479044
+11-04 16:45 INFO     net 45 final test acc 0.099960
+11-04 16:45 INFO     net 45 knowledge network test acc 0.099960
+11-04 16:45 INFO     Training network 46. n_training: 811
+11-04 16:45 INFO     Training Accuracy: 0.006165228113440197
+11-04 16:45 INFO     net 46 final test acc 0.099960
+11-04 16:45 INFO     net 46 knowledge network test acc 0.099960
+11-04 16:46 INFO     Training network 47. n_training: 1022
+11-04 16:46 INFO     Training Accuracy: 0.1888454011741683
+11-04 16:46 INFO     net 47 final test acc 0.099960
+11-04 16:46 INFO     net 47 knowledge network test acc 0.099960
+11-04 16:46 INFO     Training network 48. n_training: 1031
+11-04 16:47 INFO     Training Accuracy: 0.0009699321047526673
+11-04 16:47 INFO     net 48 final test acc 0.099960
+11-04 16:47 INFO     net 48 knowledge network test acc 0.099960
+11-04 16:47 INFO     avg test acc after local update 0.099960
+11-04 16:47 INFO     avg knowledge test acc after local update 0.099960
+11-04 16:47 INFO     communication round 11 global model test acc 0.100060
+11-04 16:47 INFO     in comm round:12####################################################################################################
+11-04 16:47 INFO     Training network 0. n_training: 1302
+11-04 16:48 INFO     Training Accuracy: 0.026881720430107527
+11-04 16:49 INFO     net 0 final test acc 0.099960
+11-04 16:49 INFO     net 0 knowledge network test acc 0.099960
+11-04 16:49 INFO     Training network 1. n_training: 1222
+11-04 16:50 INFO     Training Accuracy: 0.11292962356792144
+11-04 16:50 INFO     net 1 final test acc 0.099960
+11-04 16:50 INFO     net 1 knowledge network test acc 0.099960
+11-04 16:50 INFO     Training network 3. n_training: 948
+11-04 16:50 INFO     Training Accuracy: 0.2890295358649789
+11-04 16:50 INFO     net 3 final test acc 0.099960
+11-04 16:50 INFO     net 3 knowledge network test acc 0.099960
+11-04 16:51 INFO     Training network 4. n_training: 1047
+11-04 16:51 INFO     Training Accuracy: 0.0725883476599809
+11-04 16:51 INFO     net 4 final test acc 0.099960
+11-04 16:51 INFO     net 4 knowledge network test acc 0.099960
+11-04 16:52 INFO     Training network 5. n_training: 1270
+11-04 16:53 INFO     Training Accuracy: 0.17716535433070865
+11-04 16:53 INFO     net 5 final test acc 0.099960
+11-04 16:53 INFO     net 5 knowledge network test acc 0.099960
+11-04 16:53 INFO     Training network 6. n_training: 1100
+11-04 16:54 INFO     Training Accuracy: 0.008181818181818182
+11-04 16:54 INFO     net 6 final test acc 0.099960
+11-04 16:54 INFO     net 6 knowledge network test acc 0.099960
+11-04 16:54 INFO     Training network 7. n_training: 925
+11-04 16:55 INFO     Training Accuracy: 0.1545945945945946
+11-04 16:55 INFO     net 7 final test acc 0.099960
+11-04 16:55 INFO     net 7 knowledge network test acc 0.099960
+11-04 16:55 INFO     Training network 8. n_training: 1067
+11-04 16:56 INFO     Training Accuracy: 0.0009372071227741331
+11-04 16:56 INFO     net 8 final test acc 0.099960
+11-04 16:56 INFO     net 8 knowledge network test acc 0.099960
+11-04 16:56 INFO     Training network 9. n_training: 1018
+11-04 16:56 INFO     Training Accuracy: 0.22593320235756384
+11-04 16:56 INFO     net 9 final test acc 0.099960
+11-04 16:56 INFO     net 9 knowledge network test acc 0.099960
+11-04 16:56 INFO     Training network 10. n_training: 1012
+11-04 16:57 INFO     Training Accuracy: 0.116600790513834
+11-04 16:57 INFO     net 10 final test acc 0.099960
+11-04 16:57 INFO     net 10 knowledge network test acc 0.099960
+11-04 16:57 INFO     Training network 11. n_training: 209
+11-04 16:58 INFO     Training Accuracy: 0.06698564593301436
+11-04 16:58 INFO     net 11 final test acc 0.099960
+11-04 16:58 INFO     net 11 knowledge network test acc 0.099960
+11-04 16:58 INFO     Training network 12. n_training: 423
+11-04 16:58 INFO     Training Accuracy: 0.016548463356973995
+11-04 16:58 INFO     net 12 final test acc 0.099960
+11-04 16:58 INFO     net 12 knowledge network test acc 0.099960
+11-04 16:58 INFO     Training network 15. n_training: 797
+11-04 16:59 INFO     Training Accuracy: 0.4642409033877039
+11-04 16:59 INFO     net 15 final test acc 0.099960
+11-04 16:59 INFO     net 15 knowledge network test acc 0.099960
+11-04 16:59 INFO     Training network 16. n_training: 1024
+11-04 17:00 INFO     Training Accuracy: 0.109375
+11-04 17:00 INFO     net 16 final test acc 0.099960
+11-04 17:00 INFO     net 16 knowledge network test acc 0.099960
+11-04 17:00 INFO     Training network 19. n_training: 1277
+11-04 17:01 INFO     Training Accuracy: 0.025058731401722788
+11-04 17:01 INFO     net 19 final test acc 0.099960
+11-04 17:01 INFO     net 19 knowledge network test acc 0.099960
+11-04 17:01 INFO     Training network 20. n_training: 1030
+11-04 17:02 INFO     Training Accuracy: 0.11941747572815534
+11-04 17:02 INFO     net 20 final test acc 0.099960
+11-04 17:02 INFO     net 20 knowledge network test acc 0.099960
+11-04 17:02 INFO     Training network 21. n_training: 1320
+11-04 17:03 INFO     Training Accuracy: 0.18257575757575759
+11-04 17:03 INFO     net 21 final test acc 0.099960
+11-04 17:03 INFO     net 21 knowledge network test acc 0.099960
+11-04 17:03 INFO     Training network 22. n_training: 804
+11-04 17:04 INFO     Training Accuracy: 0.15796019900497513
+11-04 17:04 INFO     net 22 final test acc 0.099960
+11-04 17:04 INFO     net 22 knowledge network test acc 0.099960
+11-04 17:04 INFO     Training network 23. n_training: 1619
+11-04 17:05 INFO     Training Accuracy: 0.0006176652254478073
+11-04 17:05 INFO     net 23 final test acc 0.099960
+11-04 17:05 INFO     net 23 knowledge network test acc 0.099960
+11-04 17:05 INFO     Training network 25. n_training: 777
+11-04 17:06 INFO     Training Accuracy: 0.05791505791505792
+11-04 17:06 INFO     net 25 final test acc 0.099960
+11-04 17:06 INFO     net 25 knowledge network test acc 0.099960
+11-04 17:06 INFO     Training network 26. n_training: 1385
+11-04 17:07 INFO     Training Accuracy: 0.0
+11-04 17:07 INFO     net 26 final test acc 0.099960
+11-04 17:07 INFO     net 26 knowledge network test acc 0.099960
+11-04 17:07 INFO     Training network 27. n_training: 944
+11-04 17:08 INFO     Training Accuracy: 0.3125
+11-04 17:08 INFO     net 27 final test acc 0.099960
+11-04 17:08 INFO     net 27 knowledge network test acc 0.099960
+11-04 17:08 INFO     Training network 30. n_training: 1036
+11-04 17:09 INFO     Training Accuracy: 0.0444015444015444
+11-04 17:09 INFO     net 30 final test acc 0.099960
+11-04 17:09 INFO     net 30 knowledge network test acc 0.099960
+11-04 17:09 INFO     Training network 32. n_training: 1427
+11-04 17:10 INFO     Training Accuracy: 0.00350385423966363
+11-04 17:10 INFO     net 32 final test acc 0.099960
+11-04 17:10 INFO     net 32 knowledge network test acc 0.099960
+11-04 17:10 INFO     Training network 33. n_training: 1082
+11-04 17:11 INFO     Training Accuracy: 0.1987060998151571
+11-04 17:11 INFO     net 33 final test acc 0.099960
+11-04 17:11 INFO     net 33 knowledge network test acc 0.099960
+11-04 17:11 INFO     Training network 34. n_training: 1155
+11-04 17:12 INFO     Training Accuracy: 0.27705627705627706
+11-04 17:12 INFO     net 34 final test acc 0.099960
+11-04 17:12 INFO     net 34 knowledge network test acc 0.099960
+11-04 17:12 INFO     Training network 35. n_training: 1377
+11-04 17:13 INFO     Training Accuracy: 0.030501089324618737
+11-04 17:14 INFO     net 35 final test acc 0.099960
+11-04 17:14 INFO     net 35 knowledge network test acc 0.099960
+11-04 17:14 INFO     Training network 36. n_training: 599
+11-04 17:14 INFO     Training Accuracy: 0.0
+11-04 17:14 INFO     net 36 final test acc 0.099960
+11-04 17:14 INFO     net 36 knowledge network test acc 0.099960
+11-04 17:14 INFO     Training network 37. n_training: 1071
+11-04 17:15 INFO     Training Accuracy: 0.013071895424836602
+11-04 17:15 INFO     net 37 final test acc 0.099960
+11-04 17:15 INFO     net 37 knowledge network test acc 0.099960
+11-04 17:15 INFO     Training network 38. n_training: 748
+11-04 17:16 INFO     Training Accuracy: 0.009358288770053475
+11-04 17:16 INFO     net 38 final test acc 0.099960
+11-04 17:16 INFO     net 38 knowledge network test acc 0.099960
+11-04 17:16 INFO     Training network 40. n_training: 1059
+11-04 17:17 INFO     Training Accuracy: 0.0018885741265344666
+11-04 17:17 INFO     net 40 final test acc 0.099960
+11-04 17:17 INFO     net 40 knowledge network test acc 0.099960
+11-04 17:17 INFO     Training network 42. n_training: 703
+11-04 17:17 INFO     Training Accuracy: 0.1891891891891892
+11-04 17:17 INFO     net 42 final test acc 0.099960
+11-04 17:17 INFO     net 42 knowledge network test acc 0.099960
+11-04 17:17 INFO     Training network 43. n_training: 1321
+11-04 17:18 INFO     Training Accuracy: 0.01514004542013626
+11-04 17:19 INFO     net 43 final test acc 0.099960
+11-04 17:19 INFO     net 43 knowledge network test acc 0.099960
+11-04 17:19 INFO     Training network 45. n_training: 1002
+11-04 17:19 INFO     Training Accuracy: 0.003992015968063872
+11-04 17:19 INFO     net 45 final test acc 0.099960
+11-04 17:19 INFO     net 45 knowledge network test acc 0.099960
+11-04 17:20 INFO     Training network 47. n_training: 1022
+11-04 17:20 INFO     Training Accuracy: 0.18590998043052837
+11-04 17:20 INFO     net 47 final test acc 0.099960
+11-04 17:20 INFO     net 47 knowledge network test acc 0.099960
+11-04 17:20 INFO     avg test acc after local update 0.099960
+11-04 17:20 INFO     avg knowledge test acc after local update 0.099960
+11-04 17:20 INFO     communication round 12 global model test acc 0.100060
+11-04 17:20 INFO     in comm round:13####################################################################################################
+11-04 17:20 INFO     Training network 1. n_training: 1222
+11-04 17:21 INFO     Training Accuracy: 0.11374795417348608
+11-04 17:21 INFO     net 1 final test acc 0.099960
+11-04 17:21 INFO     net 1 knowledge network test acc 0.099960
+11-04 17:21 INFO     Training network 2. n_training: 626
+11-04 17:22 INFO     Training Accuracy: 0.004792332268370607
+11-04 17:22 INFO     net 2 final test acc 0.099960
+11-04 17:22 INFO     net 2 knowledge network test acc 0.099960
+11-04 17:22 INFO     Training network 3. n_training: 948
+11-04 17:23 INFO     Training Accuracy: 0.2858649789029536
+11-04 17:23 INFO     net 3 final test acc 0.099960
+11-04 17:23 INFO     net 3 knowledge network test acc 0.099960
+11-04 17:23 INFO     Training network 4. n_training: 1047
+11-04 17:24 INFO     Training Accuracy: 0.0725883476599809
+11-04 17:24 INFO     net 4 final test acc 0.099960
+11-04 17:24 INFO     net 4 knowledge network test acc 0.099960
+11-04 17:24 INFO     Training network 5. n_training: 1270
+11-04 17:25 INFO     Training Accuracy: 0.1795275590551181
+11-04 17:25 INFO     net 5 final test acc 0.099960
+11-04 17:25 INFO     net 5 knowledge network test acc 0.099960
+11-04 17:25 INFO     Training network 6. n_training: 1100
+11-04 17:26 INFO     Training Accuracy: 0.008181818181818182
+11-04 17:26 INFO     net 6 final test acc 0.099960
+11-04 17:26 INFO     net 6 knowledge network test acc 0.099960
+11-04 17:26 INFO     Training network 7. n_training: 925
+11-04 17:27 INFO     Training Accuracy: 0.1545945945945946
+11-04 17:27 INFO     net 7 final test acc 0.099960
+11-04 17:27 INFO     net 7 knowledge network test acc 0.099960
+11-04 17:27 INFO     Training network 9. n_training: 1018
+11-04 17:28 INFO     Training Accuracy: 0.22593320235756384
+11-04 17:28 INFO     net 9 final test acc 0.099960
+11-04 17:28 INFO     net 9 knowledge network test acc 0.099960
+11-04 17:28 INFO     Training network 10. n_training: 1012
+11-04 17:29 INFO     Training Accuracy: 0.11857707509881422
+11-04 17:29 INFO     net 10 final test acc 0.099960
+11-04 17:29 INFO     net 10 knowledge network test acc 0.099960
+11-04 17:29 INFO     Training network 11. n_training: 209
+11-04 17:29 INFO     Training Accuracy: 0.05741626794258373
+11-04 17:29 INFO     net 11 final test acc 0.099960
+11-04 17:29 INFO     net 11 knowledge network test acc 0.099960
+11-04 17:29 INFO     Training network 12. n_training: 423
+11-04 17:29 INFO     Training Accuracy: 0.016548463356973995
+11-04 17:29 INFO     net 12 final test acc 0.099960
+11-04 17:29 INFO     net 12 knowledge network test acc 0.099960
+11-04 17:29 INFO     Training network 14. n_training: 1050
+11-04 17:30 INFO     Training Accuracy: 0.21142857142857144
+11-04 17:30 INFO     net 14 final test acc 0.099960
+11-04 17:30 INFO     net 14 knowledge network test acc 0.099960
+11-04 17:30 INFO     Training network 15. n_training: 797
+11-04 17:31 INFO     Training Accuracy: 0.4617314930991217
+11-04 17:31 INFO     net 15 final test acc 0.099960
+11-04 17:31 INFO     net 15 knowledge network test acc 0.099960
+11-04 17:31 INFO     Training network 16. n_training: 1024
+11-04 17:32 INFO     Training Accuracy: 0.109375
+11-04 17:32 INFO     net 16 final test acc 0.099960
+11-04 17:32 INFO     net 16 knowledge network test acc 0.099960
+11-04 17:32 INFO     Training network 18. n_training: 888
+11-04 17:33 INFO     Training Accuracy: 0.07657657657657657
+11-04 17:33 INFO     net 18 final test acc 0.099960
+11-04 17:33 INFO     net 18 knowledge network test acc 0.099960
+11-04 17:33 INFO     Training network 19. n_training: 1277
+11-04 17:34 INFO     Training Accuracy: 0.025841816758026624
+11-04 17:34 INFO     net 19 final test acc 0.099960
+11-04 17:34 INFO     net 19 knowledge network test acc 0.099960
+11-04 17:34 INFO     Training network 20. n_training: 1030
+11-04 17:35 INFO     Training Accuracy: 0.11941747572815534
+11-04 17:35 INFO     net 20 final test acc 0.099960
+11-04 17:35 INFO     net 20 knowledge network test acc 0.099960
+11-04 17:35 INFO     Training network 23. n_training: 1619
+11-04 17:36 INFO     Training Accuracy: 0.0006176652254478073
+11-04 17:36 INFO     net 23 final test acc 0.099960
+11-04 17:36 INFO     net 23 knowledge network test acc 0.099960
+11-04 17:36 INFO     Training network 27. n_training: 944
+11-04 17:37 INFO     Training Accuracy: 0.3167372881355932
+11-04 17:37 INFO     net 27 final test acc 0.099960
+11-04 17:37 INFO     net 27 knowledge network test acc 0.099960
+11-04 17:37 INFO     Training network 28. n_training: 1525
+11-04 17:38 INFO     Training Accuracy: 0.036721311475409836
+11-04 17:39 INFO     net 28 final test acc 0.099960
+11-04 17:39 INFO     net 28 knowledge network test acc 0.099960
+11-04 17:39 INFO     Training network 30. n_training: 1036
+11-04 17:39 INFO     Training Accuracy: 0.0444015444015444
+11-04 17:39 INFO     net 30 final test acc 0.099960
+11-04 17:39 INFO     net 30 knowledge network test acc 0.099960
+11-04 17:39 INFO     Training network 31. n_training: 606
+11-04 17:40 INFO     Training Accuracy: 0.08745874587458746
+11-04 17:40 INFO     net 31 final test acc 0.099960
+11-04 17:40 INFO     net 31 knowledge network test acc 0.099960
+11-04 17:40 INFO     Training network 34. n_training: 1155
+11-04 17:41 INFO     Training Accuracy: 0.2787878787878788
+11-04 17:41 INFO     net 34 final test acc 0.099960
+11-04 17:41 INFO     net 34 knowledge network test acc 0.099960
+11-04 17:41 INFO     Training network 35. n_training: 1377
+11-04 17:42 INFO     Training Accuracy: 0.03195352214960058
+11-04 17:42 INFO     net 35 final test acc 0.099960
+11-04 17:42 INFO     net 35 knowledge network test acc 0.099960
+11-04 17:42 INFO     Training network 36. n_training: 599
+11-04 17:43 INFO     Training Accuracy: 0.0
+11-04 17:43 INFO     net 36 final test acc 0.099960
+11-04 17:43 INFO     net 36 knowledge network test acc 0.099960
+11-04 17:43 INFO     Training network 39. n_training: 975
+11-04 17:44 INFO     Training Accuracy: 0.019487179487179488
+11-04 17:44 INFO     net 39 final test acc 0.099960
+11-04 17:44 INFO     net 39 knowledge network test acc 0.099960
+11-04 17:44 INFO     Training network 40. n_training: 1059
+11-04 17:44 INFO     Training Accuracy: 0.0018885741265344666
+11-04 17:45 INFO     net 40 final test acc 0.099960
+11-04 17:45 INFO     net 40 knowledge network test acc 0.099960
+11-04 17:45 INFO     Training network 41. n_training: 1010
+11-04 17:45 INFO     Training Accuracy: 0.04950495049504951
+11-04 17:45 INFO     net 41 final test acc 0.099960
+11-04 17:45 INFO     net 41 knowledge network test acc 0.099960
+11-04 17:45 INFO     Training network 42. n_training: 703
+11-04 17:46 INFO     Training Accuracy: 0.18634423897581792
+11-04 17:46 INFO     net 42 final test acc 0.099960
+11-04 17:46 INFO     net 42 knowledge network test acc 0.099960
+11-04 17:46 INFO     Training network 43. n_training: 1321
+11-04 17:47 INFO     Training Accuracy: 0.015897047691143074
+11-04 17:47 INFO     net 43 final test acc 0.099960
+11-04 17:47 INFO     net 43 knowledge network test acc 0.099960
+11-04 17:47 INFO     Training network 44. n_training: 1260
+11-04 17:48 INFO     Training Accuracy: 0.28809523809523807
+11-04 17:48 INFO     net 44 final test acc 0.099960
+11-04 17:48 INFO     net 44 knowledge network test acc 0.099960
+11-04 17:48 INFO     Training network 45. n_training: 1002
+11-04 17:49 INFO     Training Accuracy: 0.003992015968063872
+11-04 17:49 INFO     net 45 final test acc 0.099960
+11-04 17:49 INFO     net 45 knowledge network test acc 0.099960
+11-04 17:49 INFO     Training network 47. n_training: 1022
+11-04 17:50 INFO     Training Accuracy: 0.18590998043052837
+11-04 17:50 INFO     net 47 final test acc 0.099960
+11-04 17:50 INFO     net 47 knowledge network test acc 0.099960
+11-04 17:50 INFO     Training network 48. n_training: 1031
+11-04 17:51 INFO     Training Accuracy: 0.0009699321047526673
+11-04 17:51 INFO     net 48 final test acc 0.099960
+11-04 17:51 INFO     net 48 knowledge network test acc 0.099960
+11-04 17:51 INFO     Training network 49. n_training: 946
+11-04 17:52 INFO     Training Accuracy: 0.27061310782241016
+11-04 17:52 INFO     net 49 final test acc 0.099960
+11-04 17:52 INFO     net 49 knowledge network test acc 0.099960
+11-04 17:52 INFO     avg test acc after local update 0.099960
+11-04 17:52 INFO     avg knowledge test acc after local update 0.099960
+11-04 17:52 INFO     communication round 13 global model test acc 0.100060
+11-04 17:52 INFO     in comm round:14####################################################################################################
+11-04 17:52 INFO     Training network 0. n_training: 1302
+11-04 17:53 INFO     Training Accuracy: 0.026113671274961597
+11-04 17:53 INFO     net 0 final test acc 0.099960
+11-04 17:53 INFO     net 0 knowledge network test acc 0.099960
+11-04 17:53 INFO     Training network 1. n_training: 1222
+11-04 17:54 INFO     Training Accuracy: 0.11292962356792144
+11-04 17:54 INFO     net 1 final test acc 0.099960
+11-04 17:54 INFO     net 1 knowledge network test acc 0.099960
+11-04 17:54 INFO     Training network 4. n_training: 1047
+11-04 17:55 INFO     Training Accuracy: 0.07449856733524356
+11-04 17:55 INFO     net 4 final test acc 0.099960
+11-04 17:55 INFO     net 4 knowledge network test acc 0.099960
+11-04 17:55 INFO     Training network 5. n_training: 1270
+11-04 17:56 INFO     Training Accuracy: 0.18188976377952756
+11-04 17:56 INFO     net 5 final test acc 0.099960
+11-04 17:56 INFO     net 5 knowledge network test acc 0.099960
+11-04 17:56 INFO     Training network 8. n_training: 1067
+11-04 17:57 INFO     Training Accuracy: 0.0009372071227741331
+11-04 17:57 INFO     net 8 final test acc 0.099960
+11-04 17:57 INFO     net 8 knowledge network test acc 0.099960
+11-04 17:57 INFO     Training network 9. n_training: 1018
+11-04 17:58 INFO     Training Accuracy: 0.22593320235756384
+11-04 17:58 INFO     net 9 final test acc 0.099960
+11-04 17:58 INFO     net 9 knowledge network test acc 0.099960
+11-04 17:58 INFO     Training network 10. n_training: 1012
+11-04 17:59 INFO     Training Accuracy: 0.11758893280632411
+11-04 17:59 INFO     net 10 final test acc 0.099960
+11-04 17:59 INFO     net 10 knowledge network test acc 0.099960
+11-04 17:59 INFO     Training network 14. n_training: 1050
+11-04 18:00 INFO     Training Accuracy: 0.21047619047619048
+11-04 18:00 INFO     net 14 final test acc 0.099960
+11-04 18:00 INFO     net 14 knowledge network test acc 0.099960
+11-04 18:00 INFO     Training network 15. n_training: 797
+11-04 18:00 INFO     Training Accuracy: 0.47051442910915936
+11-04 18:00 INFO     net 15 final test acc 0.099960
+11-04 18:00 INFO     net 15 knowledge network test acc 0.099960
+11-04 18:00 INFO     Training network 17. n_training: 559
+11-04 18:01 INFO     Training Accuracy: 0.014311270125223614
+11-04 18:01 INFO     net 17 final test acc 0.099960
+11-04 18:01 INFO     net 17 knowledge network test acc 0.099960
+11-04 18:01 INFO     Training network 18. n_training: 888
+11-04 18:02 INFO     Training Accuracy: 0.07094594594594594
+11-04 18:02 INFO     net 18 final test acc 0.099960
+11-04 18:02 INFO     net 18 knowledge network test acc 0.099960
+11-04 18:02 INFO     Training network 19. n_training: 1277
+11-04 18:03 INFO     Training Accuracy: 0.025058731401722788
+11-04 18:03 INFO     net 19 final test acc 0.099960
+11-04 18:03 INFO     net 19 knowledge network test acc 0.099960
+11-04 18:03 INFO     Training network 21. n_training: 1320
+11-04 18:04 INFO     Training Accuracy: 0.18181818181818182
+11-04 18:04 INFO     net 21 final test acc 0.099960
+11-04 18:04 INFO     net 21 knowledge network test acc 0.099960
+11-04 18:04 INFO     Training network 22. n_training: 804
+11-04 18:05 INFO     Training Accuracy: 0.15796019900497513
+11-04 18:05 INFO     net 22 final test acc 0.099960
+11-04 18:05 INFO     net 22 knowledge network test acc 0.099960
+11-04 18:05 INFO     Training network 23. n_training: 1619
+11-04 18:06 INFO     Training Accuracy: 0.0006176652254478073
+11-04 18:06 INFO     net 23 final test acc 0.099960
+11-04 18:06 INFO     net 23 knowledge network test acc 0.099960
+11-04 18:06 INFO     Training network 25. n_training: 777
+11-04 18:07 INFO     Training Accuracy: 0.05662805662805663
+11-04 18:07 INFO     net 25 final test acc 0.099960
+11-04 18:07 INFO     net 25 knowledge network test acc 0.099960
+11-04 18:07 INFO     Training network 26. n_training: 1385
+11-04 18:08 INFO     Training Accuracy: 0.0
+11-04 18:08 INFO     net 26 final test acc 0.099960
+11-04 18:08 INFO     net 26 knowledge network test acc 0.099960
+11-04 18:08 INFO     Training network 28. n_training: 1525
+11-04 18:09 INFO     Training Accuracy: 0.0380327868852459
+11-04 18:09 INFO     net 28 final test acc 0.099960
+11-04 18:09 INFO     net 28 knowledge network test acc 0.099960
+11-04 18:09 INFO     Training network 29. n_training: 515
+11-04 18:10 INFO     Training Accuracy: 0.062135922330097085
+11-04 18:10 INFO     net 29 final test acc 0.099960
+11-04 18:10 INFO     net 29 knowledge network test acc 0.099960
+11-04 18:10 INFO     Training network 30. n_training: 1036
+11-04 18:11 INFO     Training Accuracy: 0.0444015444015444
+11-04 18:11 INFO     net 30 final test acc 0.099960
+11-04 18:11 INFO     net 30 knowledge network test acc 0.099960
+11-04 18:11 INFO     Training network 31. n_training: 606
+11-04 18:11 INFO     Training Accuracy: 0.0858085808580858
+11-04 18:11 INFO     net 31 final test acc 0.099960
+11-04 18:11 INFO     net 31 knowledge network test acc 0.099960
+11-04 18:11 INFO     Training network 32. n_training: 1427
+11-04 18:12 INFO     Training Accuracy: 0.00350385423966363
+11-04 18:12 INFO     net 32 final test acc 0.099960
+11-04 18:12 INFO     net 32 knowledge network test acc 0.099960
+11-04 18:13 INFO     Training network 33. n_training: 1082
+11-04 18:13 INFO     Training Accuracy: 0.19408502772643252
+11-04 18:13 INFO     net 33 final test acc 0.099960
+11-04 18:13 INFO     net 33 knowledge network test acc 0.099960
+11-04 18:13 INFO     Training network 34. n_training: 1155
+11-04 18:14 INFO     Training Accuracy: 0.27705627705627706
+11-04 18:15 INFO     net 34 final test acc 0.099960
+11-04 18:15 INFO     net 34 knowledge network test acc 0.099960
+11-04 18:15 INFO     Training network 38. n_training: 748
+11-04 18:15 INFO     Training Accuracy: 0.008021390374331552
+11-04 18:15 INFO     net 38 final test acc 0.099960
+11-04 18:15 INFO     net 38 knowledge network test acc 0.099960
+11-04 18:15 INFO     Training network 39. n_training: 975
+11-04 18:16 INFO     Training Accuracy: 0.019487179487179488
+11-04 18:16 INFO     net 39 final test acc 0.099960
+11-04 18:16 INFO     net 39 knowledge network test acc 0.099960
+11-04 18:16 INFO     Training network 40. n_training: 1059
+11-04 18:17 INFO     Training Accuracy: 0.0009442870632672333
+11-04 18:17 INFO     net 40 final test acc 0.099960
+11-04 18:17 INFO     net 40 knowledge network test acc 0.099960
+11-04 18:17 INFO     Training network 41. n_training: 1010
+11-04 18:18 INFO     Training Accuracy: 0.048514851485148516
+11-04 18:18 INFO     net 41 final test acc 0.099960
+11-04 18:18 INFO     net 41 knowledge network test acc 0.099960
+11-04 18:18 INFO     Training network 42. n_training: 703
+11-04 18:18 INFO     Training Accuracy: 0.18349928876244664
+11-04 18:18 INFO     net 42 final test acc 0.099960
+11-04 18:18 INFO     net 42 knowledge network test acc 0.099960
+11-04 18:19 INFO     Training network 43. n_training: 1321
+11-04 18:20 INFO     Training Accuracy: 0.01514004542013626
+11-04 18:20 INFO     net 43 final test acc 0.099960
+11-04 18:20 INFO     net 43 knowledge network test acc 0.099960
+11-04 18:20 INFO     Training network 44. n_training: 1260
+11-04 18:21 INFO     Training Accuracy: 0.2841269841269841
+11-04 18:21 INFO     net 44 final test acc 0.099960
+11-04 18:21 INFO     net 44 knowledge network test acc 0.099960
+11-04 18:21 INFO     Training network 45. n_training: 1002
+11-04 18:21 INFO     Training Accuracy: 0.003992015968063872
+11-04 18:22 INFO     net 45 final test acc 0.099960
+11-04 18:22 INFO     net 45 knowledge network test acc 0.099960
+11-04 18:22 INFO     Training network 46. n_training: 811
+11-04 18:22 INFO     Training Accuracy: 0.006165228113440197
+11-04 18:22 INFO     net 46 final test acc 0.099960
+11-04 18:22 INFO     net 46 knowledge network test acc 0.099960
+11-04 18:22 INFO     Training network 47. n_training: 1022
+11-04 18:23 INFO     Training Accuracy: 0.18101761252446183
+11-04 18:23 INFO     net 47 final test acc 0.099960
+11-04 18:23 INFO     net 47 knowledge network test acc 0.099960
+11-04 18:23 INFO     Training network 49. n_training: 946
+11-04 18:24 INFO     Training Accuracy: 0.26849894291754756
+11-04 18:24 INFO     net 49 final test acc 0.099960
+11-04 18:24 INFO     net 49 knowledge network test acc 0.099960
+11-04 18:24 INFO     avg test acc after local update 0.099960
+11-04 18:24 INFO     avg knowledge test acc after local update 0.099960
+11-04 18:24 INFO     communication round 14 global model test acc 0.100060
+11-04 18:24 INFO     in comm round:15####################################################################################################
+11-04 18:24 INFO     Training network 0. n_training: 1302
+11-04 18:25 INFO     Training Accuracy: 0.026881720430107527
+11-04 18:25 INFO     net 0 final test acc 0.099960
+11-04 18:25 INFO     net 0 knowledge network test acc 0.099960
+11-04 18:25 INFO     Training network 1. n_training: 1222
+11-04 18:26 INFO     Training Accuracy: 0.11374795417348608
+11-04 18:26 INFO     net 1 final test acc 0.099960
+11-04 18:26 INFO     net 1 knowledge network test acc 0.099960
+11-04 18:26 INFO     Training network 2. n_training: 626
+11-04 18:27 INFO     Training Accuracy: 0.006389776357827476
+11-04 18:27 INFO     net 2 final test acc 0.099960
+11-04 18:27 INFO     net 2 knowledge network test acc 0.099960
+11-04 18:27 INFO     Training network 4. n_training: 1047
+11-04 18:28 INFO     Training Accuracy: 0.0725883476599809
+11-04 18:28 INFO     net 4 final test acc 0.099960
+11-04 18:28 INFO     net 4 knowledge network test acc 0.099960
+11-04 18:28 INFO     Training network 5. n_training: 1270
+11-04 18:29 INFO     Training Accuracy: 0.17874015748031497
+11-04 18:29 INFO     net 5 final test acc 0.099960
+11-04 18:29 INFO     net 5 knowledge network test acc 0.099960
+11-04 18:29 INFO     Training network 6. n_training: 1100
+11-04 18:30 INFO     Training Accuracy: 0.008181818181818182
+11-04 18:30 INFO     net 6 final test acc 0.099960
+11-04 18:30 INFO     net 6 knowledge network test acc 0.099960
+11-04 18:30 INFO     Training network 7. n_training: 925
+11-04 18:31 INFO     Training Accuracy: 0.1491891891891892
+11-04 18:31 INFO     net 7 final test acc 0.099960
+11-04 18:31 INFO     net 7 knowledge network test acc 0.099960
+11-04 18:31 INFO     Training network 8. n_training: 1067
+11-04 18:32 INFO     Training Accuracy: 0.0009372071227741331
+11-04 18:32 INFO     net 8 final test acc 0.099960
+11-04 18:32 INFO     net 8 knowledge network test acc 0.099960
+11-04 18:32 INFO     Training network 10. n_training: 1012
+11-04 18:32 INFO     Training Accuracy: 0.116600790513834
+11-04 18:32 INFO     net 10 final test acc 0.099960
+11-04 18:33 INFO     net 10 knowledge network test acc 0.099960
+11-04 18:33 INFO     Training network 11. n_training: 209
+11-04 18:33 INFO     Training Accuracy: 0.06698564593301436
+11-04 18:33 INFO     net 11 final test acc 0.099960
+11-04 18:33 INFO     net 11 knowledge network test acc 0.099960
+11-04 18:33 INFO     Training network 14. n_training: 1050
+11-04 18:34 INFO     Training Accuracy: 0.21333333333333335
+11-04 18:34 INFO     net 14 final test acc 0.099960
+11-04 18:34 INFO     net 14 knowledge network test acc 0.099960
+11-04 18:34 INFO     Training network 15. n_training: 797
+11-04 18:34 INFO     Training Accuracy: 0.4617314930991217
+11-04 18:34 INFO     net 15 final test acc 0.099960
+11-04 18:34 INFO     net 15 knowledge network test acc 0.099960
+11-04 18:34 INFO     Training network 16. n_training: 1024
+11-04 18:35 INFO     Training Accuracy: 0.109375
+11-04 18:35 INFO     net 16 final test acc 0.099960
+11-04 18:35 INFO     net 16 knowledge network test acc 0.099960
+11-04 18:35 INFO     Training network 17. n_training: 559
+11-04 18:36 INFO     Training Accuracy: 0.012522361359570662
+11-04 18:36 INFO     net 17 final test acc 0.099960
+11-04 18:36 INFO     net 17 knowledge network test acc 0.099960
+11-04 18:36 INFO     Training network 18. n_training: 888
+11-04 18:37 INFO     Training Accuracy: 0.07432432432432433
+11-04 18:37 INFO     net 18 final test acc 0.099960
+11-04 18:37 INFO     net 18 knowledge network test acc 0.099960
+11-04 18:37 INFO     Training network 19. n_training: 1277
+11-04 18:38 INFO     Training Accuracy: 0.025841816758026624
+11-04 18:38 INFO     net 19 final test acc 0.099960
+11-04 18:38 INFO     net 19 knowledge network test acc 0.099960
+11-04 18:38 INFO     Training network 20. n_training: 1030
+11-04 18:39 INFO     Training Accuracy: 0.11844660194174757
+11-04 18:39 INFO     net 20 final test acc 0.099960
+11-04 18:39 INFO     net 20 knowledge network test acc 0.099960
+11-04 18:39 INFO     Training network 22. n_training: 804
+11-04 18:39 INFO     Training Accuracy: 0.16169154228855723
+11-04 18:39 INFO     net 22 final test acc 0.099960
+11-04 18:39 INFO     net 22 knowledge network test acc 0.099960
+11-04 18:40 INFO     Training network 23. n_training: 1619
+11-04 18:41 INFO     Training Accuracy: 0.0006176652254478073
+11-04 18:41 INFO     net 23 final test acc 0.099960
+11-04 18:41 INFO     net 23 knowledge network test acc 0.099960
+11-04 18:41 INFO     Training network 25. n_training: 777
+11-04 18:42 INFO     Training Accuracy: 0.05662805662805663
+11-04 18:42 INFO     net 25 final test acc 0.099960
+11-04 18:42 INFO     net 25 knowledge network test acc 0.099960
+11-04 18:42 INFO     Training network 26. n_training: 1385
+11-04 18:43 INFO     Training Accuracy: 0.0
+11-04 18:43 INFO     net 26 final test acc 0.099960
+11-04 18:43 INFO     net 26 knowledge network test acc 0.099960
+11-04 18:43 INFO     Training network 27. n_training: 944
+11-04 18:44 INFO     Training Accuracy: 0.3008474576271186
+11-04 18:44 INFO     net 27 final test acc 0.099960
+11-04 18:44 INFO     net 27 knowledge network test acc 0.099960
+11-04 18:44 INFO     Training network 28. n_training: 1525
+11-04 18:45 INFO     Training Accuracy: 0.0380327868852459
+11-04 18:45 INFO     net 28 final test acc 0.099960
+11-04 18:45 INFO     net 28 knowledge network test acc 0.099960
+11-04 18:45 INFO     Training network 29. n_training: 515
+11-04 18:45 INFO     Training Accuracy: 0.062135922330097085
+11-04 18:46 INFO     net 29 final test acc 0.099960
+11-04 18:46 INFO     net 29 knowledge network test acc 0.099960
+11-04 18:46 INFO     Training network 30. n_training: 1036
+11-04 18:46 INFO     Training Accuracy: 0.0444015444015444
+11-04 18:46 INFO     net 30 final test acc 0.099960
+11-04 18:46 INFO     net 30 knowledge network test acc 0.099960
+11-04 18:46 INFO     Training network 32. n_training: 1427
+11-04 18:48 INFO     Training Accuracy: 0.00350385423966363
+11-04 18:48 INFO     net 32 final test acc 0.099960
+11-04 18:48 INFO     net 32 knowledge network test acc 0.099960
+11-04 18:48 INFO     Training network 34. n_training: 1155
+11-04 18:49 INFO     Training Accuracy: 0.2779220779220779
+11-04 18:49 INFO     net 34 final test acc 0.099960
+11-04 18:49 INFO     net 34 knowledge network test acc 0.099960
+11-04 18:49 INFO     Training network 35. n_training: 1377
+11-04 18:50 INFO     Training Accuracy: 0.03122730573710966
+11-04 18:50 INFO     net 35 final test acc 0.099960
+11-04 18:50 INFO     net 35 knowledge network test acc 0.099960
+11-04 18:50 INFO     Training network 36. n_training: 599
+11-04 18:50 INFO     Training Accuracy: 0.0
+11-04 18:50 INFO     net 36 final test acc 0.099960
+11-04 18:50 INFO     net 36 knowledge network test acc 0.099960
+11-04 18:50 INFO     Training network 37. n_training: 1071
+11-04 18:51 INFO     Training Accuracy: 0.014005602240896359
+11-04 18:51 INFO     net 37 final test acc 0.099960
+11-04 18:51 INFO     net 37 knowledge network test acc 0.099960
+11-04 18:51 INFO     Training network 39. n_training: 975
+11-04 18:52 INFO     Training Accuracy: 0.019487179487179488
+11-04 18:52 INFO     net 39 final test acc 0.099960
+11-04 18:52 INFO     net 39 knowledge network test acc 0.099960
+11-04 18:52 INFO     Training network 42. n_training: 703
+11-04 18:53 INFO     Training Accuracy: 0.1906116642958748
+11-04 18:53 INFO     net 42 final test acc 0.099960
+11-04 18:53 INFO     net 42 knowledge network test acc 0.099960
+11-04 18:53 INFO     Training network 47. n_training: 1022
+11-04 18:54 INFO     Training Accuracy: 0.1908023483365949
+11-04 18:54 INFO     net 47 final test acc 0.099960
+11-04 18:54 INFO     net 47 knowledge network test acc 0.099960
+11-04 18:54 INFO     Training network 48. n_training: 1031
+11-04 18:54 INFO     Training Accuracy: 0.0009699321047526673
+11-04 18:55 INFO     net 48 final test acc 0.099960
+11-04 18:55 INFO     net 48 knowledge network test acc 0.099960
+11-04 18:55 INFO     Training network 49. n_training: 946
+11-04 18:55 INFO     Training Accuracy: 0.2748414376321353
+11-04 18:55 INFO     net 49 final test acc 0.099960
+11-04 18:55 INFO     net 49 knowledge network test acc 0.099960
+11-04 18:55 INFO     avg test acc after local update 0.099960
+11-04 18:55 INFO     avg knowledge test acc after local update 0.099960
+11-04 18:55 INFO     communication round 15 global model test acc 0.100060
+11-04 18:55 INFO     in comm round:16####################################################################################################
+11-04 18:55 INFO     Training network 1. n_training: 1222
+11-04 18:56 INFO     Training Accuracy: 0.11292962356792144
+11-04 18:56 INFO     net 1 final test acc 0.099960
+11-04 18:56 INFO     net 1 knowledge network test acc 0.099960
+11-04 18:56 INFO     Training network 4. n_training: 1047
+11-04 18:57 INFO     Training Accuracy: 0.07163323782234957
+11-04 18:57 INFO     net 4 final test acc 0.099960
+11-04 18:57 INFO     net 4 knowledge network test acc 0.099960
+11-04 18:57 INFO     Training network 5. n_training: 1270
+11-04 18:58 INFO     Training Accuracy: 0.18110236220472442
+11-04 18:58 INFO     net 5 final test acc 0.099960
+11-04 18:59 INFO     net 5 knowledge network test acc 0.099960
+11-04 18:59 INFO     Training network 6. n_training: 1100
+11-04 18:59 INFO     Training Accuracy: 0.008181818181818182
+11-04 19:00 INFO     net 6 final test acc 0.099960
+11-04 19:00 INFO     net 6 knowledge network test acc 0.099960
+11-04 19:00 INFO     Training network 7. n_training: 925
+11-04 19:00 INFO     Training Accuracy: 0.1535135135135135
+11-04 19:00 INFO     net 7 final test acc 0.099960
+11-04 19:00 INFO     net 7 knowledge network test acc 0.099960
+11-04 19:00 INFO     Training network 9. n_training: 1018
+11-04 19:01 INFO     Training Accuracy: 0.23084479371316308
+11-04 19:01 INFO     net 9 final test acc 0.099960
+11-04 19:01 INFO     net 9 knowledge network test acc 0.099960
+11-04 19:01 INFO     Training network 10. n_training: 1012
+11-04 19:02 INFO     Training Accuracy: 0.11857707509881422
+11-04 19:02 INFO     net 10 final test acc 0.099960
+11-04 19:02 INFO     net 10 knowledge network test acc 0.099960
+11-04 19:02 INFO     Training network 12. n_training: 423
+11-04 19:03 INFO     Training Accuracy: 0.016548463356973995
+11-04 19:03 INFO     net 12 final test acc 0.099960
+11-04 19:03 INFO     net 12 knowledge network test acc 0.099960
+11-04 19:03 INFO     Training network 13. n_training: 928
+11-04 19:03 INFO     Training Accuracy: 0.005387931034482759
+11-04 19:03 INFO     net 13 final test acc 0.099960
+11-04 19:03 INFO     net 13 knowledge network test acc 0.099960
+11-04 19:03 INFO     Training network 14. n_training: 1050
+11-04 19:04 INFO     Training Accuracy: 0.2123809523809524
+11-04 19:04 INFO     net 14 final test acc 0.099960
+11-04 19:04 INFO     net 14 knowledge network test acc 0.099960
+11-04 19:04 INFO     Training network 15. n_training: 797
+11-04 19:05 INFO     Training Accuracy: 0.45796737766624845
+11-04 19:05 INFO     net 15 final test acc 0.099960
+11-04 19:05 INFO     net 15 knowledge network test acc 0.099960
+11-04 19:05 INFO     Training network 16. n_training: 1024
+11-04 19:06 INFO     Training Accuracy: 0.109375
+11-04 19:06 INFO     net 16 final test acc 0.099960
+11-04 19:06 INFO     net 16 knowledge network test acc 0.099960
+11-04 19:06 INFO     Training network 17. n_training: 559
+11-04 19:06 INFO     Training Accuracy: 0.01073345259391771
+11-04 19:06 INFO     net 17 final test acc 0.099960
+11-04 19:06 INFO     net 17 knowledge network test acc 0.099960
+11-04 19:06 INFO     Training network 18. n_training: 888
+11-04 19:07 INFO     Training Accuracy: 0.07995495495495496
+11-04 19:07 INFO     net 18 final test acc 0.099960
+11-04 19:07 INFO     net 18 knowledge network test acc 0.099960
+11-04 19:07 INFO     Training network 20. n_training: 1030
+11-04 19:08 INFO     Training Accuracy: 0.11844660194174757
+11-04 19:08 INFO     net 20 final test acc 0.099960
+11-04 19:08 INFO     net 20 knowledge network test acc 0.099960
+11-04 19:08 INFO     Training network 22. n_training: 804
+11-04 19:09 INFO     Training Accuracy: 0.15920398009950248
+11-04 19:09 INFO     net 22 final test acc 0.099960
+11-04 19:09 INFO     net 22 knowledge network test acc 0.099960
+11-04 19:09 INFO     Training network 23. n_training: 1619
+11-04 19:10 INFO     Training Accuracy: 0.0006176652254478073
+11-04 19:10 INFO     net 23 final test acc 0.099960
+11-04 19:10 INFO     net 23 knowledge network test acc 0.099960
+11-04 19:10 INFO     Training network 24. n_training: 1148
+11-04 19:11 INFO     Training Accuracy: 0.05313588850174216
+11-04 19:11 INFO     net 24 final test acc 0.099960
+11-04 19:11 INFO     net 24 knowledge network test acc 0.099960
+11-04 19:11 INFO     Training network 25. n_training: 777
+11-04 19:12 INFO     Training Accuracy: 0.05791505791505792
+11-04 19:12 INFO     net 25 final test acc 0.099960
+11-04 19:12 INFO     net 25 knowledge network test acc 0.099960
+11-04 19:12 INFO     Training network 27. n_training: 944
+11-04 19:13 INFO     Training Accuracy: 0.3135593220338983
+11-04 19:13 INFO     net 27 final test acc 0.099960
+11-04 19:13 INFO     net 27 knowledge network test acc 0.099960
+11-04 19:13 INFO     Training network 30. n_training: 1036
+11-04 19:14 INFO     Training Accuracy: 0.0444015444015444
+11-04 19:14 INFO     net 30 final test acc 0.099960
+11-04 19:14 INFO     net 30 knowledge network test acc 0.099960
+11-04 19:14 INFO     Training network 32. n_training: 1427
+11-04 19:15 INFO     Training Accuracy: 0.00350385423966363
+11-04 19:15 INFO     net 32 final test acc 0.099960
+11-04 19:15 INFO     net 32 knowledge network test acc 0.099960
+11-04 19:15 INFO     Training network 33. n_training: 1082
+11-04 19:16 INFO     Training Accuracy: 0.1977818853974122
+11-04 19:16 INFO     net 33 final test acc 0.099960
+11-04 19:16 INFO     net 33 knowledge network test acc 0.099960
+11-04 19:16 INFO     Training network 34. n_training: 1155
+11-04 19:17 INFO     Training Accuracy: 0.2779220779220779
+11-04 19:17 INFO     net 34 final test acc 0.099960
+11-04 19:17 INFO     net 34 knowledge network test acc 0.099960
+11-04 19:17 INFO     Training network 35. n_training: 1377
+11-04 19:18 INFO     Training Accuracy: 0.032679738562091505
+11-04 19:18 INFO     net 35 final test acc 0.099960
+11-04 19:18 INFO     net 35 knowledge network test acc 0.099960
+11-04 19:18 INFO     Training network 37. n_training: 1071
+11-04 19:19 INFO     Training Accuracy: 0.014005602240896359
+11-04 19:19 INFO     net 37 final test acc 0.099960
+11-04 19:19 INFO     net 37 knowledge network test acc 0.099960
+11-04 19:19 INFO     Training network 38. n_training: 748
+11-04 19:20 INFO     Training Accuracy: 0.009358288770053475
+11-04 19:20 INFO     net 38 final test acc 0.099960
+11-04 19:20 INFO     net 38 knowledge network test acc 0.099960
+11-04 19:20 INFO     Training network 39. n_training: 975
+11-04 19:21 INFO     Training Accuracy: 0.018461538461538463
+11-04 19:21 INFO     net 39 final test acc 0.099960
+11-04 19:21 INFO     net 39 knowledge network test acc 0.099960
+11-04 19:21 INFO     Training network 41. n_training: 1010
+11-04 19:21 INFO     Training Accuracy: 0.0504950495049505
+11-04 19:21 INFO     net 41 final test acc 0.099960
+11-04 19:21 INFO     net 41 knowledge network test acc 0.099960
+11-04 19:21 INFO     Training network 42. n_training: 703
+11-04 19:22 INFO     Training Accuracy: 0.18349928876244664
+11-04 19:22 INFO     net 42 final test acc 0.099960
+11-04 19:22 INFO     net 42 knowledge network test acc 0.099960
+11-04 19:22 INFO     Training network 44. n_training: 1260
+11-04 19:23 INFO     Training Accuracy: 0.2865079365079365
+11-04 19:23 INFO     net 44 final test acc 0.099960
+11-04 19:23 INFO     net 44 knowledge network test acc 0.099960
+11-04 19:23 INFO     Training network 45. n_training: 1002
+11-04 19:24 INFO     Training Accuracy: 0.003992015968063872
+11-04 19:24 INFO     net 45 final test acc 0.099960
+11-04 19:24 INFO     net 45 knowledge network test acc 0.099960
+11-04 19:24 INFO     Training network 46. n_training: 811
+11-04 19:25 INFO     Training Accuracy: 0.004932182490752158
+11-04 19:25 INFO     net 46 final test acc 0.099960
+11-04 19:25 INFO     net 46 knowledge network test acc 0.099960
+11-04 19:25 INFO     Training network 48. n_training: 1031
+11-04 19:26 INFO     Training Accuracy: 0.0009699321047526673
+11-04 19:26 INFO     net 48 final test acc 0.099960
+11-04 19:26 INFO     net 48 knowledge network test acc 0.099960
+11-04 19:26 INFO     Training network 49. n_training: 946
+11-04 19:26 INFO     Training Accuracy: 0.27061310782241016
+11-04 19:26 INFO     net 49 final test acc 0.099960
+11-04 19:26 INFO     net 49 knowledge network test acc 0.099960
+11-04 19:26 INFO     avg test acc after local update 0.099960
+11-04 19:26 INFO     avg knowledge test acc after local update 0.099960
+11-04 19:27 INFO     communication round 16 global model test acc 0.100060
+11-04 19:27 INFO     in comm round:17####################################################################################################
+11-04 19:27 INFO     Training network 0. n_training: 1302
+11-04 19:28 INFO     Training Accuracy: 0.026113671274961597
+11-04 19:28 INFO     net 0 final test acc 0.099960
+11-04 19:28 INFO     net 0 knowledge network test acc 0.099960
+11-04 19:28 INFO     Training network 1. n_training: 1222
+11-04 19:29 INFO     Training Accuracy: 0.11292962356792144
+11-04 19:29 INFO     net 1 final test acc 0.099960
+11-04 19:29 INFO     net 1 knowledge network test acc 0.099960
+11-04 19:29 INFO     Training network 3. n_training: 948
+11-04 19:30 INFO     Training Accuracy: 0.2911392405063291
+11-04 19:30 INFO     net 3 final test acc 0.099960
+11-04 19:30 INFO     net 3 knowledge network test acc 0.099960
+11-04 19:30 INFO     Training network 4. n_training: 1047
+11-04 19:31 INFO     Training Accuracy: 0.0725883476599809
+11-04 19:31 INFO     net 4 final test acc 0.099960
+11-04 19:31 INFO     net 4 knowledge network test acc 0.099960
+11-04 19:31 INFO     Training network 5. n_training: 1270
+11-04 19:32 INFO     Training Accuracy: 0.18110236220472442
+11-04 19:32 INFO     net 5 final test acc 0.099960
+11-04 19:32 INFO     net 5 knowledge network test acc 0.099960
+11-04 19:32 INFO     Training network 7. n_training: 925
+11-04 19:33 INFO     Training Accuracy: 0.15027027027027026
+11-04 19:33 INFO     net 7 final test acc 0.099960
+11-04 19:33 INFO     net 7 knowledge network test acc 0.099960
+11-04 19:33 INFO     Training network 8. n_training: 1067
+11-04 19:34 INFO     Training Accuracy: 0.0009372071227741331
+11-04 19:34 INFO     net 8 final test acc 0.099960
+11-04 19:34 INFO     net 8 knowledge network test acc 0.099960
+11-04 19:34 INFO     Training network 9. n_training: 1018
+11-04 19:34 INFO     Training Accuracy: 0.22789783889980353
+11-04 19:34 INFO     net 9 final test acc 0.099960
+11-04 19:34 INFO     net 9 knowledge network test acc 0.099960
+11-04 19:35 INFO     Training network 10. n_training: 1012
+11-04 19:35 INFO     Training Accuracy: 0.116600790513834
+11-04 19:35 INFO     net 10 final test acc 0.099960
+11-04 19:35 INFO     net 10 knowledge network test acc 0.099960
+11-04 19:35 INFO     Training network 12. n_training: 423
+11-04 19:36 INFO     Training Accuracy: 0.01182033096926714
+11-04 19:36 INFO     net 12 final test acc 0.099960
+11-04 19:36 INFO     net 12 knowledge network test acc 0.099960
+11-04 19:36 INFO     Training network 13. n_training: 928
+11-04 19:37 INFO     Training Accuracy: 0.005387931034482759
+11-04 19:37 INFO     net 13 final test acc 0.099960
+11-04 19:37 INFO     net 13 knowledge network test acc 0.099960
+11-04 19:37 INFO     Training network 15. n_training: 797
+11-04 19:37 INFO     Training Accuracy: 0.4604767879548306
+11-04 19:37 INFO     net 15 final test acc 0.099960
+11-04 19:37 INFO     net 15 knowledge network test acc 0.099960
+11-04 19:37 INFO     Training network 19. n_training: 1277
+11-04 19:38 INFO     Training Accuracy: 0.02427564604541895
+11-04 19:38 INFO     net 19 final test acc 0.099960
+11-04 19:38 INFO     net 19 knowledge network test acc 0.099960
+11-04 19:38 INFO     Training network 20. n_training: 1030
+11-04 19:39 INFO     Training Accuracy: 0.11747572815533981
+11-04 19:39 INFO     net 20 final test acc 0.099960
+11-04 19:39 INFO     net 20 knowledge network test acc 0.099960
+11-04 19:39 INFO     Training network 21. n_training: 1320
+11-04 19:40 INFO     Training Accuracy: 0.17575757575757575
+11-04 19:40 INFO     net 21 final test acc 0.099960
+11-04 19:40 INFO     net 21 knowledge network test acc 0.099960
+11-04 19:40 INFO     Training network 23. n_training: 1619
+11-04 19:42 INFO     Training Accuracy: 0.0006176652254478073
+11-04 19:42 INFO     net 23 final test acc 0.099960
+11-04 19:42 INFO     net 23 knowledge network test acc 0.099960
+11-04 19:42 INFO     Training network 26. n_training: 1385
+11-04 19:43 INFO     Training Accuracy: 0.0
+11-04 19:43 INFO     net 26 final test acc 0.099960
+11-04 19:43 INFO     net 26 knowledge network test acc 0.099960
+11-04 19:43 INFO     Training network 27. n_training: 944
+11-04 19:44 INFO     Training Accuracy: 0.3072033898305085
+11-04 19:44 INFO     net 27 final test acc 0.099960
+11-04 19:44 INFO     net 27 knowledge network test acc 0.099960
+11-04 19:44 INFO     Training network 28. n_training: 1525
+11-04 19:45 INFO     Training Accuracy: 0.03934426229508197
+11-04 19:45 INFO     net 28 final test acc 0.099960
+11-04 19:45 INFO     net 28 knowledge network test acc 0.099960
+11-04 19:45 INFO     Training network 29. n_training: 515
+11-04 19:46 INFO     Training Accuracy: 0.062135922330097085
+11-04 19:46 INFO     net 29 final test acc 0.099960
+11-04 19:46 INFO     net 29 knowledge network test acc 0.099960
+11-04 19:46 INFO     Training network 31. n_training: 606
+11-04 19:46 INFO     Training Accuracy: 0.0891089108910891
+11-04 19:46 INFO     net 31 final test acc 0.099960
+11-04 19:46 INFO     net 31 knowledge network test acc 0.099960
+11-04 19:46 INFO     Training network 34. n_training: 1155
+11-04 19:47 INFO     Training Accuracy: 0.27705627705627706
+11-04 19:48 INFO     net 34 final test acc 0.099960
+11-04 19:48 INFO     net 34 knowledge network test acc 0.099960
+11-04 19:48 INFO     Training network 35. n_training: 1377
+11-04 19:49 INFO     Training Accuracy: 0.030501089324618737
+11-04 19:49 INFO     net 35 final test acc 0.099960
+11-04 19:49 INFO     net 35 knowledge network test acc 0.099960
+11-04 19:49 INFO     Training network 36. n_training: 599
+11-04 19:49 INFO     Training Accuracy: 0.0
+11-04 19:49 INFO     net 36 final test acc 0.099960
+11-04 19:49 INFO     net 36 knowledge network test acc 0.099960
+11-04 19:49 INFO     Training network 37. n_training: 1071
+11-04 19:50 INFO     Training Accuracy: 0.014939309056956116
+11-04 19:50 INFO     net 37 final test acc 0.099960
+11-04 19:50 INFO     net 37 knowledge network test acc 0.099960
+11-04 19:50 INFO     Training network 38. n_training: 748
+11-04 19:51 INFO     Training Accuracy: 0.009358288770053475
+11-04 19:51 INFO     net 38 final test acc 0.099960
+11-04 19:51 INFO     net 38 knowledge network test acc 0.099960
+11-04 19:51 INFO     Training network 39. n_training: 975
+11-04 19:52 INFO     Training Accuracy: 0.019487179487179488
+11-04 19:52 INFO     net 39 final test acc 0.099960
+11-04 19:52 INFO     net 39 knowledge network test acc 0.099960
+11-04 19:52 INFO     Training network 40. n_training: 1059
+11-04 19:53 INFO     Training Accuracy: 0.0018885741265344666
+11-04 19:53 INFO     net 40 final test acc 0.099960
+11-04 19:53 INFO     net 40 knowledge network test acc 0.099960
+11-04 19:53 INFO     Training network 41. n_training: 1010
+11-04 19:53 INFO     Training Accuracy: 0.053465346534653464
+11-04 19:53 INFO     net 41 final test acc 0.099960
+11-04 19:53 INFO     net 41 knowledge network test acc 0.099960
+11-04 19:53 INFO     Training network 42. n_training: 703
+11-04 19:54 INFO     Training Accuracy: 0.17923186344238975
+11-04 19:54 INFO     net 42 final test acc 0.099960
+11-04 19:54 INFO     net 42 knowledge network test acc 0.099960
+11-04 19:54 INFO     Training network 44. n_training: 1260
+11-04 19:55 INFO     Training Accuracy: 0.2873015873015873
+11-04 19:55 INFO     net 44 final test acc 0.099960
+11-04 19:55 INFO     net 44 knowledge network test acc 0.099960
+11-04 19:55 INFO     Training network 45. n_training: 1002
+11-04 19:56 INFO     Training Accuracy: 0.003992015968063872
+11-04 19:56 INFO     net 45 final test acc 0.099960
+11-04 19:56 INFO     net 45 knowledge network test acc 0.099960
+11-04 19:56 INFO     Training network 46. n_training: 811
+11-04 19:57 INFO     Training Accuracy: 0.006165228113440197
+11-04 19:57 INFO     net 46 final test acc 0.099960
+11-04 19:57 INFO     net 46 knowledge network test acc 0.099960
+11-04 19:57 INFO     Training network 48. n_training: 1031
+11-04 19:58 INFO     Training Accuracy: 0.0009699321047526673
+11-04 19:58 INFO     net 48 final test acc 0.099960
+11-04 19:58 INFO     net 48 knowledge network test acc 0.099960
+11-04 19:58 INFO     Training network 49. n_training: 946
+11-04 19:58 INFO     Training Accuracy: 0.26849894291754756
+11-04 19:58 INFO     net 49 final test acc 0.099960
+11-04 19:59 INFO     net 49 knowledge network test acc 0.099960
+11-04 19:59 INFO     avg test acc after local update 0.099960
+11-04 19:59 INFO     avg knowledge test acc after local update 0.099960
+11-04 19:59 INFO     communication round 17 global model test acc 0.100060
+11-04 19:59 INFO     in comm round:18####################################################################################################
+11-04 19:59 INFO     Training network 0. n_training: 1302
+11-04 20:00 INFO     Training Accuracy: 0.026881720430107527
+11-04 20:00 INFO     net 0 final test acc 0.099960
+11-04 20:00 INFO     net 0 knowledge network test acc 0.099960
+11-04 20:00 INFO     Training network 1. n_training: 1222
+11-04 20:01 INFO     Training Accuracy: 0.11292962356792144
+11-04 20:01 INFO     net 1 final test acc 0.099960
+11-04 20:01 INFO     net 1 knowledge network test acc 0.099960
+11-04 20:01 INFO     Training network 2. n_training: 626
+11-04 20:01 INFO     Training Accuracy: 0.006389776357827476
+11-04 20:01 INFO     net 2 final test acc 0.099960
+11-04 20:01 INFO     net 2 knowledge network test acc 0.099960
+11-04 20:01 INFO     Training network 3. n_training: 948
+11-04 20:02 INFO     Training Accuracy: 0.290084388185654
+11-04 20:02 INFO     net 3 final test acc 0.099960
+11-04 20:02 INFO     net 3 knowledge network test acc 0.099960
+11-04 20:02 INFO     Training network 4. n_training: 1047
+11-04 20:03 INFO     Training Accuracy: 0.06972301814708691
+11-04 20:03 INFO     net 4 final test acc 0.099960
+11-04 20:03 INFO     net 4 knowledge network test acc 0.099960
+11-04 20:03 INFO     Training network 6. n_training: 1100
+11-04 20:04 INFO     Training Accuracy: 0.008181818181818182
+11-04 20:04 INFO     net 6 final test acc 0.099960
+11-04 20:04 INFO     net 6 knowledge network test acc 0.099960
+11-04 20:04 INFO     Training network 7. n_training: 925
+11-04 20:05 INFO     Training Accuracy: 0.1491891891891892
+11-04 20:05 INFO     net 7 final test acc 0.099960
+11-04 20:05 INFO     net 7 knowledge network test acc 0.099960
+11-04 20:05 INFO     Training network 10. n_training: 1012
+11-04 20:06 INFO     Training Accuracy: 0.11561264822134387
+11-04 20:06 INFO     net 10 final test acc 0.099960
+11-04 20:06 INFO     net 10 knowledge network test acc 0.099960
+11-04 20:06 INFO     Training network 11. n_training: 209
+11-04 20:06 INFO     Training Accuracy: 0.06220095693779904
+11-04 20:06 INFO     net 11 final test acc 0.099960
+11-04 20:06 INFO     net 11 knowledge network test acc 0.099960
+11-04 20:06 INFO     Training network 12. n_training: 423
+11-04 20:07 INFO     Training Accuracy: 0.016548463356973995
+11-04 20:07 INFO     net 12 final test acc 0.099960
+11-04 20:07 INFO     net 12 knowledge network test acc 0.099960
+11-04 20:07 INFO     Training network 13. n_training: 928
+11-04 20:07 INFO     Training Accuracy: 0.004310344827586207
+11-04 20:07 INFO     net 13 final test acc 0.099960
+11-04 20:08 INFO     net 13 knowledge network test acc 0.099960
+11-04 20:08 INFO     Training network 14. n_training: 1050
+11-04 20:08 INFO     Training Accuracy: 0.21047619047619048
+11-04 20:08 INFO     net 14 final test acc 0.099960
+11-04 20:08 INFO     net 14 knowledge network test acc 0.099960
+11-04 20:08 INFO     Training network 16. n_training: 1024
+11-04 20:09 INFO     Training Accuracy: 0.109375
+11-04 20:09 INFO     net 16 final test acc 0.099960
+11-04 20:09 INFO     net 16 knowledge network test acc 0.099960
+11-04 20:09 INFO     Training network 18. n_training: 888
+11-04 20:10 INFO     Training Accuracy: 0.0777027027027027
+11-04 20:10 INFO     net 18 final test acc 0.099960
+11-04 20:10 INFO     net 18 knowledge network test acc 0.099960
+11-04 20:10 INFO     Training network 20. n_training: 1030
+11-04 20:11 INFO     Training Accuracy: 0.11747572815533981
+11-04 20:11 INFO     net 20 final test acc 0.099960
+11-04 20:11 INFO     net 20 knowledge network test acc 0.099960
+11-04 20:11 INFO     Training network 22. n_training: 804
+11-04 20:12 INFO     Training Accuracy: 0.15796019900497513
+11-04 20:12 INFO     net 22 final test acc 0.099960
+11-04 20:12 INFO     net 22 knowledge network test acc 0.099960
+11-04 20:12 INFO     Training network 23. n_training: 1619
+11-04 20:13 INFO     Training Accuracy: 0.0006176652254478073
+11-04 20:13 INFO     net 23 final test acc 0.099960
+11-04 20:13 INFO     net 23 knowledge network test acc 0.099960
+11-04 20:13 INFO     Training network 24. n_training: 1148
+11-04 20:14 INFO     Training Accuracy: 0.05400696864111498
+11-04 20:14 INFO     net 24 final test acc 0.099960
+11-04 20:14 INFO     net 24 knowledge network test acc 0.099960
+11-04 20:14 INFO     Training network 25. n_training: 777
+11-04 20:15 INFO     Training Accuracy: 0.05662805662805663
+11-04 20:15 INFO     net 25 final test acc 0.099960
+11-04 20:15 INFO     net 25 knowledge network test acc 0.099960
+11-04 20:15 INFO     Training network 28. n_training: 1525
+11-04 20:16 INFO     Training Accuracy: 0.036721311475409836
+11-04 20:16 INFO     net 28 final test acc 0.099960
+11-04 20:16 INFO     net 28 knowledge network test acc 0.099960
+11-04 20:16 INFO     Training network 29. n_training: 515
+11-04 20:17 INFO     Training Accuracy: 0.062135922330097085
+11-04 20:17 INFO     net 29 final test acc 0.099960
+11-04 20:17 INFO     net 29 knowledge network test acc 0.099960
+11-04 20:17 INFO     Training network 31. n_training: 606
+11-04 20:17 INFO     Training Accuracy: 0.08745874587458746
+11-04 20:17 INFO     net 31 final test acc 0.099960
+11-04 20:17 INFO     net 31 knowledge network test acc 0.099960
+11-04 20:17 INFO     Training network 33. n_training: 1082
+11-04 20:18 INFO     Training Accuracy: 0.19316081330868762
+11-04 20:18 INFO     net 33 final test acc 0.099960
+11-04 20:18 INFO     net 33 knowledge network test acc 0.099960
+11-04 20:18 INFO     Training network 34. n_training: 1155
+11-04 20:19 INFO     Training Accuracy: 0.27705627705627706
+11-04 20:19 INFO     net 34 final test acc 0.099960
+11-04 20:20 INFO     net 34 knowledge network test acc 0.099960
+11-04 20:20 INFO     Training network 35. n_training: 1377
+11-04 20:21 INFO     Training Accuracy: 0.03122730573710966
+11-04 20:21 INFO     net 35 final test acc 0.099960
+11-04 20:21 INFO     net 35 knowledge network test acc 0.099960
+11-04 20:21 INFO     Training network 36. n_training: 599
+11-04 20:21 INFO     Training Accuracy: 0.0
+11-04 20:21 INFO     net 36 final test acc 0.099960
+11-04 20:21 INFO     net 36 knowledge network test acc 0.099960
+11-04 20:21 INFO     Training network 37. n_training: 1071
+11-04 20:22 INFO     Training Accuracy: 0.014939309056956116
+11-04 20:22 INFO     net 37 final test acc 0.099960
+11-04 20:22 INFO     net 37 knowledge network test acc 0.099960
+11-04 20:22 INFO     Training network 38. n_training: 748
+11-04 20:23 INFO     Training Accuracy: 0.0066844919786096255
+11-04 20:23 INFO     net 38 final test acc 0.099960
+11-04 20:23 INFO     net 38 knowledge network test acc 0.099960
+11-04 20:23 INFO     Training network 39. n_training: 975
+11-04 20:24 INFO     Training Accuracy: 0.019487179487179488
+11-04 20:24 INFO     net 39 final test acc 0.099960
+11-04 20:24 INFO     net 39 knowledge network test acc 0.099960
+11-04 20:24 INFO     Training network 40. n_training: 1059
+11-04 20:25 INFO     Training Accuracy: 0.0018885741265344666
+11-04 20:25 INFO     net 40 final test acc 0.099960
+11-04 20:25 INFO     net 40 knowledge network test acc 0.099960
+11-04 20:25 INFO     Training network 42. n_training: 703
+11-04 20:25 INFO     Training Accuracy: 0.1891891891891892
+11-04 20:25 INFO     net 42 final test acc 0.099960
+11-04 20:25 INFO     net 42 knowledge network test acc 0.099960
+11-04 20:25 INFO     Training network 43. n_training: 1321
+11-04 20:26 INFO     Training Accuracy: 0.015897047691143074
+11-04 20:26 INFO     net 43 final test acc 0.099960
+11-04 20:26 INFO     net 43 knowledge network test acc 0.099960
+11-04 20:27 INFO     Training network 44. n_training: 1260
+11-04 20:28 INFO     Training Accuracy: 0.28888888888888886
+11-04 20:28 INFO     net 44 final test acc 0.099960
+11-04 20:28 INFO     net 44 knowledge network test acc 0.099960
+11-04 20:28 INFO     Training network 45. n_training: 1002
+11-04 20:28 INFO     Training Accuracy: 0.003992015968063872
+11-04 20:28 INFO     net 45 final test acc 0.099960
+11-04 20:29 INFO     net 45 knowledge network test acc 0.099960
+11-04 20:29 INFO     Training network 47. n_training: 1022
+11-04 20:29 INFO     Training Accuracy: 0.18786692759295498
+11-04 20:29 INFO     net 47 final test acc 0.099960
+11-04 20:29 INFO     net 47 knowledge network test acc 0.099960
+11-04 20:29 INFO     avg test acc after local update 0.099960
+11-04 20:29 INFO     avg knowledge test acc after local update 0.099960
+11-04 20:29 INFO     communication round 18 global model test acc 0.100060
+11-04 20:29 INFO     in comm round:19####################################################################################################
+11-04 20:29 INFO     Training network 2. n_training: 626
+11-04 20:30 INFO     Training Accuracy: 0.006389776357827476
+11-04 20:30 INFO     net 2 final test acc 0.099960
+11-04 20:30 INFO     net 2 knowledge network test acc 0.099960
+11-04 20:30 INFO     Training network 4. n_training: 1047
+11-04 20:31 INFO     Training Accuracy: 0.07354345749761222
+11-04 20:31 INFO     net 4 final test acc 0.099960
+11-04 20:31 INFO     net 4 knowledge network test acc 0.099960
+11-04 20:31 INFO     Training network 5. n_training: 1270
+11-04 20:32 INFO     Training Accuracy: 0.18031496062992125
+11-04 20:32 INFO     net 5 final test acc 0.099960
+11-04 20:32 INFO     net 5 knowledge network test acc 0.099960
+11-04 20:32 INFO     Training network 6. n_training: 1100
+11-04 20:33 INFO     Training Accuracy: 0.007272727272727273
+11-04 20:33 INFO     net 6 final test acc 0.099960
+11-04 20:33 INFO     net 6 knowledge network test acc 0.099960
+11-04 20:33 INFO     Training network 7. n_training: 925
+11-04 20:34 INFO     Training Accuracy: 0.15027027027027026
+11-04 20:34 INFO     net 7 final test acc 0.099960
+11-04 20:34 INFO     net 7 knowledge network test acc 0.099960
+11-04 20:34 INFO     Training network 8. n_training: 1067
+11-04 20:35 INFO     Training Accuracy: 0.0009372071227741331
+11-04 20:35 INFO     net 8 final test acc 0.099960
+11-04 20:35 INFO     net 8 knowledge network test acc 0.099960
+11-04 20:35 INFO     Training network 10. n_training: 1012
+11-04 20:36 INFO     Training Accuracy: 0.12055335968379446
+11-04 20:36 INFO     net 10 final test acc 0.099960
+11-04 20:36 INFO     net 10 knowledge network test acc 0.099960
+11-04 20:36 INFO     Training network 11. n_training: 209
+11-04 20:36 INFO     Training Accuracy: 0.06698564593301436
+11-04 20:36 INFO     net 11 final test acc 0.099960
+11-04 20:36 INFO     net 11 knowledge network test acc 0.099960
+11-04 20:36 INFO     Training network 12. n_training: 423
+11-04 20:37 INFO     Training Accuracy: 0.016548463356973995
+11-04 20:37 INFO     net 12 final test acc 0.099960
+11-04 20:37 INFO     net 12 knowledge network test acc 0.099960
+11-04 20:37 INFO     Training network 13. n_training: 928
+11-04 20:37 INFO     Training Accuracy: 0.005387931034482759
+11-04 20:37 INFO     net 13 final test acc 0.099960
+11-04 20:37 INFO     net 13 knowledge network test acc 0.099960
+11-04 20:37 INFO     Training network 14. n_training: 1050
+11-04 20:38 INFO     Training Accuracy: 0.21047619047619048
+11-04 20:38 INFO     net 14 final test acc 0.099960
+11-04 20:38 INFO     net 14 knowledge network test acc 0.099960
+11-04 20:38 INFO     Training network 15. n_training: 797
+11-04 20:39 INFO     Training Accuracy: 0.4617314930991217
+11-04 20:39 INFO     net 15 final test acc 0.099960
+11-04 20:39 INFO     net 15 knowledge network test acc 0.099960
+11-04 20:39 INFO     Training network 18. n_training: 888
+11-04 20:40 INFO     Training Accuracy: 0.07882882882882883
+11-04 20:40 INFO     net 18 final test acc 0.099960
+11-04 20:40 INFO     net 18 knowledge network test acc 0.099960
+11-04 20:40 INFO     Training network 19. n_training: 1277
+11-04 20:41 INFO     Training Accuracy: 0.025058731401722788
+11-04 20:41 INFO     net 19 final test acc 0.099960
+11-04 20:41 INFO     net 19 knowledge network test acc 0.099960
+11-04 20:41 INFO     Training network 22. n_training: 804
+11-04 20:42 INFO     Training Accuracy: 0.14925373134328357
+11-04 20:42 INFO     net 22 final test acc 0.099960
+11-04 20:42 INFO     net 22 knowledge network test acc 0.099960
+11-04 20:42 INFO     Training network 23. n_training: 1619
+11-04 20:43 INFO     Training Accuracy: 0.0006176652254478073
+11-04 20:43 INFO     net 23 final test acc 0.099960
+11-04 20:43 INFO     net 23 knowledge network test acc 0.099960
+11-04 20:43 INFO     Training network 25. n_training: 777
+11-04 20:44 INFO     Training Accuracy: 0.05791505791505792
+11-04 20:44 INFO     net 25 final test acc 0.099960
+11-04 20:44 INFO     net 25 knowledge network test acc 0.099960
+11-04 20:44 INFO     Training network 26. n_training: 1385
+11-04 20:45 INFO     Training Accuracy: 0.0
+11-04 20:45 INFO     net 26 final test acc 0.099960
+11-04 20:45 INFO     net 26 knowledge network test acc 0.099960
+11-04 20:45 INFO     Training network 28. n_training: 1525
+11-04 20:46 INFO     Training Accuracy: 0.03934426229508197
+11-04 20:46 INFO     net 28 final test acc 0.099960
+11-04 20:46 INFO     net 28 knowledge network test acc 0.099960
+11-04 20:46 INFO     Training network 29. n_training: 515
+11-04 20:47 INFO     Training Accuracy: 0.06019417475728155
+11-04 20:47 INFO     net 29 final test acc 0.099960
+11-04 20:47 INFO     net 29 knowledge network test acc 0.099960
+11-04 20:47 INFO     Training network 30. n_training: 1036
+11-04 20:48 INFO     Training Accuracy: 0.04247104247104247
+11-04 20:48 INFO     net 30 final test acc 0.099960
+11-04 20:48 INFO     net 30 knowledge network test acc 0.099960
+11-04 20:48 INFO     Training network 32. n_training: 1427
+11-04 20:49 INFO     Training Accuracy: 0.00350385423966363
+11-04 20:49 INFO     net 32 final test acc 0.099960
+11-04 20:49 INFO     net 32 knowledge network test acc 0.099960
+11-04 20:49 INFO     Training network 34. n_training: 1155
+11-04 20:50 INFO     Training Accuracy: 0.2779220779220779
+11-04 20:50 INFO     net 34 final test acc 0.099960
+11-04 20:50 INFO     net 34 knowledge network test acc 0.099960
+11-04 20:50 INFO     Training network 36. n_training: 599
+11-04 20:51 INFO     Training Accuracy: 0.0
+11-04 20:51 INFO     net 36 final test acc 0.099960
+11-04 20:51 INFO     net 36 knowledge network test acc 0.099960
+11-04 20:51 INFO     Training network 39. n_training: 975
+11-04 20:51 INFO     Training Accuracy: 0.018461538461538463
+11-04 20:52 INFO     net 39 final test acc 0.099960
+11-04 20:52 INFO     net 39 knowledge network test acc 0.099960
+11-04 20:52 INFO     Training network 40. n_training: 1059
+11-04 20:52 INFO     Training Accuracy: 0.0018885741265344666
+11-04 20:52 INFO     net 40 final test acc 0.099960
+11-04 20:52 INFO     net 40 knowledge network test acc 0.099960
+11-04 20:52 INFO     Training network 41. n_training: 1010
+11-04 20:53 INFO     Training Accuracy: 0.05148514851485148
+11-04 20:53 INFO     net 41 final test acc 0.099960
+11-04 20:53 INFO     net 41 knowledge network test acc 0.099960
+11-04 20:53 INFO     Training network 42. n_training: 703
+11-04 20:54 INFO     Training Accuracy: 0.18776671408250356
+11-04 20:54 INFO     net 42 final test acc 0.099960
+11-04 20:54 INFO     net 42 knowledge network test acc 0.099960
+11-04 20:54 INFO     Training network 43. n_training: 1321
+11-04 20:55 INFO     Training Accuracy: 0.01514004542013626
+11-04 20:55 INFO     net 43 final test acc 0.099960
+11-04 20:55 INFO     net 43 knowledge network test acc 0.099960
+11-04 20:55 INFO     Training network 44. n_training: 1260
+11-04 20:56 INFO     Training Accuracy: 0.28809523809523807
+11-04 20:56 INFO     net 44 final test acc 0.099960
+11-04 20:56 INFO     net 44 knowledge network test acc 0.099960
+11-04 20:56 INFO     Training network 45. n_training: 1002
+11-04 20:57 INFO     Training Accuracy: 0.003992015968063872
+11-04 20:57 INFO     net 45 final test acc 0.099960
+11-04 20:57 INFO     net 45 knowledge network test acc 0.099960
+11-04 20:57 INFO     Training network 46. n_training: 811
+11-04 20:58 INFO     Training Accuracy: 0.006165228113440197
+11-04 20:58 INFO     net 46 final test acc 0.099960
+11-04 20:58 INFO     net 46 knowledge network test acc 0.099960
+11-04 20:58 INFO     Training network 47. n_training: 1022
+11-04 20:58 INFO     Training Accuracy: 0.18590998043052837
+11-04 20:59 INFO     net 47 final test acc 0.099960
+11-04 20:59 INFO     net 47 knowledge network test acc 0.099960
+11-04 20:59 INFO     Training network 48. n_training: 1031
+11-04 20:59 INFO     Training Accuracy: 0.0009699321047526673
+11-04 20:59 INFO     net 48 final test acc 0.099960
+11-04 20:59 INFO     net 48 knowledge network test acc 0.099960
+11-04 21:00 INFO     Training network 49. n_training: 946
+11-04 21:00 INFO     Training Accuracy: 0.2758985200845666
+11-04 21:00 INFO     net 49 final test acc 0.099960
+11-04 21:00 INFO     net 49 knowledge network test acc 0.099960
+11-04 21:00 INFO     avg test acc after local update 0.099960
+11-04 21:00 INFO     avg knowledge test acc after local update 0.099960
+11-04 21:00 INFO     communication round 19 global model test acc 0.100060
+11-04 21:00 INFO     in comm round:20####################################################################################################
+11-04 21:00 INFO     Training network 0. n_training: 1302
+11-04 21:01 INFO     Training Accuracy: 0.026113671274961597
+11-04 21:01 INFO     net 0 final test acc 0.099960
+11-04 21:01 INFO     net 0 knowledge network test acc 0.099960
+11-04 21:02 INFO     Training network 3. n_training: 948
+11-04 21:02 INFO     Training Accuracy: 0.2921940928270042
+11-04 21:02 INFO     net 3 final test acc 0.099960
+11-04 21:02 INFO     net 3 knowledge network test acc 0.099960
+11-04 21:02 INFO     Training network 4. n_training: 1047
+11-04 21:03 INFO     Training Accuracy: 0.07354345749761222
+11-04 21:03 INFO     net 4 final test acc 0.099960
+11-04 21:03 INFO     net 4 knowledge network test acc 0.099960
+11-04 21:03 INFO     Training network 5. n_training: 1270
+11-04 21:04 INFO     Training Accuracy: 0.17874015748031497
+11-04 21:05 INFO     net 5 final test acc 0.099960
+11-04 21:05 INFO     net 5 knowledge network test acc 0.099960
+11-04 21:05 INFO     Training network 6. n_training: 1100
+11-04 21:06 INFO     Training Accuracy: 0.008181818181818182
+11-04 21:06 INFO     net 6 final test acc 0.099960
+11-04 21:06 INFO     net 6 knowledge network test acc 0.099960
+11-04 21:06 INFO     Training network 7. n_training: 925
+11-04 21:06 INFO     Training Accuracy: 0.1545945945945946
+11-04 21:06 INFO     net 7 final test acc 0.099960
+11-04 21:07 INFO     net 7 knowledge network test acc 0.099960
+11-04 21:07 INFO     Training network 8. n_training: 1067
+11-04 21:07 INFO     Training Accuracy: 0.0009372071227741331
+11-04 21:07 INFO     net 8 final test acc 0.099960
+11-04 21:07 INFO     net 8 knowledge network test acc 0.099960
+11-04 21:07 INFO     Training network 10. n_training: 1012
+11-04 21:08 INFO     Training Accuracy: 0.11956521739130435
+11-04 21:08 INFO     net 10 final test acc 0.099960
+11-04 21:08 INFO     net 10 knowledge network test acc 0.099960
+11-04 21:08 INFO     Training network 11. n_training: 209
+11-04 21:08 INFO     Training Accuracy: 0.06698564593301436
+11-04 21:09 INFO     net 11 final test acc 0.099960
+11-04 21:09 INFO     net 11 knowledge network test acc 0.099960
+11-04 21:09 INFO     Training network 12. n_training: 423
+11-04 21:09 INFO     Training Accuracy: 0.014184397163120567
+11-04 21:09 INFO     net 12 final test acc 0.099960
+11-04 21:09 INFO     net 12 knowledge network test acc 0.099960
+11-04 21:09 INFO     Training network 13. n_training: 928
+11-04 21:10 INFO     Training Accuracy: 0.004310344827586207
+11-04 21:10 INFO     net 13 final test acc 0.099960
+11-04 21:10 INFO     net 13 knowledge network test acc 0.099960
+11-04 21:10 INFO     Training network 14. n_training: 1050
+11-04 21:11 INFO     Training Accuracy: 0.2123809523809524
+11-04 21:11 INFO     net 14 final test acc 0.099960
+11-04 21:11 INFO     net 14 knowledge network test acc 0.099960
+11-04 21:11 INFO     Training network 15. n_training: 797
+11-04 21:11 INFO     Training Accuracy: 0.4617314930991217
+11-04 21:11 INFO     net 15 final test acc 0.099960
+11-04 21:11 INFO     net 15 knowledge network test acc 0.099960
+11-04 21:11 INFO     Training network 16. n_training: 1024
+11-04 21:12 INFO     Training Accuracy: 0.109375
+11-04 21:12 INFO     net 16 final test acc 0.099960
+11-04 21:12 INFO     net 16 knowledge network test acc 0.099960
+11-04 21:12 INFO     Training network 18. n_training: 888
+11-04 21:13 INFO     Training Accuracy: 0.07207207207207207
+11-04 21:13 INFO     net 18 final test acc 0.099960
+11-04 21:13 INFO     net 18 knowledge network test acc 0.099960
+11-04 21:13 INFO     Training network 19. n_training: 1277
+11-04 21:14 INFO     Training Accuracy: 0.025058731401722788
+11-04 21:14 INFO     net 19 final test acc 0.099960
+11-04 21:14 INFO     net 19 knowledge network test acc 0.099960
+11-04 21:14 INFO     Training network 21. n_training: 1320
+11-04 21:15 INFO     Training Accuracy: 0.1787878787878788
+11-04 21:15 INFO     net 21 final test acc 0.099960
+11-04 21:15 INFO     net 21 knowledge network test acc 0.099960
+11-04 21:15 INFO     Training network 22. n_training: 804
+11-04 21:16 INFO     Training Accuracy: 0.15422885572139303
+11-04 21:16 INFO     net 22 final test acc 0.099960
+11-04 21:16 INFO     net 22 knowledge network test acc 0.099960
+11-04 21:16 INFO     Training network 23. n_training: 1619
+11-04 21:18 INFO     Training Accuracy: 0.0006176652254478073
+11-04 21:18 INFO     net 23 final test acc 0.099960
+11-04 21:18 INFO     net 23 knowledge network test acc 0.099960
+11-04 21:18 INFO     Training network 24. n_training: 1148
+11-04 21:19 INFO     Training Accuracy: 0.05400696864111498
+11-04 21:19 INFO     net 24 final test acc 0.099960
+11-04 21:19 INFO     net 24 knowledge network test acc 0.099960
+11-04 21:19 INFO     Training network 25. n_training: 777
+11-04 21:19 INFO     Training Accuracy: 0.05662805662805663
+11-04 21:19 INFO     net 25 final test acc 0.099960
+11-04 21:19 INFO     net 25 knowledge network test acc 0.099960
+11-04 21:19 INFO     Training network 27. n_training: 944
+11-04 21:20 INFO     Training Accuracy: 0.3040254237288136
+11-04 21:20 INFO     net 27 final test acc 0.099960
+11-04 21:20 INFO     net 27 knowledge network test acc 0.099960
+11-04 21:20 INFO     Training network 31. n_training: 606
+11-04 21:21 INFO     Training Accuracy: 0.0891089108910891
+11-04 21:21 INFO     net 31 final test acc 0.099960
+11-04 21:21 INFO     net 31 knowledge network test acc 0.099960
+11-04 21:21 INFO     Training network 32. n_training: 1427
+11-04 21:22 INFO     Training Accuracy: 0.002803083391730904
+11-04 21:22 INFO     net 32 final test acc 0.099960
+11-04 21:22 INFO     net 32 knowledge network test acc 0.099960
+11-04 21:22 INFO     Training network 33. n_training: 1082
+11-04 21:23 INFO     Training Accuracy: 0.19408502772643252
+11-04 21:23 INFO     net 33 final test acc 0.099960
+11-04 21:23 INFO     net 33 knowledge network test acc 0.099960
+11-04 21:23 INFO     Training network 35. n_training: 1377
+11-04 21:24 INFO     Training Accuracy: 0.03122730573710966
+11-04 21:24 INFO     net 35 final test acc 0.099960
+11-04 21:24 INFO     net 35 knowledge network test acc 0.099960
+11-04 21:24 INFO     Training network 36. n_training: 599
+11-04 21:25 INFO     Training Accuracy: 0.0
+11-04 21:25 INFO     net 36 final test acc 0.099960
+11-04 21:25 INFO     net 36 knowledge network test acc 0.099960
+11-04 21:25 INFO     Training network 37. n_training: 1071
+11-04 21:26 INFO     Training Accuracy: 0.014005602240896359
+11-04 21:26 INFO     net 37 final test acc 0.099960
+11-04 21:26 INFO     net 37 knowledge network test acc 0.099960
+11-04 21:26 INFO     Training network 38. n_training: 748
+11-04 21:26 INFO     Training Accuracy: 0.009358288770053475
+11-04 21:26 INFO     net 38 final test acc 0.099960
+11-04 21:26 INFO     net 38 knowledge network test acc 0.099960
+11-04 21:26 INFO     Training network 40. n_training: 1059
+11-04 21:27 INFO     Training Accuracy: 0.0018885741265344666
+11-04 21:27 INFO     net 40 final test acc 0.099960
+11-04 21:27 INFO     net 40 knowledge network test acc 0.099960
+11-04 21:27 INFO     Training network 44. n_training: 1260
+11-04 21:28 INFO     Training Accuracy: 0.2896825396825397
+11-04 21:28 INFO     net 44 final test acc 0.099960
+11-04 21:28 INFO     net 44 knowledge network test acc 0.099960
+11-04 21:28 INFO     Training network 46. n_training: 811
+11-04 21:29 INFO     Training Accuracy: 0.006165228113440197
+11-04 21:29 INFO     net 46 final test acc 0.099960
+11-04 21:29 INFO     net 46 knowledge network test acc 0.099960
+11-04 21:29 INFO     Training network 47. n_training: 1022
+11-04 21:30 INFO     Training Accuracy: 0.1888454011741683
+11-04 21:30 INFO     net 47 final test acc 0.099960
+11-04 21:30 INFO     net 47 knowledge network test acc 0.099960
+11-04 21:30 INFO     Training network 48. n_training: 1031
+11-04 21:31 INFO     Training Accuracy: 0.0009699321047526673
+11-04 21:31 INFO     net 48 final test acc 0.099960
+11-04 21:31 INFO     net 48 knowledge network test acc 0.099960
+11-04 21:31 INFO     Training network 49. n_training: 946
+11-04 21:32 INFO     Training Accuracy: 0.2642706131078224
+11-04 21:32 INFO     net 49 final test acc 0.099960
+11-04 21:32 INFO     net 49 knowledge network test acc 0.099960
+11-04 21:32 INFO     avg test acc after local update 0.099960
+11-04 21:32 INFO     avg knowledge test acc after local update 0.099960
+11-04 21:32 INFO     communication round 20 global model test acc 0.100060
+11-04 21:32 INFO     in comm round:21####################################################################################################
+11-04 21:32 INFO     Training network 1. n_training: 1222
+11-04 21:33 INFO     Training Accuracy: 0.11374795417348608
+11-04 21:33 INFO     net 1 final test acc 0.099960
+11-04 21:33 INFO     net 1 knowledge network test acc 0.099960
+11-04 21:33 INFO     Training network 2. n_training: 626
+11-04 21:33 INFO     Training Accuracy: 0.006389776357827476
+11-04 21:33 INFO     net 2 final test acc 0.099960
+11-04 21:33 INFO     net 2 knowledge network test acc 0.099960
+11-04 21:33 INFO     Training network 5. n_training: 1270
+11-04 21:35 INFO     Training Accuracy: 0.1826771653543307
+11-04 21:35 INFO     net 5 final test acc 0.099960
+11-04 21:35 INFO     net 5 knowledge network test acc 0.099960
+11-04 21:35 INFO     Training network 6. n_training: 1100
+11-04 21:36 INFO     Training Accuracy: 0.008181818181818182
+11-04 21:36 INFO     net 6 final test acc 0.099960
+11-04 21:36 INFO     net 6 knowledge network test acc 0.099960
+11-04 21:36 INFO     Training network 7. n_training: 925
+11-04 21:37 INFO     Training Accuracy: 0.1535135135135135
+11-04 21:37 INFO     net 7 final test acc 0.099960
+11-04 21:37 INFO     net 7 knowledge network test acc 0.099960
+11-04 21:37 INFO     Training network 8. n_training: 1067
+11-04 21:37 INFO     Training Accuracy: 0.0009372071227741331
+11-04 21:37 INFO     net 8 final test acc 0.099960
+11-04 21:37 INFO     net 8 knowledge network test acc 0.099960
+11-04 21:38 INFO     Training network 9. n_training: 1018
+11-04 21:38 INFO     Training Accuracy: 0.22396856581532418
+11-04 21:38 INFO     net 9 final test acc 0.099960
+11-04 21:38 INFO     net 9 knowledge network test acc 0.099960
+11-04 21:38 INFO     Training network 11. n_training: 209
+11-04 21:39 INFO     Training Accuracy: 0.06220095693779904
+11-04 21:39 INFO     net 11 final test acc 0.099960
+11-04 21:39 INFO     net 11 knowledge network test acc 0.099960
+11-04 21:39 INFO     Training network 12. n_training: 423
+11-04 21:39 INFO     Training Accuracy: 0.016548463356973995
+11-04 21:39 INFO     net 12 final test acc 0.099960
+11-04 21:39 INFO     net 12 knowledge network test acc 0.099960
+11-04 21:39 INFO     Training network 13. n_training: 928
+11-04 21:40 INFO     Training Accuracy: 0.005387931034482759
+11-04 21:40 INFO     net 13 final test acc 0.099960
+11-04 21:40 INFO     net 13 knowledge network test acc 0.099960
+11-04 21:40 INFO     Training network 14. n_training: 1050
+11-04 21:41 INFO     Training Accuracy: 0.2057142857142857
+11-04 21:41 INFO     net 14 final test acc 0.099960
+11-04 21:41 INFO     net 14 knowledge network test acc 0.099960
+11-04 21:41 INFO     Training network 15. n_training: 797
+11-04 21:41 INFO     Training Accuracy: 0.4604767879548306
+11-04 21:41 INFO     net 15 final test acc 0.099960
+11-04 21:41 INFO     net 15 knowledge network test acc 0.099960
+11-04 21:41 INFO     Training network 17. n_training: 559
+11-04 21:42 INFO     Training Accuracy: 0.014311270125223614
+11-04 21:42 INFO     net 17 final test acc 0.099960
+11-04 21:42 INFO     net 17 knowledge network test acc 0.099960
+11-04 21:42 INFO     Training network 18. n_training: 888
+11-04 21:43 INFO     Training Accuracy: 0.07545045045045046
+11-04 21:43 INFO     net 18 final test acc 0.099960
+11-04 21:43 INFO     net 18 knowledge network test acc 0.099960
+11-04 21:43 INFO     Training network 20. n_training: 1030
+11-04 21:44 INFO     Training Accuracy: 0.11941747572815534
+11-04 21:44 INFO     net 20 final test acc 0.099960
+11-04 21:44 INFO     net 20 knowledge network test acc 0.099960
+11-04 21:44 INFO     Training network 21. n_training: 1320
+11-04 21:45 INFO     Training Accuracy: 0.1803030303030303
+11-04 21:45 INFO     net 21 final test acc 0.099960
+11-04 21:45 INFO     net 21 knowledge network test acc 0.099960
+11-04 21:45 INFO     Training network 22. n_training: 804
+11-04 21:45 INFO     Training Accuracy: 0.15422885572139303
+11-04 21:46 INFO     net 22 final test acc 0.099960
+11-04 21:46 INFO     net 22 knowledge network test acc 0.099960
+11-04 21:46 INFO     Training network 24. n_training: 1148
+11-04 21:46 INFO     Training Accuracy: 0.05313588850174216
+11-04 21:46 INFO     net 24 final test acc 0.099960
+11-04 21:47 INFO     net 24 knowledge network test acc 0.099960
+11-04 21:47 INFO     Training network 25. n_training: 777
+11-04 21:47 INFO     Training Accuracy: 0.05791505791505792
+11-04 21:47 INFO     net 25 final test acc 0.099960
+11-04 21:47 INFO     net 25 knowledge network test acc 0.099960
+11-04 21:47 INFO     Training network 27. n_training: 944
+11-04 21:48 INFO     Training Accuracy: 0.3125
+11-04 21:48 INFO     net 27 final test acc 0.099960
+11-04 21:48 INFO     net 27 knowledge network test acc 0.099960
+11-04 21:48 INFO     Training network 29. n_training: 515
+11-04 21:49 INFO     Training Accuracy: 0.062135922330097085
+11-04 21:49 INFO     net 29 final test acc 0.099960
+11-04 21:49 INFO     net 29 knowledge network test acc 0.099960
+11-04 21:49 INFO     Training network 30. n_training: 1036
+11-04 21:49 INFO     Training Accuracy: 0.0444015444015444
+11-04 21:49 INFO     net 30 final test acc 0.099960
+11-04 21:49 INFO     net 30 knowledge network test acc 0.099960
+11-04 21:50 INFO     Training network 31. n_training: 606
+11-04 21:50 INFO     Training Accuracy: 0.08415841584158416
+11-04 21:50 INFO     net 31 final test acc 0.099960
+11-04 21:50 INFO     net 31 knowledge network test acc 0.099960
+11-04 21:50 INFO     Training network 32. n_training: 1427
+11-04 21:51 INFO     Training Accuracy: 0.00350385423966363
+11-04 21:51 INFO     net 32 final test acc 0.099960
+11-04 21:51 INFO     net 32 knowledge network test acc 0.099960
+11-04 21:51 INFO     Training network 34. n_training: 1155
+11-04 21:52 INFO     Training Accuracy: 0.2787878787878788
+11-04 21:52 INFO     net 34 final test acc 0.099960
+11-04 21:52 INFO     net 34 knowledge network test acc 0.099960
+11-04 21:52 INFO     Training network 35. n_training: 1377
+11-04 21:53 INFO     Training Accuracy: 0.032679738562091505
+11-04 21:53 INFO     net 35 final test acc 0.099960
+11-04 21:53 INFO     net 35 knowledge network test acc 0.099960
+11-04 21:53 INFO     Training network 37. n_training: 1071
+11-04 21:54 INFO     Training Accuracy: 0.014939309056956116
+11-04 21:54 INFO     net 37 final test acc 0.099960
+11-04 21:54 INFO     net 37 knowledge network test acc 0.099960
+11-04 21:54 INFO     Training network 38. n_training: 748
+11-04 21:55 INFO     Training Accuracy: 0.009358288770053475
+11-04 21:55 INFO     net 38 final test acc 0.099960
+11-04 21:55 INFO     net 38 knowledge network test acc 0.099960
+11-04 21:55 INFO     Training network 39. n_training: 975
+11-04 21:56 INFO     Training Accuracy: 0.019487179487179488
+11-04 21:56 INFO     net 39 final test acc 0.099960
+11-04 21:56 INFO     net 39 knowledge network test acc 0.099960
+11-04 21:56 INFO     Training network 40. n_training: 1059
+11-04 21:57 INFO     Training Accuracy: 0.0018885741265344666
+11-04 21:57 INFO     net 40 final test acc 0.099960
+11-04 21:57 INFO     net 40 knowledge network test acc 0.099960
+11-04 21:57 INFO     Training network 44. n_training: 1260
+11-04 21:58 INFO     Training Accuracy: 0.2873015873015873
+11-04 21:58 INFO     net 44 final test acc 0.099960
+11-04 21:58 INFO     net 44 knowledge network test acc 0.099960
+11-04 21:58 INFO     Training network 45. n_training: 1002
+11-04 21:59 INFO     Training Accuracy: 0.003992015968063872

@@ -1,0 +1,50 @@
+general_args:
+  init_seed: 0
+  local_epochs: 25 
+  log_dir: "./experiments/cifar10/reset_w"
+  outdir: "./experiments/cifar10/reset_w"
+  log_file_name: '30 clients and 0.4 sample ratio mbv3'
+  comm_round: 500
+  n_parties: 30
+  sample: 0.4
+  cloud_epochs: 20
+  cloud_datasize: 15000
+  num_classes: 10
+  cloud_alg: ""
+  reset_w: true
+  
+device_args:
+  n_worker: 32
+  device: "cuda"
+
+log_args:
+  ckp_dir: "./checkpoint/"
+  ckp_name: "ckp_name"
+
+fl_args:
+  optimizer: "sgd"
+  lr: 0.01
+  cloud_datadir: "./data/tiny-imagenet-200/train" # ./data/tiny-imagenet-200/train for TinyImagenet\n
+  cloud_dataset: "tinyimagenet"
+  cloud_batch_size: 64
+  lr_g: 0.01
+
+kd_args:
+  kd_weight: 1.0
+
+nas_args:
+  supernet_name: "ofa_supernet_mbv3_w12"
+  tolerance: 1000
+  max_try: 10000
+  image_size: 32
+
+
+data_args:
+  dataset: 'cifar10'
+  datadir: "./data"
+  noise: 0
+  noise_type: "level"
+  partition: "noniid-labeldir"
+  batch_size: 64
+  beta: 0.5
+

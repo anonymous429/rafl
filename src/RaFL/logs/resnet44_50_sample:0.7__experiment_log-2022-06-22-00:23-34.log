@@ -1,0 +1,222 @@
+06-22 00:23 INFO     cuda
+06-22 00:23 INFO     ####################################################################################################
+06-22 00:23 INFO     Partitioning data
+06-22 00:23 INFO     Data statistics: {0: {0: 100, 1: 112, 2: 94, 3: 113, 4: 89, 5: 107, 6: 99, 7: 98, 8: 90, 9: 98}, 1: {0: 113, 1: 89, 2: 100, 3: 117, 4: 84, 5: 116, 6: 100, 7: 90, 8: 100, 9: 91}, 2: {0: 94, 1: 98, 2: 97, 3: 105, 4: 96, 5: 112, 6: 91, 7: 106, 8: 86, 9: 115}, 3: {0: 92, 1: 101, 2: 92, 3: 96, 4: 107, 5: 111, 6: 101, 7: 102, 8: 103, 9: 95}, 4: {0: 104, 1: 83, 2: 104, 3: 96, 4: 97, 5: 102, 6: 100, 7: 106, 8: 103, 9: 105}, 5: {0: 122, 1: 104, 2: 91, 3: 103, 4: 94, 5: 93, 6: 94, 7: 103, 8: 101, 9: 95}, 6: {0: 103, 1: 97, 2: 116, 3: 104, 4: 106, 5: 88, 6: 90, 7: 102, 8: 98, 9: 96}, 7: {0: 110, 1: 96, 2: 117, 3: 110, 4: 95, 5: 90, 6: 90, 7: 92, 8: 95, 9: 105}, 8: {0: 77, 1: 97, 2: 97, 3: 96, 4: 100, 5: 108, 6: 86, 7: 104, 8: 104, 9: 131}, 9: {0: 89, 1: 109, 2: 108, 3: 90, 4: 99, 5: 89, 6: 102, 7: 96, 8: 109, 9: 109}, 10: {0: 98, 1: 93, 2: 87, 3: 100, 4: 105, 5: 97, 6: 100, 7: 111, 8: 106, 9: 103}, 11: {0: 104, 1: 112, 2: 105, 3: 88, 4: 107, 5: 103, 6: 97, 7: 104, 8: 93, 9: 87}, 12: {0: 119, 1: 116, 2: 94, 3: 97, 4: 104, 5: 89, 6: 91, 7: 98, 8: 96, 9: 96}, 13: {0: 92, 1: 117, 2: 117, 3: 91, 4: 81, 5: 105, 6: 106, 7: 99, 8: 90, 9: 102}, 14: {0: 97, 1: 102, 2: 95, 3: 85, 4: 119, 5: 89, 6: 108, 7: 103, 8: 107, 9: 95}, 15: {0: 82, 1: 93, 2: 94, 3: 106, 4: 95, 5: 94, 6: 117, 7: 100, 8: 110, 9: 109}, 16: {0: 85, 1: 102, 2: 106, 3: 95, 4: 114, 5: 94, 6: 97, 7: 98, 8: 101, 9: 108}, 17: {0: 106, 1: 85, 2: 85, 3: 113, 4: 124, 5: 93, 6: 91, 7: 99, 8: 104, 9: 100}, 18: {0: 100, 1: 106, 2: 104, 3: 86, 4: 95, 5: 100, 6: 105, 7: 90, 8: 93, 9: 121}, 19: {0: 114, 1: 101, 2: 104, 3: 98, 4: 95, 5: 101, 6: 90, 7: 100, 8: 87, 9: 110}, 20: {0: 101, 1: 98, 2: 103, 3: 102, 4: 101, 5: 86, 6: 100, 7: 98, 8: 106, 9: 105}, 21: {0: 93, 1: 100, 2: 94, 3: 114, 4: 98, 5: 119, 6: 92, 7: 82, 8: 96, 9: 112}, 22: {0: 116, 1: 87, 2: 97, 3: 90, 4: 94, 5: 102, 6: 117, 7: 101, 8: 103, 9: 93}, 23: {0: 93, 1: 107, 2: 103, 3: 88, 4: 81, 5: 107, 6: 130, 7: 100, 8: 84, 9: 107}, 24: {0: 102, 1: 88, 2: 91, 3: 94, 4: 106, 5: 95, 6: 98, 7: 109, 8: 101, 9: 116}, 25: {0: 96, 1: 109, 2: 103, 3: 94, 4: 95, 5: 106, 6: 109, 7: 84, 8: 101, 9: 103}, 26: {0: 112, 1: 89, 2: 88, 3: 108, 4: 98, 5: 102, 6: 101, 7: 104, 8: 95, 9: 103}, 27: {0: 108, 1: 105, 2: 97, 3: 104, 4: 103, 5: 96, 6: 92, 7: 109, 8: 90, 9: 96}, 28: {0: 107, 1: 87, 2: 112, 3: 95, 4: 114, 5: 99, 6: 103, 7: 95, 8: 96, 9: 92}, 29: {0: 81, 1: 90, 2: 111, 3: 93, 4: 120, 5: 106, 6: 116, 7: 97, 8: 108, 9: 78}, 30: {0: 110, 1: 119, 2: 102, 3: 78, 4: 94, 5: 89, 6: 97, 7: 125, 8: 95, 9: 91}, 31: {0: 92, 1: 93, 2: 114, 3: 109, 4: 98, 5: 90, 6: 97, 7: 116, 8: 89, 9: 102}, 32: {0: 98, 1: 100, 2: 100, 3: 99, 4: 99, 5: 87, 6: 88, 7: 104, 8: 118, 9: 107}, 33: {0: 115, 1: 101, 2: 101, 3: 102, 4: 83, 5: 92, 6: 110, 7: 99, 8: 106, 9: 91}, 34: {0: 97, 1: 96, 2: 95, 3: 100, 4: 114, 5: 107, 6: 98, 7: 94, 8: 98, 9: 101}, 35: {0: 107, 1: 95, 2: 104, 3: 111, 4: 95, 5: 103, 6: 104, 7: 99, 8: 86, 9: 96}, 36: {0: 90, 1: 93, 2: 91, 3: 108, 4: 93, 5: 105, 6: 119, 7: 98, 8: 93, 9: 110}, 37: {0: 92, 1: 111, 2: 97, 3: 106, 4: 108, 5: 93, 6: 103, 7: 91, 8: 110, 9: 89}, 38: {0: 91, 1: 123, 2: 71, 3: 115, 4: 99, 5: 115, 6: 101, 7: 96, 8: 90, 9: 99}, 39: {0: 92, 1: 99, 2: 100, 3: 109, 4: 107, 5: 99, 6: 91, 7: 112, 8: 100, 9: 91}, 40: {0: 89, 1: 106, 2: 102, 3: 87, 4: 103, 5: 120, 6: 90, 7: 96, 8: 109, 9: 98}, 41: {0: 93, 1: 83, 2: 100, 3: 113, 4: 101, 5: 99, 6: 100, 7: 86, 8: 116, 9: 109}, 42: {0: 113, 1: 100, 2: 90, 3: 94, 4: 107, 5: 88, 6: 109, 7: 113, 8: 102, 9: 84}, 43: {0: 82, 1: 97, 2: 100, 3: 95, 4: 94, 5: 104, 6: 109, 7: 115, 8: 102, 9: 102}, 44: {0: 128, 1: 99, 2: 95, 3: 116, 4: 92, 5: 101, 6: 100, 7: 91, 8: 102, 9: 76}, 45: {0: 104, 1: 112, 2: 99, 3: 93, 4: 92, 5: 115, 6: 104, 7: 107, 8: 83, 9: 91}, 46: {0: 88, 1: 106, 2: 122, 3: 101, 4: 118, 5: 80, 6: 91, 7: 97, 8: 100, 9: 97}, 47: {0: 111, 1: 98, 2: 83, 3: 99, 4: 91, 5: 110, 6: 95, 7: 90, 8: 123, 9: 100}, 48: {0: 95, 1: 114, 2: 123, 3: 87, 4: 84, 5: 102, 6: 98, 7: 95, 8: 108, 9: 94}, 49: {0: 103, 1: 82, 2: 105, 3: 107, 4: 112, 5: 102, 6: 83, 7: 96, 8: 114, 9: 96}}
+06-22 00:23 INFO     Initializing nets
+06-22 00:23 INFO     in comm round:0####################################################################################################
+06-22 00:24 INFO     Training network 0. n_training: 1000
+06-22 00:24 INFO     net 0 final test acc 0.138000
+06-22 00:24 INFO     net 0 knowledge network test acc 0.138100
+06-22 00:24 INFO     Training network 1. n_training: 1000
+06-22 00:25 INFO     net 1 final test acc 0.139600
+06-22 00:25 INFO     net 1 knowledge network test acc 0.157600
+06-22 00:25 INFO     Training network 2. n_training: 1000
+06-22 00:25 INFO     net 2 final test acc 0.124400
+06-22 00:25 INFO     net 2 knowledge network test acc 0.131800
+06-22 00:25 INFO     Training network 3. n_training: 1000
+06-22 00:26 INFO     net 3 final test acc 0.114100
+06-22 00:26 INFO     net 3 knowledge network test acc 0.129700
+06-22 00:26 INFO     Training network 5. n_training: 1000
+06-22 00:26 INFO     net 5 final test acc 0.149700
+06-22 00:26 INFO     net 5 knowledge network test acc 0.146200
+06-22 00:26 INFO     Training network 9. n_training: 1000
+06-22 00:27 INFO     net 9 final test acc 0.113800
+06-22 00:27 INFO     net 9 knowledge network test acc 0.130500
+06-22 00:27 INFO     Training network 10. n_training: 1000
+06-22 00:27 INFO     net 10 final test acc 0.142700
+06-22 00:27 INFO     net 10 knowledge network test acc 0.144600
+06-22 00:27 INFO     Training network 11. n_training: 1000
+06-22 00:28 INFO     net 11 final test acc 0.141400
+06-22 00:28 INFO     net 11 knowledge network test acc 0.137200
+06-22 00:28 INFO     Training network 12. n_training: 1000
+06-22 00:28 INFO     net 12 final test acc 0.141100
+06-22 00:28 INFO     net 12 knowledge network test acc 0.150200
+06-22 00:29 INFO     Training network 15. n_training: 1000
+06-22 00:29 INFO     net 15 final test acc 0.154800
+06-22 00:29 INFO     net 15 knowledge network test acc 0.137700
+06-22 00:29 INFO     Training network 16. n_training: 1000
+06-22 00:30 INFO     net 16 final test acc 0.138500
+06-22 00:30 INFO     net 16 knowledge network test acc 0.148300
+06-22 00:30 INFO     Training network 19. n_training: 1000
+06-22 00:30 INFO     net 19 final test acc 0.158500
+06-22 00:30 INFO     net 19 knowledge network test acc 0.153400
+06-22 00:30 INFO     Training network 20. n_training: 1000
+06-22 00:31 INFO     net 20 final test acc 0.150400
+06-22 00:31 INFO     net 20 knowledge network test acc 0.142800
+06-22 00:31 INFO     Training network 21. n_training: 1000
+06-22 00:31 INFO     net 21 final test acc 0.142100
+06-22 00:31 INFO     net 21 knowledge network test acc 0.143600
+06-22 00:31 INFO     Training network 22. n_training: 1000
+06-22 00:32 INFO     net 22 final test acc 0.143300
+06-22 00:32 INFO     net 22 knowledge network test acc 0.138100
+06-22 00:32 INFO     Training network 23. n_training: 1000
+06-22 00:32 INFO     net 23 final test acc 0.140000
+06-22 00:32 INFO     net 23 knowledge network test acc 0.154500
+06-22 00:32 INFO     Training network 24. n_training: 1000
+06-22 00:33 INFO     net 24 final test acc 0.165200
+06-22 00:33 INFO     net 24 knowledge network test acc 0.133200
+06-22 00:33 INFO     Training network 25. n_training: 1000
+06-22 00:33 INFO     net 25 final test acc 0.130500
+06-22 00:34 INFO     net 25 knowledge network test acc 0.125200
+06-22 00:34 INFO     Training network 26. n_training: 1000
+06-22 00:34 INFO     net 26 final test acc 0.143500
+06-22 00:34 INFO     net 26 knowledge network test acc 0.135800
+06-22 00:34 INFO     Training network 27. n_training: 1000
+06-22 00:35 INFO     net 27 final test acc 0.127200
+06-22 00:35 INFO     net 27 knowledge network test acc 0.126000
+06-22 00:35 INFO     Training network 32. n_training: 1000
+06-22 00:35 INFO     net 32 final test acc 0.147000
+06-22 00:35 INFO     net 32 knowledge network test acc 0.140300
+06-22 00:35 INFO     Training network 33. n_training: 1000
+06-22 00:36 INFO     net 33 final test acc 0.111100
+06-22 00:36 INFO     net 33 knowledge network test acc 0.140300
+06-22 00:36 INFO     Training network 34. n_training: 1000
+06-22 00:36 INFO     net 34 final test acc 0.149300
+06-22 00:36 INFO     net 34 knowledge network test acc 0.135400
+06-22 00:36 INFO     Training network 35. n_training: 1000
+06-22 00:37 INFO     net 35 final test acc 0.147400
+06-22 00:37 INFO     net 35 knowledge network test acc 0.139400
+06-22 00:37 INFO     Training network 36. n_training: 1000
+06-22 00:37 INFO     net 36 final test acc 0.130300
+06-22 00:37 INFO     net 36 knowledge network test acc 0.138800
+06-22 00:38 INFO     Training network 38. n_training: 1000
+06-22 00:38 INFO     net 38 final test acc 0.149000
+06-22 00:38 INFO     net 38 knowledge network test acc 0.122000
+06-22 00:38 INFO     Training network 39. n_training: 1000
+06-22 00:39 INFO     net 39 final test acc 0.109400
+06-22 00:39 INFO     net 39 knowledge network test acc 0.122300
+06-22 00:39 INFO     Training network 40. n_training: 1000
+06-22 00:39 INFO     net 40 final test acc 0.132500
+06-22 00:39 INFO     net 40 knowledge network test acc 0.132000
+06-22 00:39 INFO     Training network 41. n_training: 1000
+06-22 00:40 INFO     net 41 final test acc 0.126700
+06-22 00:40 INFO     net 41 knowledge network test acc 0.129500
+06-22 00:40 INFO     Training network 42. n_training: 1000
+06-22 00:40 INFO     net 42 final test acc 0.139100
+06-22 00:40 INFO     net 42 knowledge network test acc 0.148800
+06-22 00:40 INFO     Training network 44. n_training: 1000
+06-22 00:41 INFO     net 44 final test acc 0.113200
+06-22 00:41 INFO     net 44 knowledge network test acc 0.126900
+06-22 00:41 INFO     Training network 45. n_training: 1000
+06-22 00:41 INFO     net 45 final test acc 0.105400
+06-22 00:41 INFO     net 45 knowledge network test acc 0.122600
+06-22 00:41 INFO     Training network 47. n_training: 1000
+06-22 00:42 INFO     net 47 final test acc 0.121100
+06-22 00:42 INFO     net 47 knowledge network test acc 0.118600
+06-22 00:42 INFO     Training network 48. n_training: 1000
+06-22 00:42 INFO     net 48 final test acc 0.138800
+06-22 00:42 INFO     net 48 knowledge network test acc 0.139500
+06-22 00:43 INFO     Training network 49. n_training: 1000
+06-22 00:43 INFO     net 49 final test acc 0.163000
+06-22 00:43 INFO     net 49 knowledge network test acc 0.147100
+06-22 00:43 INFO     avg test acc after local update 0.136631
+06-22 00:43 INFO     avg knowledge test acc after local update 0.137371
+06-22 00:49 INFO     communication round 0 global model test acc 0.169500
+06-22 00:49 INFO     in comm round:1####################################################################################################
+06-22 00:49 INFO     Training network 0. n_training: 1000
+06-22 00:50 INFO     net 0 final test acc 0.166000
+06-22 00:50 INFO     net 0 knowledge network test acc 0.178400
+06-22 00:50 INFO     Training network 1. n_training: 1000
+06-22 00:50 INFO     net 1 final test acc 0.172500
+06-22 00:50 INFO     net 1 knowledge network test acc 0.173500
+06-22 00:50 INFO     Training network 2. n_training: 1000
+06-22 00:51 INFO     net 2 final test acc 0.164100
+06-22 00:51 INFO     net 2 knowledge network test acc 0.175000
+06-22 00:51 INFO     Training network 3. n_training: 1000
+06-22 00:51 INFO     net 3 final test acc 0.146200
+06-22 00:51 INFO     net 3 knowledge network test acc 0.175300
+06-22 00:51 INFO     Training network 5. n_training: 1000
+06-22 00:52 INFO     net 5 final test acc 0.171300
+06-22 00:52 INFO     net 5 knowledge network test acc 0.174400
+06-22 00:52 INFO     Training network 6. n_training: 1000
+06-22 00:52 INFO     net 6 final test acc 0.134700
+06-22 00:52 INFO     net 6 knowledge network test acc 0.176400
+06-22 00:52 INFO     Training network 7. n_training: 1000
+06-22 00:53 INFO     net 7 final test acc 0.179600
+06-22 00:53 INFO     net 7 knowledge network test acc 0.177300
+06-22 00:53 INFO     Training network 9. n_training: 1000
+06-22 00:53 INFO     net 9 final test acc 0.146200
+06-22 00:53 INFO     net 9 knowledge network test acc 0.173900
+06-22 00:54 INFO     Training network 11. n_training: 1000
+06-22 00:54 INFO     net 11 final test acc 0.172200
+06-22 00:54 INFO     net 11 knowledge network test acc 0.177300
+06-22 00:54 INFO     Training network 12. n_training: 1000
+06-22 00:55 INFO     net 12 final test acc 0.171700
+06-22 00:55 INFO     net 12 knowledge network test acc 0.176700
+06-22 00:55 INFO     Training network 13. n_training: 1000
+06-22 00:55 INFO     net 13 final test acc 0.154000
+06-22 00:55 INFO     net 13 knowledge network test acc 0.167200
+06-22 00:55 INFO     Training network 14. n_training: 1000
+06-22 00:56 INFO     net 14 final test acc 0.130000
+06-22 00:56 INFO     net 14 knowledge network test acc 0.168900
+06-22 00:56 INFO     Training network 15. n_training: 1000
+06-22 00:56 INFO     net 15 final test acc 0.184400
+06-22 00:56 INFO     net 15 knowledge network test acc 0.185000
+06-22 00:56 INFO     Training network 16. n_training: 1000
+06-22 00:57 INFO     net 16 final test acc 0.149400
+06-22 00:57 INFO     net 16 knowledge network test acc 0.171600
+06-22 00:57 INFO     Training network 17. n_training: 1000
+06-22 00:57 INFO     net 17 final test acc 0.149300
+06-22 00:57 INFO     net 17 knowledge network test acc 0.161200
+06-22 00:57 INFO     Training network 18. n_training: 1000
+06-22 00:58 INFO     net 18 final test acc 0.145000
+06-22 00:58 INFO     net 18 knowledge network test acc 0.165000
+06-22 00:58 INFO     Training network 19. n_training: 1000
+06-22 00:58 INFO     net 19 final test acc 0.187000
+06-22 00:58 INFO     net 19 knowledge network test acc 0.175900
+06-22 00:58 INFO     Training network 20. n_training: 1000
+06-22 00:59 INFO     net 20 final test acc 0.158300
+06-22 00:59 INFO     net 20 knowledge network test acc 0.175400
+06-22 00:59 INFO     Training network 22. n_training: 1000
+06-22 00:59 INFO     net 22 final test acc 0.183900
+06-22 00:59 INFO     net 22 knowledge network test acc 0.181300
+06-22 01:00 INFO     Training network 23. n_training: 1000
+06-22 01:00 INFO     net 23 final test acc 0.157900
+06-22 01:00 INFO     net 23 knowledge network test acc 0.180500
+06-22 01:00 INFO     Training network 24. n_training: 1000
+06-22 01:01 INFO     net 24 final test acc 0.194300
+06-22 01:01 INFO     net 24 knowledge network test acc 0.184400
+06-22 01:01 INFO     Training network 25. n_training: 1000
+06-22 01:01 INFO     net 25 final test acc 0.162700
+06-22 01:01 INFO     net 25 knowledge network test acc 0.177800
+06-22 01:01 INFO     Training network 27. n_training: 1000
+06-22 01:02 INFO     net 27 final test acc 0.146100
+06-22 01:02 INFO     net 27 knowledge network test acc 0.172500
+06-22 01:02 INFO     Training network 28. n_training: 1000
+06-22 01:02 INFO     net 28 final test acc 0.148400
+06-22 01:02 INFO     net 28 knowledge network test acc 0.163800
+06-22 01:02 INFO     Training network 29. n_training: 1000
+06-22 01:03 INFO     net 29 final test acc 0.154800
+06-22 01:03 INFO     net 29 knowledge network test acc 0.178600
+06-22 01:03 INFO     Training network 31. n_training: 1000
+06-22 01:03 INFO     net 31 final test acc 0.157900
+06-22 01:03 INFO     net 31 knowledge network test acc 0.176800
+06-22 01:03 INFO     Training network 33. n_training: 1000
+06-22 01:04 INFO     net 33 final test acc 0.142900
+06-22 01:04 INFO     net 33 knowledge network test acc 0.170400
+06-22 01:04 INFO     Training network 38. n_training: 1000
+06-22 01:04 INFO     net 38 final test acc 0.177000
+06-22 01:04 INFO     net 38 knowledge network test acc 0.181800
+06-22 01:04 INFO     Training network 39. n_training: 1000
+06-22 01:05 INFO     net 39 final test acc 0.135500
+06-22 01:05 INFO     net 39 knowledge network test acc 0.175900
+06-22 01:05 INFO     Training network 40. n_training: 1000
+06-22 01:05 INFO     net 40 final test acc 0.152900
+06-22 01:06 INFO     net 40 knowledge network test acc 0.168500
+06-22 01:06 INFO     Training network 41. n_training: 1000
+06-22 01:06 INFO     net 41 final test acc 0.158300
+06-22 01:06 INFO     net 41 knowledge network test acc 0.170500
+06-22 01:06 INFO     Training network 43. n_training: 1000
+06-22 01:07 INFO     net 43 final test acc 0.153900
+06-22 01:07 INFO     net 43 knowledge network test acc 0.173500
+06-22 01:07 INFO     Training network 44. n_training: 1000
+06-22 01:07 INFO     net 44 final test acc 0.152000
+06-22 01:07 INFO     net 44 knowledge network test acc 0.177300
+06-22 01:07 INFO     Training network 46. n_training: 1000
+06-22 01:08 INFO     net 46 final test acc 0.163700
+06-22 01:08 INFO     net 46 knowledge network test acc 0.154800
+06-22 01:08 INFO     Training network 48. n_training: 1000
+06-22 01:08 INFO     net 48 final test acc 0.161700
+06-22 01:08 INFO     net 48 knowledge network test acc 0.171200
+06-22 01:08 INFO     avg test acc after local update 0.159594
+06-22 01:08 INFO     avg knowledge test acc after local update 0.173943
