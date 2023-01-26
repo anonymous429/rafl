@@ -19,6 +19,7 @@ RUN curl -fsSL -v -o ~/miniconda.sh -O  https://repo.anaconda.com/miniconda/Mini
     rm ~/miniconda.sh
 RUN $HOME/conda/bin/conda update -n base conda
 
+RUN $HOME/conda/bin/conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
 # install requirements
 WORKDIR /app
 COPY requirements.txt requirements.txt

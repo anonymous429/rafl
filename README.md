@@ -30,7 +30,7 @@ pip install -r requirements.text
 ```
 
 We are all set about software dependencies, to make sure you can running our codes, you may further need a GPU.
-
+If you are familiar with Docker, please follow the instructions in the `Docker/`, and build a docker image to run our experiments.
 ## Reproduce experiments
 
 We provided user-friendly interface to run our experiments and extend our method to customized applications.
